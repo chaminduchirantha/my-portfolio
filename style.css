@@ -1,4 +1,23 @@
-.title{
+*{
+    font-family: Arial, sans-serif;
+}
+
+.title>h3{
     font-size: 40px;
-    font-family: Arial;
+}
+
+.title>h1{
+    font-size: 70px;
+}
+
+.title>p{
+    font-size: 22px;
+}
+
+.white{
+    /*color: ;*/
+}
+
+.blue{
+    color: #6AADF8;
 }
