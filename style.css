@@ -21,3 +21,19 @@
 .blue:hover {
     color: #6AADF8;
 }
+
+#button01{
+    width: 140px;
+    height: 47px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background:#6AADF8 ;
+    border-color: #6AADF8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    left: 192px;
+    top: -62px;
+
+
+}
