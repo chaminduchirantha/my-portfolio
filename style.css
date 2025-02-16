@@ -4,14 +4,17 @@
 
 .title>h3{
     font-size: 40px;
+    line-height: 10px;
 }
 
 .title>h1{
     font-size: 70px;
+    line-height: 20px;
 }
 
 .title>p{
     font-size: 22px;
+    line-height: 35px;
 }
 
 .white{
