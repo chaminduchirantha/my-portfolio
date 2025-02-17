@@ -2,26 +2,35 @@
     font-family: Arial, sans-serif;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #172734;
+}
+
 .title>h3{
     font-size: 40px;
     line-height: 10px;
+    color: white;
 }
 
 .title>h1{
     font-size: 70px;
     line-height: 20px;
+    color: white;
 }
 
 .title>p{
     font-size: 22px;
     line-height: 35px;
+    color: white;
 }
 
 .white{
     /*color: ;*/
 }
 
-.blue:hover {
+.blue{
     color: #6AADF8;
 }
 
@@ -37,6 +46,14 @@
     position: relative;
     left: 192px;
     top: -62px;
+}
 
-
+#home-pic{
+    width: 100px ;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    left: 572px;
+    bottom: 381px;
+    right: 500px;
 }
