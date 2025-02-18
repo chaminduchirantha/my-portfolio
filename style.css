@@ -21,9 +21,12 @@ body{
 }
 
 .title>p{
+    width: 45% ;
     font-size: 22px;
     line-height: 35px;
     color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .white{
@@ -32,6 +35,11 @@ body{
 
 .blue{
     color: #6AADF8;
+}
+
+#facebook{
+    width: 55px;
+
 }
 
 #button01{
