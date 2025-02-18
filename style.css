@@ -37,10 +37,6 @@ body{
     color: #6AADF8;
 }
 
-#facebook{
-    width: 55px;
-
-}
 
 #button01{
     width: 140px;
@@ -49,11 +45,11 @@ body{
     font-size: 16px;
     font-weight: bold;
     background:#6AADF8 ;
-    border-color: #6AADF8;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-color: aqua;
+    box-shadow: 0 0 5px #6AADF8;
     position: relative;
-    left: 192px;
-    top: -62px;
+    left: 320px;
+    top: 35px;
 }
 
 #home-pic{
@@ -64,4 +60,34 @@ body{
     left: 572px;
     bottom: 381px;
     right: 500px;
+}
+
+.nav{
+    margin-left: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav a{
+    display: inline-flex;
+    font-size: 35px;
+    position: relative;
+    top: -12px;
+    left: 13px;
+    right: 20px;
+    padding: 8px;
+    border: 2px solid #6AADF8 ;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.home .nav a:hover{
+    background-color: #6AADF8;
+    color:  #1f242d;
+    box-shadow: 0 0 10px #6AADF8;
 }
