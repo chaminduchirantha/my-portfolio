@@ -1,10 +1,14 @@
 *{
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+section{
+    position: static;
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    /*width: 100vw;*/
+    /*height: 100vh;*/
     background-color: #172734;
 }
 
@@ -21,7 +25,7 @@ body{
 }
 
 .title>p{
-    width: 45% ;
+    width: 40% ;
     font-size: 22px;
     line-height: 35px;
     color: white;
@@ -41,12 +45,12 @@ body{
 #button01{
     width: 140px;
     height: 47px;
-    border-radius: 15px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 15px;
     font-weight: bold;
     background:#6AADF8 ;
-    border-color: aqua;
-    box-shadow: 0 0 5px #6AADF8;
+    /*border-color: aqua;*/
+    /*box-shadow: 0 0 5px #6AADF8;*/
     position: relative;
     left: 320px;
     top: 35px;
@@ -73,10 +77,10 @@ a{
 
 .nav a{
     display: inline-flex;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
-    top: -12px;
-    left: 13px;
+    top: -13px;
+    left: -13px;
     right: 20px;
     padding: 8px;
     border: 2px solid #6AADF8 ;
@@ -90,4 +94,9 @@ a{
     background-color: #6AADF8;
     color:  #1f242d;
     box-shadow: 0 0 10px #6AADF8;
+}
+
+.home{
+    position: relative;
+    left: 135px;
 }
