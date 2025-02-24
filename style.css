@@ -8,9 +8,14 @@ section{
 }
 
 body{
-    /*width: 100vw;*/
-    /*height: 100vh;*/
+    width: 100%;
+    height: 100vh;
     background-color: #172734;
+}
+
+.home{
+    width: 100vw;
+    height: 90vh;
 }
 
 
@@ -110,7 +115,8 @@ a{
 .about{
     color: white;
     background-color: rgba(25, 68, 100, 0.76);
-
+    width: 100vw;
+    height: 115vh;
 }
 
 .about p{
@@ -121,12 +127,22 @@ a{
 .about>h1{
     font-size: 48px;
     font-weight: bolder;
+    position: relative;
+    top: 30px;
+    left: 70px;
+
 }
 
 .about-tittle>h3{
     font-size: 40px;
     line-height: 15px;
+    position: relative;
+    left: 660px;
+    bottom: 315px;
+    top: 20px;
 }
+
+
 
 .about-tittle>p{
     font-size: 20px;
@@ -134,7 +150,9 @@ a{
     width: 39%;
     padding: 2px 5px;
     position: relative;
-    bottom: 22px;
+    left: 660px;
+    bottom: 315px;
+    top: 20px;
 
     /*font-weight: n;*/
 }
@@ -145,11 +163,18 @@ a{
     width: 53%;
     padding: 2px 5px;
     position: relative;
-    bottom: 22px;
+    top: 20px;
+    left: 660px;
+    bottom: 315px;
 }
 
 .detail>ul>li{
     font-size: 18px;
+    position: relative;
+    left: 660px;
+    bottom: 315px;
+    right: 10px;
+    top: 20px;
 
 }
 
@@ -162,6 +187,11 @@ a{
     border-color: #6AADF8;
     box-shadow: 0 0 1px #6AADF8;
     font-weight: bold;
+    position: relative;
+    left: 670px;
+    bottom: 315px;
+    top: 30px;
+    right: 10px;
 }
 
 .button02 #btn02{
@@ -173,6 +203,25 @@ a{
     border-color: #6AADF8;
     box-shadow: 0 0 1px #6AADF8;
     font-weight: 700;
+    position: relative;
+    left: 680px;
+    bottom: 315px;
+    top: 30px;
+    right: 25px;
+}
+
+#about-image{
+    width: 11px;
+    font-size: 30px;
+
+}
+
+.button02{
+    position: relative;
+    left: 440px;
+    bottom: 200px;
+    top: -85px;
+    right: 5px;
 }
 
 
