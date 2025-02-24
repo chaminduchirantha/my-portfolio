@@ -14,13 +14,13 @@ body{
 }
 
 .nav-bar {
-    background-color: #333;
-    padding: 15px 0;
+    background-color: rgba(26, 52, 68, 0.99);
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .header-nav{
@@ -29,16 +29,68 @@ body{
     align-items: center;
     max-width: 1200px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 .logo {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+    position: relative;
+    right: 70px;
+
+}
+
+nav>a>img{
+    width: 45px;
+    position: relative;
+    right: 25px;
+    border-radius: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+    position: relative;
+    left: 140px;
+}
+
+.nav-links:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: blue;
+    transition:.3s ;
+    bottom: 0;
+
+}
+
+.nav-links a:hover{
+    color: white;
+}
+
+.nav-links a:hover {
+    color: #6AADF8 ;
+}
+
+.nav-links :hover::after{
+    width: 90%;
 }
 
 .home{
