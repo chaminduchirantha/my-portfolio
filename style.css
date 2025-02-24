@@ -16,6 +16,8 @@ body{
 .home{
     width: 100vw;
     height: 90vh;
+    position: relative;
+    top: 80px;
 }
 
 
