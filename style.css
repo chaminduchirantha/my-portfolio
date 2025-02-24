@@ -14,7 +14,7 @@ body{
 }
 
 .nav-bar {
-    background-color: rgba(26, 52, 68, 0.99);
+    background-color: rgb(17, 34, 45);
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -63,21 +63,22 @@ nav>a>img{
 .nav-links a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     transition: 0.3s;
     position: relative;
     left: 140px;
 }
 
-.nav-links:after{
+.header-nav>ul>li>a:after{
     content: "";
     position: absolute;
     left: 0;
     width: 0;
     height: 3px;
-    background-color: blue;
-    transition:.3s ;
+    background-color:#6AADF8;
+    transition:.55s ;
     bottom: 0;
+    top: 20px;
 
 }
 
@@ -85,12 +86,12 @@ nav>a>img{
     color: white;
 }
 
-.nav-links a:hover {
+.header-nav>ul>li>a:hover {
     color: #6AADF8 ;
 }
 
-.nav-links :hover::after{
-    width: 90%;
+.header-nav>ul>li>a:hover::after{
+    width: 100%;
 }
 
 .home{
@@ -196,7 +197,7 @@ a{
 
 .about{
     color: white;
-    background-color: rgba(25, 68, 100, 0.76);
+    background-color: rgba(26, 52, 68, 0.99);
     width: 100vw;
     height: 115vh;
 }
