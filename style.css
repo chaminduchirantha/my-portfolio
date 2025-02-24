@@ -69,6 +69,8 @@ nav>a>img{
     transition: 0.3s;
     position: relative;
     left: 140px;
+    font-family: "Open Sans", fantasy;
+
 }
 
 .header-nav>ul>li>a:after{
@@ -76,11 +78,12 @@ nav>a>img{
     position: absolute;
     left: 0;
     width: 0;
-    height: 3px;
+    height: 4px;
+    border-radius: 10px;
     background-color:#6AADF8;
-    transition:.55s ;
+    transition:.5s ;
     bottom: 0;
-    top: 20px;
+    top: 22px;
 
 }
 
