@@ -215,12 +215,11 @@ a{
     font-size: 48px;
     font-weight: bolder;
     position: relative;
-    top: 30px;
-    left: 70px;
+    top: -20px;
+    left: 90px;
     font-family: "Open Sans", serif;
-
-
 }
+
 
 .about-tittle>h3{
     font-size: 40px;
@@ -270,8 +269,32 @@ a{
     top: 20px;
     font-family: "Open Sans", serif;
 
-
 }
+
+.about>hr{
+    width: 1150px;
+    position: relative;
+    top: 56px;
+    left: 151px;
+    height: 2px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.about #hr{
+    width: 60px;
+    position: relative;
+    top: 44px;
+    left: -724px;
+
+    height: 2px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+
+
 
 .button02 #btn01 {
     width: 145px;
