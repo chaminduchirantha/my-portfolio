@@ -113,6 +113,11 @@ a{
 
 }
 
+.about p{
+    font-family: "Inter", serif;
+    font-weight: normal;
+}
+
 .about>h1{
     font-size: 48px;
     font-weight: bolder;
@@ -132,4 +137,18 @@ a{
     bottom: 22px;
 
     /*font-weight: n;*/
+}
+
+.second-para p{
+    font-size: 20px;
+    line-height: 35px;
+    width: 53%;
+    padding: 2px 5px;
+    position: relative;
+    bottom: 22px;
+}
+
+.detail>ul>li{
+    font-size: 18px;
+
 }
