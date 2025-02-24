@@ -21,6 +21,8 @@ body{
     top: 0;
     left: 0;
     z-index: 100;
+    border-bottom: 2px solid #6AADF8 ;
+    border-radius: 10px;
 }
 
 .header-nav{
@@ -63,7 +65,7 @@ nav>a>img{
 .nav-links a {
     text-decoration: none;
     color: white;
-    font-size: 17px;
+    font-size: 18px;
     transition: 0.3s;
     position: relative;
     left: 140px;
@@ -100,7 +102,6 @@ nav>a>img{
     position: relative;
     top: 80px;
 }
-
 
 .title>h3{
     font-size: 40px;
@@ -197,7 +198,7 @@ a{
 
 .about{
     color: white;
-    background-color: rgba(26, 52, 68, 0.99);
+    background-color: rgb(25, 46, 70);
     width: 100vw;
     height: 115vh;
 }
@@ -224,8 +225,6 @@ a{
     bottom: 315px;
     top: 20px;
 }
-
-
 
 .about-tittle>p{
     font-size: 20px;
@@ -295,7 +294,9 @@ a{
 
 #about-image{
     width: 11px;
-    font-size: 30px;
+    font-size: 40px;
+    position: relative;
+    bottom: 100px;
 
 }
 
