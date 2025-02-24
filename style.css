@@ -23,6 +23,15 @@ body{
     z-index: 1000;
 }
 
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
 .home{
     width: 100vw;
     height: 90vh;
