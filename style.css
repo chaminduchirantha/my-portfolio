@@ -152,3 +152,27 @@ a{
     font-size: 18px;
 
 }
+
+.button02 #btn01 {
+    width: 145px;
+    height: 55px;
+    border-radius: 18px;
+    font-size: 15px;
+    background:#6AADF8 ;
+    border-color: #6AADF8;
+    box-shadow: 0 0 1px #6AADF8;
+    font-weight: bold;
+}
+
+.button02 #btn02{
+    width: 145px;
+    height: 55px;
+    border-radius: 18px;
+    font-size: 15px;
+    background:#6AADF8 ;
+    border-color: #6AADF8;
+    box-shadow: 0 0 1px #6AADF8;
+    font-weight: 700;
+}
+
+
