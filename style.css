@@ -207,7 +207,7 @@ a{
 }
 
 .about p{
-    font-family: "Inter", serif;
+    font-family: "Open Sans", serif;
     font-weight: normal;
 }
 
@@ -217,6 +217,8 @@ a{
     position: relative;
     top: 30px;
     left: 70px;
+    font-family: "Open Sans", serif;
+
 
 }
 
@@ -227,17 +229,21 @@ a{
     left: 660px;
     bottom: 315px;
     top: 20px;
+    font-family: "Open Sans", serif;
+
 }
 
 .about-tittle>p{
     font-size: 20px;
     line-height: 35px;
-    width: 39%;
+    width: 42%;
     padding: 2px 5px;
     position: relative;
     left: 660px;
     bottom: 315px;
     top: 20px;
+    font-family: "Open Sans", serif;
+
 
     /*font-weight: n;*/
 }
@@ -251,6 +257,8 @@ a{
     top: 20px;
     left: 660px;
     bottom: 315px;
+    font-family: "Open Sans", serif;
+
 }
 
 .detail>ul>li{
@@ -260,6 +268,8 @@ a{
     bottom: 315px;
     right: 10px;
     top: 20px;
+    font-family: "Open Sans", serif;
+
 
 }
 
