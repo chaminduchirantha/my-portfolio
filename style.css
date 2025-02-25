@@ -496,5 +496,18 @@ a{
     left:-450px;
 }
 
+.project{
+    background-color: rgb(25, 46, 70);
+    color: white;
+    height: 250vh;
+
+}
+
+.project p{
+    font-family: "Open Sans", serif;
+    width: 30%;
+    line-height: 30px;
+}
+
 
 
