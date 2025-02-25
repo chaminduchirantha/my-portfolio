@@ -344,4 +344,24 @@ a{
     right: 5px;
 }
 
+.education{
+    color: white;
+    width: 100vw;
+    height: 115vh;
+}
+
+.education>fieldset{
+    width: 70vw;
+    height: 90vh;
+    position: relative;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color:#2B5175;
+    border-color:rgb(25, 46, 70) ;
+    border-radius: 30px;
+}
+
 
