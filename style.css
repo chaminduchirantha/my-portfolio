@@ -421,4 +421,22 @@ a{
     left: 2px;
 }
 
+.education>hr{
+    width: 590px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    top: 105px;
+    left:440px;
+}
+.education #hr2{
+    width: 600px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: 90px;
+    left:-450px;
+}
+
+
 
