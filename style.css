@@ -347,7 +347,7 @@ a{
 .education{
     color: white;
     width: 100vw;
-    height: 115vh;
+    height: 135vh;
 }
 
 .education>fieldset{
@@ -362,6 +362,27 @@ a{
     background-color:#2B5175;
     border-color:rgb(25, 46, 70) ;
     border-radius: 30px;
+}
+
+.education h1{
+    font-size: 48px;
+    position: relative;
+    top: 15px;
+    text-align: center;
+
+}
+
+.education hr{
+    ;
+}
+
+#tittle01>ul>li{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    line-height: 26px;
+    position: relative;
+    top: 40px;
+    left: 150px;
 }
 
 
