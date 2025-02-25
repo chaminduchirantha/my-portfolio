@@ -1,6 +1,6 @@
 *{
     font-family: Arial, sans-serif;
-    box-sizing: border-box;
+
 
 }
 
@@ -86,7 +86,7 @@ nav>a>img{
     background-color:#6AADF8;
     transition:.5s ;
     bottom: 0;
-    top: 22px;
+    top: 25px;
 
 }
 
@@ -351,13 +351,13 @@ a{
 }
 
 .education>fieldset{
-    width: 70vw;
-    height: 90vh;
+    width: 65vw;
+    height: 100vh;
     position: relative;
-    top: 50px;
+    top: 70px;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 160px;
     margin: auto;
     background-color:#2B5175;
     border-color:rgb(25, 46, 70) ;
@@ -367,22 +367,58 @@ a{
 .education h1{
     font-size: 48px;
     position: relative;
-    top: 15px;
+    top: 30px;
     text-align: center;
 
 }
 
 .education hr{
-    ;
+    height: 2px;
+    background-color: black;
+    border-color: black;
+    border-radius: 20px;
 }
 
-#tittle01>ul>li{
+.education ul li{
     font-size: 16px;
     font-family: "Open Sans", serif;
-    line-height: 26px;
+    line-height: 35px;
     position: relative;
     top: 40px;
     left: 150px;
+}
+
+#pic01{
+    border-bottom: 2px #6AADF8;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+    left: 18px;
+    width: 75px;
+}
+
+#pic02{
+    border-bottom: 2px #6AADF8;
+    border-radius: 20px;
+    position: relative;
+    bottom: 45px;
+    left: 18px;
+}
+
+#pic03{
+    border-bottom: 2px #6AADF8;
+    border-radius: 20px;
+    position: relative;
+    bottom: 20px;
+    left: 18px;
+}
+
+#pic04{
+    border-bottom: 2px #6AADF8;
+    border-radius: 20px;
+    position: relative;
+    bottom: 15px;
+    left: 2px;
 }
 
 
