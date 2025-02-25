@@ -1,6 +1,7 @@
 *{
     font-family: Arial, sans-serif;
     box-sizing: border-box;
+
 }
 
 section{
@@ -12,6 +13,8 @@ body{
     height: 100vh;
     background-color: #172734;
 }
+
+
 
 .nav-bar {
     background-color: rgb(17, 34, 45);
@@ -291,9 +294,6 @@ a{
     border-radius: 15px;
     background-color: white;
 }
-
-
-
 
 
 .button02 #btn01 {
