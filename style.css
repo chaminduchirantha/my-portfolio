@@ -351,8 +351,8 @@ a{
 }
 
 .education>fieldset{
-    width: 65vw;
-    height: 100vh;
+    width: 55vw;
+    height: 85vh;
     position: relative;
     top: 70px;
     left: 0;
@@ -377,6 +377,8 @@ a{
     background-color: black;
     border-color: black;
     border-radius: 20px;
+    width: 800px;
+
 }
 
 .education ul li{
@@ -384,8 +386,7 @@ a{
     font-family: "Open Sans", serif;
     line-height: 28px;
     position: relative;
-    top: 10px;
-    left: 150px;
+
 }
 
 #para01 #id01{
@@ -408,11 +409,46 @@ a{
     width: 58%
 }
 
+#para01 hr{
+    position: relative;
+    top: -60px;
+}
+
+#para01 li{
+    top: 10px;
+    left: 150px;
+}
+
+#para02 li{
+    top: -50px;
+    left: 150px;
+}
+
+#para03 li{
+    top: -110px;
+    left: 150px;
+}
+
+#para02 hr{
+    position: relative;
+    top: -120px;
+}
+
+#para03 hr{
+    position: relative;
+    top: -170px;
+}
+
+#para04 li{
+    top: -160px;
+    left: 150px;
+}
+
 #pic01{
     border-bottom: 2px #6AADF8;
     border-radius: 20px;
     position: relative;
-    bottom: 30px;
+    bottom: 80px;
     left: 18px;
     width: 75px;
 }
@@ -421,7 +457,7 @@ a{
     border-bottom: 2px #6AADF8;
     border-radius: 20px;
     position: relative;
-    bottom: 45px;
+    bottom: 168px;
     left: 18px;
 }
 
@@ -429,7 +465,7 @@ a{
     border-bottom: 2px #6AADF8;
     border-radius: 20px;
     position: relative;
-    bottom: 20px;
+    bottom: 180px;
     left: 18px;
 }
 
@@ -437,7 +473,7 @@ a{
     border-bottom: 2px #6AADF8;
     border-radius: 20px;
     position: relative;
-    bottom: 15px;
+    bottom: 230px;
     left: 2px;
 }
 
