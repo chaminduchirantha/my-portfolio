@@ -373,7 +373,7 @@ a{
 }
 
 .education hr{
-    height: 2px;
+    height: 1px;
     background-color: black;
     border-color: black;
     border-radius: 20px;
@@ -412,7 +412,9 @@ a{
 #para01 hr{
     position: relative;
     top: -60px;
+    height: 1px;
 }
+
 
 #para01 li{
     top: 10px;
@@ -450,7 +452,7 @@ a{
     position: relative;
     bottom: 80px;
     left: 18px;
-    width: 75px;
+    width: 35px;
 }
 
 #pic02{
