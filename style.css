@@ -12,6 +12,7 @@ body{
     width: 100%;
     height: 100vh;
     background-color: #162837;
+
 }
 
 
@@ -360,9 +361,9 @@ a{
     bottom: 160px;
     margin: auto;
     background-color:#2B5175;
-    border-color:rgb(25, 46, 70) ;
     border-radius: 30px;
-}
+    border: 2px solid black;
+    box-shadow: rgba(0, 144, 243, 0.37) 0px 3px 6px, rgb(67, 96, 130) 0px 3px 6px;}
 
 .education h1{
     font-size: 48px;
@@ -499,6 +500,7 @@ a{
 .project{
     background-color: rgb(17, 34, 45);
     color: white;
+    width: 100vw;
     height: 250vh;
 
 }
@@ -507,6 +509,39 @@ a{
     font-family: "Open Sans", serif;
     width: 30%;
     line-height: 30px;
+}
+
+.project01{
+    position:relative;
+    left:750px;
+    top: 50px;
+}
+
+#stock{
+    position: relative;
+    bottom: 120px;
+    left: 155px;
+
+}
+
+#topic{
+    position: relative;
+    bottom: 110px;
+    left: 180px;
+}
+
+.project>div h4{
+    font-size: 25px;
+    width: 15%;
+    line-height: 35px;
+    position: relative;
+    top: 320px;
+    left: 160px;
+}
+
+.project>h4{
+    font-size: 25px;
+
 }
 
 
