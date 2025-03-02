@@ -108,17 +108,19 @@ nav>a>img{
     /*width: 100vw;*/
     height: 100vh;
     position: relative;
-    top: 110px;
+    top: 120px;
 }
 
 .title>h3{
-    font-size: 40px;
+    font-size: 35px;
     line-height: 10px;
     color: white;
+    position: relative;
+    left: 5px;
 }
 
 .title>h1{
-    font-size: 70px;
+    font-size: 60px;
     line-height: 20px;
     color: white;
 }
@@ -126,11 +128,13 @@ nav>a>img{
 .title>p{
     width: 40% ;
     font-size: 22px;
-    padding: 5px 2px 1px;
     line-height: 35px;
     color: white;
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
+    bottom: 10px;
+    left:5px;
 }
 
 .white{
@@ -141,13 +145,15 @@ nav>a>img{
     color: #6AADF8;
     font-size: 40px;
     line-height: 10px;
+    position: relative;
+    left: 5px;
 
 }
 
 
 #button01{
-    width: 145px;
-    height: 55px;
+    width: 140px;
+    height: 50px;
     border-radius: 18px;
     font-size: 15px;
     background:#6AADF8 ;
@@ -155,8 +161,8 @@ nav>a>img{
     box-shadow: 0 0 1px #6AADF8;
     font-weight: 700;
     position: relative;
-    left: 320px;
-    top: 26px;
+    left: 330px;
+    top: -5px;
 }
 
 #home-pic{
@@ -182,8 +188,8 @@ a{
     display: inline-flex;
     font-size: 30px;
     position: relative;
-    top: -28px;
-    left: -13px;
+    top: -58px;
+    left: 3px;
     right: 20px;
     padding: 10px;
     border: 2px solid #6AADF8 ;
