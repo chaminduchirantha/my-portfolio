@@ -26,8 +26,7 @@ body{
     top: 0;
     left: 0;
     z-index: 100;
-    border-bottom: 2px solid #6AADF8 ;
-    border-radius: 10px;
+    border-bottom: 3px solid white ;
 }
 
 .header-nav{
@@ -108,7 +107,8 @@ nav>a>img{
     /*width: 100vw;*/
     height: 100vh;
     position: relative;
-    top: 120px;
+    top: 150px;
+
 }
 
 .title>h3{
@@ -152,7 +152,7 @@ nav>a>img{
 
 
 #button01{
-    width: 140px;
+    width: 130px;
     height: 50px;
     border-radius: 18px;
     font-size: 15px;
@@ -161,18 +161,21 @@ nav>a>img{
     box-shadow: 0 0 1px #6AADF8;
     font-weight: 700;
     position: relative;
-    left: 330px;
-    top: -5px;
+    left: 320px;
+    top: -8px;
 }
 
 #home-pic{
-    width: 100px ;
-    height: 100px;
+    width: 350px ;
+    height: 450px;
     background-color: white;
     position: relative;
-    left: 572px;
-    bottom: 381px;
-    right: 500px;
+    left: 872px;
+    bottom: 540px;
+    right: 600px;
+    border-radius: 10%;
+    /*border: 10px solid white;*/
+
 }
 
 .nav{
