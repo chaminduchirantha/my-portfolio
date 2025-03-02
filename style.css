@@ -12,6 +12,7 @@ body{
     width: 100%;
     height: 100vh;
     background-color: #162837;
+    overflow-x: hidden;
 
 }
 
@@ -104,10 +105,10 @@ nav>a>img{
 }
 
 .home{
-    width: 100vw;
-    height: 90vh;
+    /*width: 100vw;*/
+    height: 100vh;
     position: relative;
-    top: 80px;
+    top: 110px;
 }
 
 .title>h3{
