@@ -100,7 +100,7 @@ nav>a>img{
 }
 
 .header-nav>ul>li>a:hover::after{
-    width: 100%;
+    width: 90%;
 }
 
 .home{
@@ -218,6 +218,7 @@ a{
     background-color: rgb(17, 34, 45);
     width: 100vw;
     height: 115vh;
+
 }
 
 .about p{
@@ -337,14 +338,6 @@ a{
     bottom: 315px;
     top: 30px;
     right: 25px;
-}
-
-#about-image{
-    width: 11px;
-    font-size: 40px;
-    position: relative;
-    bottom: 100px;
-
 }
 
 .button02{
@@ -515,10 +508,13 @@ a{
 
 }
 
-.project p{
+.project .project01{
     font-family: "Open Sans", serif;
-    width: 30%;
-    line-height: 30px;
+    width: 38%;
+    line-height: 35px;
+    font-size: 20px;
+    position: relative;
+    top: 120px;
 }
 
 .project01{
@@ -528,9 +524,11 @@ a{
 }
 
 #stock{
+    width: 330px;
+    border-radius: 20px;
     position: relative;
-    bottom: 120px;
-    left: 155px;
+    bottom: 80px;
+    left: 28px;
 
 }
 
@@ -542,16 +540,41 @@ a{
 
 .project>div h4{
     font-size: 25px;
-    width: 15%;
-    line-height: 35px;
+    /*width: %;*/
+    line-height: 30px;
     position: relative;
-    top: 320px;
-    left: 160px;
+    top: 260px;
+    left: 50px;
 }
 
-.project>h4{
-    font-size: 25px;
+#my-id{
+    position: relative;
+}
 
+.project #h4{
+    font-size: 25px;
+    position: relative;
+    top: 150px;
+    left: 170px;
+
+
+}
+
+
+.cart01{
+    width: 25vw;
+    height: 55vh;
+    background-color:#2B5175;
+    position: relative;
+    bottom: 180px;
+    left: 155px;
+    border-radius: 20px;
+
+}
+
+.first-project{
+    position: relative;
+    top: 130px;
 }
 
 
