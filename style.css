@@ -1,7 +1,5 @@
 *{
     font-family: Arial, sans-serif;
-
-
 }
 
 section{
@@ -9,14 +7,12 @@ section{
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #162837;
     overflow-x: hidden;
 
 }
-
-
 
 .nav-bar {
     background-color: rgb(17, 34, 45);
@@ -504,7 +500,7 @@ a{
     background-color: rgb(17, 34, 45);
     color: white;
     width: 100vw;
-    height: 250vh;
+    height: 350vh;
 
 }
 
@@ -654,4 +650,57 @@ a{
     position: relative;
     top: 90px;
     left: 969px;
+}
+
+.cart03{
+    width: 25vw;
+    height: 55vh;
+    background-color:#2B5175;
+    position: relative;
+    bottom: 380px;
+    left: 155px;
+    border-radius: 20px;
+}
+
+#garment{
+    width: 330px;
+    border-radius: 20px;
+    position: relative;
+    bottom: -50px;
+    left: 28px;
+}
+
+#section1-para-project03{
+    font-family: "Open Sans", serif;
+    width: 38%;
+    line-height: 35px;
+    font-size: 20px;
+    position: relative;
+    bottom: 2px;
+    left: 790px;
+}
+
+#section2-para-project03{
+    font-family: "Open Sans", serif;
+    width: 38%;
+    line-height: 35px;
+    font-size: 20px;
+    position: relative;
+    bottom: 2px;
+    left: 790px;
+}
+
+#h43{
+    font-size: 25px;
+    position: relative;
+    bottom: 80px;
+    left: 169px;
+}
+
+#tittle-3{
+    position: relative;
+    top: 35px;
+    left: 12px;
+    width: 95%;
+    line-height: 35px;
 }
