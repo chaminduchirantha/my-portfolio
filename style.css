@@ -500,7 +500,7 @@ a{
     background-color: rgb(17, 34, 45);
     color: white;
     width: 100vw;
-    height: 350vh;
+    height: 305vh;
 
 }
 
@@ -703,4 +703,41 @@ a{
     left: 12px;
     width: 95%;
     line-height: 35px;
+}
+
+#github{
+    width: 130px;
+    height: 55px;
+    border-radius: 18px;
+    font-size: 15px;
+    background:#6AADF8 ;
+    border-color: #6AADF8;
+    box-shadow: 0 0 1px #6AADF8;
+    font-weight: 700;
+    position: relative;
+    left: 1140px;
+    /*bottom: 315px;*/
+    top: -370px;
+    right: 25px;
+}
+
+.project03 a{
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    top: -360px;
+    left: 1150px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid #6AADF8 ;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.project03 a:hover{
+    background-color: #6AADF8;
+    color:  #1f242d;
+    box-shadow: 0 0 10px #6AADF8;
 }
