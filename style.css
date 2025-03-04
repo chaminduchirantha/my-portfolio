@@ -2,16 +2,12 @@
     font-family: Arial, sans-serif;
 }
 
-section{
-    position: static;
-}
-
 body{
     width: 100vw;
     height: 100vh;
     background-color: #162837;
     overflow-x: hidden;
-
+    overflow-scrolling: auto;
 }
 
 .nav-bar {
@@ -101,7 +97,7 @@ nav>a>img{
 
 .home{
     /*width: 100vw;*/
-    height: 100vh;
+    height: 110vh;
     position: relative;
     top: 150px;
 
@@ -122,7 +118,7 @@ nav>a>img{
 }
 
 .title>p{
-    width: 40% ;
+    width: 45% ;
     font-size: 22px;
     line-height: 35px;
     color: white;
@@ -133,9 +129,9 @@ nav>a>img{
     left:5px;
 }
 
-.white{
-    /*color: ;*/
-}
+/*.white{*/
+/*    !*color: ;*!*/
+/*}*/
 
 .title .title01{
     color: #6AADF8;
@@ -205,15 +201,17 @@ a{
 }
 
 .home{
+    padding: -0px 180px;
     position: relative;
-    left: 135px;
+    top: 120px;
+
 }
 
 .about{
     color: white;
     background-color: rgb(17, 34, 45);
     width: 100vw;
-    height: 115vh;
+    height: 135vh;
 
 }
 
@@ -225,9 +223,10 @@ a{
 .about>h1{
     font-size: 48px;
     font-weight: bolder;
+    padding: 10px 180px;
     position: relative;
-    top: -20px;
-    left: 90px;
+    right: 90px;
+    top: -28px;
     font-family: "Open Sans", serif;
 }
 
@@ -254,8 +253,6 @@ a{
     top: 20px;
     font-family: "Open Sans", serif;
 
-
-    /*font-weight: n;*/
 }
 
 .second-para p{
@@ -274,6 +271,7 @@ a{
 .detail>ul>li{
     font-size: 18px;
     position: relative;
+    /*padding: 10px 120px;*/
     left: 660px;
     bottom: 315px;
     right: 10px;
@@ -297,7 +295,6 @@ a{
     position: relative;
     top: 44px;
     left: -724px;
-
     height: 2px;
     border-radius: 15px;
     background-color: white;
@@ -700,7 +697,7 @@ a{
 #tittle-3{
     position: relative;
     top: 35px;
-    left: 12px;
+    left: 45px;
     width: 95%;
     line-height: 35px;
 }
