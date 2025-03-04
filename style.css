@@ -1,5 +1,7 @@
 *{
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 body{
@@ -211,7 +213,7 @@ a{
     color: white;
     background-color: rgb(17, 34, 45);
     width: 100vw;
-    height: 135vh;
+    height: 125vh;
 
 }
 
@@ -272,7 +274,7 @@ a{
     font-size: 18px;
     position: relative;
     /*padding: 10px 120px;*/
-    left: 660px;
+    left: 685px;
     bottom: 315px;
     right: 10px;
     top: 20px;
