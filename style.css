@@ -751,6 +751,7 @@ a{
 .skills{
     color: white;
     font-family: "Open Sans", serif;
+    overflow-x: hidden;
 
 }
 
@@ -843,6 +844,40 @@ a{
     position: relative;
     top: 83px;
     left: -255px;
+}
+
+.header-version{
+    font-size: 25px;
+    padding: 10px 583px;
+    position: relative;
+    top: -283px;
+    left: 552px;
+
+}
+
+.tool-section-03{
+    font-size: 19px;
+}
+
+.tool-git{
+    padding: 10px 80px;
+    position: relative;
+    top: -222px;
+    left: 955px;
+}
+
+.tool-gitHub{
+    padding: 10px 80px;
+    position: relative;
+    top: -222px;
+    left: 913px;
+}
+
+.tool-console{
+    padding: 10px 80px;
+    position: relative;
+    top: -222px;
+    left: 875px;
 }
 
 
