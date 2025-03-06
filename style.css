@@ -513,7 +513,7 @@ a{
     background-color: rgb(17, 34, 45);
     color: white;
     width: 100vw;
-    height: 300vh;
+    height: 250vh;
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -526,15 +526,11 @@ a{
     line-height: 35px;
     font-size: 20px;
     position: relative;
-    top: 120px;
+    top: 30px;
+    left: 650px;
 
 }
 
-.project01{
-    position:relative;
-    left:750px;
-    top: 50px;
-}
 
 #stock{
     width: 255px;
@@ -567,7 +563,7 @@ a{
 .project #h4{
     font-size: 25px;
     position: relative;
-    top: 180px;
+    top: 110px;
     left: 230px;
 
 }
@@ -578,7 +574,7 @@ a{
     height: 45vh;
     background-color:#2B5175;
     position: relative;
-    bottom: 140px;
+    bottom: 220px;
     left: 220px;
     border-radius: 20px;
     border: 3px solid #66a2e4;
@@ -622,7 +618,7 @@ a{
     height: 44vh;
     background-color:#2B5175;
     position: relative;
-    bottom: 130px;
+    bottom: 205px;
     left: 955px;
     border-radius: 20px;
     border: 3px solid #66a2e4;
@@ -636,7 +632,6 @@ a{
     bottom: 120px;
     left: 25px;
     border: 3px solid #66a2e4;
-
 }
 
 
@@ -646,7 +641,7 @@ a{
     line-height: 35px;
     font-size: 20px;
     position: relative;
-    top: 160px;
+    top: 75px;
     left: 230px;
 }
 
@@ -665,7 +660,7 @@ a{
 #h42{
     font-size: 25px;
     position: absolute;
-    top: 760px;
+    top: 710px;
     left:969px;
 }
 
@@ -673,8 +668,8 @@ a{
     width: 20vw;
     height: 44vh;
     background-color:#2B5175;
-    position: absolute;
-    bottom: 440px;
+    position: relative;
+    bottom: 10px;
     left: 225px;
     border-radius: 20px;
     border: 3px solid #66a2e4;
@@ -683,8 +678,8 @@ a{
 #garment{
     width: 255px;
     border-radius: 20px;
-    position: absolute;
-    bottom: 115px;
+    position: relative;
+    bottom: -22px;
     left: 25px;
     border: 3px solid #66a2e4;
 
@@ -696,14 +691,14 @@ a{
     line-height: 35px;
     font-size: 20px;
     position: absolute;
-    bottom: 430px;
+    bottom: 134px;
     left: 740px;
 }
 
 #h43{
     font-size: 25px;
     position: absolute;
-    bottom: 750px;
+    bottom: 435px;
     left: 230px;
 }
 
@@ -729,14 +724,14 @@ a{
     font-weight: 700;
     position: absolute;
     left: 1040px;
-    bottom: 340px;
+    bottom: 35px;
 }
 
 .project03 a{
     display: inline-flex;
     font-size: 30px;
     position: relative;
-    top: 380px;
+    top: 30px;
     left: 1180px;
     right: 20px;
     padding: 10px;
