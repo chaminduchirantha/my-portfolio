@@ -614,25 +614,17 @@ a{
     left: 30px;
 }
 
-#section1-para{
+
+.project02{
     font-family: "Open Sans", serif;
     width: 38%;
     line-height: 35px;
     font-size: 20px;
     position: relative;
-    top: 180px;
-    left: 120px;
+    top: 120px;
+    left: 170px;
 }
 
-#section2-para{
-    font-family: "Open Sans", serif;
-    width: 38%;
-    line-height: 35px;
-    font-size: 20px;
-    position: relative;
-    top: 180px;
-    left: 120px;
-}
 
  #tittle-2{
     position: absolute;
@@ -666,23 +658,13 @@ a{
     left: 28px;
 }
 
-#section1-para-project03{
+.project-03{
     font-family: "Open Sans", serif;
     width: 38%;
     line-height: 35px;
     font-size: 20px;
     position: absolute;
-    bottom: 380px;
-    left: 740px;
-}
-
-#section2-para-project03{
-    font-family: "Open Sans", serif;
-    width: 38%;
-    line-height: 35px;
-    font-size: 20px;
-    position: absolute;
-    bottom: 290px;
+    bottom: 350px;
     left: 740px;
 }
 
@@ -712,14 +694,14 @@ a{
     font-weight: 700;
     position: absolute;
     left: 1040px;
-    bottom: 215px;
+    bottom: 275px;
 }
 
 .project03 a{
     display: inline-flex;
     font-size: 30px;
     position: relative;
-    top: 359px;
+    top: 335px;
     left: 1180px;
     right: 20px;
     padding: 10px;
