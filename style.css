@@ -753,3 +753,98 @@ a{
     font-family: "Open Sans", serif;
 
 }
+
+.skills>h1{
+    position: relative;
+    padding: 10px 583px;
+    align-items: center;
+    font-size: 48px;
+
+ }
+
+.header-lang{
+    font-size: 25px;
+    padding: 10px 190px;
+    position: relative;
+    top: 90px;
+}
+
+.tool-section-01{
+    font-size: 19px;
+}
+
+.tool01{
+    padding: 10px 80px;
+    position: relative;
+    top: 155px;
+}
+
+.tool02{
+    padding: 10px 80px;
+    position: relative;
+    top: 155px;
+    left: -90px;
+}
+
+.tool03 {
+    padding: 10px 80px;
+    position: relative;
+    top: 155px;
+    left: -171px;
+}
+.tool04{
+    padding: 10px 80px;
+    position: relative;
+    top: 285px;
+    left: -689px;
+}
+
+.header-design{
+    font-size: 25px;
+    padding: 10px 693px;
+    position: relative;
+    top: -93px;
+}
+
+.tool-section-02{
+    font-size: 19px;
+}
+
+.tool-figma{
+    padding: 10px 80px;
+    position: relative;
+    top: -32px;
+    left: 485px;
+}
+
+.tool-canva{
+    padding: 10px 80px;
+    position: relative;
+    top: -34px;
+    left: 407px;
+}
+
+.tool-Draw{
+    padding: 10px 80px;
+    position: relative;
+    top: -34px;
+    left: 338px;
+}
+
+.tool-lightroom{
+    padding: 10px 80px;
+    position: relative;
+    top: 84px;
+    left: -175px;
+}
+
+.tool-photoshop{
+    padding: 10px 80px;
+    position: relative;
+    top: 83px;
+    left: -255px;
+}
+
+
+
+
