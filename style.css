@@ -15,7 +15,7 @@ body{
     width: 100vw;
     /*height: 100vh;*/
     background-color: #162837;
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     /*overflow-scrolling: auto;*/
 }
 
@@ -152,7 +152,7 @@ nav>a>img{
     font-weight: 700;
     position: absolute;
     left: 490px;
-    top: 590px;
+    top: 605px;
 }
 
 #home-pic{
@@ -371,7 +371,7 @@ a{
     background-color:#2B5175;
     border-radius: 30px;
     border: 3px solid #66a2e4;
-    box-shadow: rgba(0, 144, 243, 0.37) 0px 3px 6px, rgb(67, 96, 130) 0px 3px 6px;
+    /*box-shadow: rgba(0, 144, 243, 0.37) 0px 3px 6px, rgb(67, 96, 130) 0px 3px 6px;*/
 }
 
 .education h1{
@@ -428,17 +428,17 @@ a{
 
 #para01 li{
     top: 10px;
-    left: 150px;
+    left: 180px;
 }
 
 #para02 li{
     top: -50px;
-    left: 150px;
+    left: 180px;
 }
 
 #para03 li{
     top: -110px;
-    left: 150px;
+    left: 180px;
 }
 
 #para02 hr{
@@ -453,40 +453,43 @@ a{
 
 #para04 li{
     top: -160px;
-    left: 150px;
+    left: 180px;
 }
 
-#pic01{
-    border-bottom: 2px #6AADF8;
-    border-radius: 20px;
+.pic-01{
+    border: 3px solid #66a2e4;
+    border-radius: 10px;
     position: relative;
     bottom: 80px;
-    left: 18px;
-    width: 35px;
+    left: 48px;
+    width: 70px;
 }
 
-#pic02{
-    border-bottom: 2px #6AADF8;
-    border-radius: 20px;
+.pic-02{
+    border: 3px solid #66a2e4;
+    border-radius: 10px;
     position: relative;
     bottom: 168px;
-    left: 18px;
+    left: 48px;
+    width: 70px;
 }
 
-#pic03{
-    border-bottom: 2px #6AADF8;
-    border-radius: 20px;
+.pic-03{
+    border: 3px solid #66a2e4;
+    border-radius: 10px;
     position: relative;
     bottom: 180px;
-    left: 18px;
+    left: 48px;
+    width: 70px;
 }
 
-#pic04{
-    border-bottom: 2px #6AADF8;
-    border-radius: 20px;
+.pic-04{
+    border: 3px solid #66a2e4;
+    border-radius: 10px;
     position: relative;
     bottom: 230px;
-    left: 2px;
+    left: 30px;
+    width: 100px;
 }
 
 .education>hr{
