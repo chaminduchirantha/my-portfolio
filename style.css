@@ -2,14 +2,21 @@
     font-family: Arial, sans-serif;
     box-sizing: border-box;
     padding: 0;
+    /*outline: none;*/
+
 }
+
+/*html{*/
+/*    overflow-x: hidden;*/
+/*    font-size: 60%;*/
+/*}*/
 
 body{
     width: 100vw;
-    height: 100vh;
+    /*height: 100vh;*/
     background-color: #162837;
-    overflow-x: hidden;
-    overflow-scrolling: auto;
+    /*overflow-x: hidden;*/
+    /*overflow-scrolling: auto;*/
 }
 
 .nav-bar {
@@ -98,19 +105,17 @@ nav>a>img{
 }
 
 .home{
-    /*width: 100vw;*/
-    height: 110vh;
-    position: relative;
-    top: 150px;
+    width:100%;
+    height:100vh;
 
 }
 
 .title>h3{
+    width: fit-content;
+    height: fit-content;
     font-size: 35px;
     line-height: 10px;
     color: white;
-    position: relative;
-    left: 5px;
 }
 
 .title>h1{
@@ -126,22 +131,13 @@ nav>a>img{
     color: white;
     margin-top: 10px;
     margin-bottom: 20px;
-    position: relative;
-    bottom: 10px;
-    left:5px;
 }
 
-/*.white{*/
-/*    !*color: ;*!*/
-/*}*/
 
 .title .title01{
     color: #6AADF8;
     font-size: 40px;
     line-height: 10px;
-    position: relative;
-    left: 5px;
-
 }
 
 
@@ -154,9 +150,9 @@ nav>a>img{
     border-color: #6AADF8;
     box-shadow: 0 0 1px #6AADF8;
     font-weight: 700;
-    position: relative;
-    left: 320px;
-    top: -8px;
+    position: absolute;
+    left: 490px;
+    top: 590px;
 }
 
 #home-pic{
@@ -164,16 +160,18 @@ nav>a>img{
     height: 450px;
     background-color: white;
     position: relative;
-    left: 872px;
+    left: 1072px;
     bottom: 540px;
     right: 600px;
     border-radius: 10%;
-    /*border: 10px solid white;*/
 
 }
 
 .nav{
     margin-left: 0px;
+    position: absolute;
+    left: 170px;
+    bottom: -20px;
 }
 
 a{
@@ -202,7 +200,9 @@ a{
     box-shadow: 0 0 10px #6AADF8;
 }
 
-.home{
+.title{
+    width: 100%;
+    height: 95vh;
     padding: -0px 180px;
     position: relative;
     top: 120px;
@@ -212,8 +212,9 @@ a{
 .about{
     color: white;
     background-color: rgb(17, 34, 45);
-    width: 100vw;
-    height: 125vh;
+    width: fit-content;
+    height: fit-content;
+    overflow-x: hidden;
 
 }
 
@@ -241,7 +242,6 @@ a{
     bottom: 315px;
     top: 20px;
     font-family: "Open Sans", serif;
-
 }
 
 .about-tittle>p{
@@ -361,7 +361,8 @@ a{
     background-color:#2B5175;
     border-radius: 30px;
     border: 2px solid black;
-    box-shadow: rgba(0, 144, 243, 0.37) 0px 3px 6px, rgb(67, 96, 130) 0px 3px 6px;}
+    box-shadow: rgba(0, 144, 243, 0.37) 0px 3px 6px, rgb(67, 96, 130) 0px 3px 6px;
+}
 
 .education h1{
     font-size: 48px;
@@ -500,6 +501,8 @@ a{
     color: white;
     width: 100vw;
     height: 305vh;
+    position: relative;
+    overflow-x: hidden;
 
 }
 
@@ -523,7 +526,7 @@ a{
     width: 330px;
     border-radius: 20px;
     position: relative;
-    bottom: 80px;
+    bottom: -40px;
     left: 28px;
 
 }
@@ -536,15 +539,10 @@ a{
 
 .project>div h4{
     font-size: 25px;
-    /*width: %;*/
     line-height: 30px;
-    position: relative;
+    position: absolute;
     top: 260px;
-    left: 50px;
-}
-
-#my-id{
-    position: relative;
+    left: 80px;
 }
 
 .project #h4{
@@ -552,7 +550,6 @@ a{
     position: relative;
     top: 150px;
     left: 170px;
-
 
 }
 
@@ -612,8 +609,8 @@ a{
 #tic-tac-toe{
     width: 330px;
     border-radius: 20px;
-    position: relative;
-    bottom: -45px;
+    position: absolute;
+    bottom: 145px;
     left: 30px;
 }
 
@@ -638,25 +635,25 @@ a{
 }
 
  #tittle-2{
-    position: relative;
-    top: 50px;
-    right: 5px;
+    position: absolute;
+    top: 250px;
+    right: 15px;
 }
 
 
 #h42{
     font-size: 25px;
-    position: relative;
-    top: 90px;
-    left: 969px;
+    position: absolute;
+    /*top: 90px;*/
+    left:969px;
 }
 
 .cart03{
     width: 25vw;
     height: 55vh;
     background-color:#2B5175;
-    position: relative;
-    bottom: 380px;
+    position: absolute;
+    bottom: 270px;
     left: 155px;
     border-radius: 20px;
 }
@@ -664,8 +661,8 @@ a{
 #garment{
     width: 330px;
     border-radius: 20px;
-    position: relative;
-    bottom: -50px;
+    position: absolute;
+    bottom: 120px;
     left: 28px;
 }
 
@@ -674,9 +671,9 @@ a{
     width: 38%;
     line-height: 35px;
     font-size: 20px;
-    position: relative;
-    bottom: 2px;
-    left: 790px;
+    position: absolute;
+    bottom: 380px;
+    left: 740px;
 }
 
 #section2-para-project03{
@@ -684,21 +681,21 @@ a{
     width: 38%;
     line-height: 35px;
     font-size: 20px;
-    position: relative;
-    bottom: 2px;
-    left: 790px;
+    position: absolute;
+    bottom: 290px;
+    left: 740px;
 }
 
 #h43{
     font-size: 25px;
-    position: relative;
-    bottom: 80px;
+    position: absolute;
+    bottom: 650px;
     left: 169px;
 }
 
 #tittle-3{
-    position: relative;
-    top: 35px;
+    position: absolute;
+    /*top: 35px;*/
     left: 45px;
     width: 95%;
     line-height: 35px;
@@ -713,19 +710,17 @@ a{
     border-color: #6AADF8;
     box-shadow: 0 0 1px #6AADF8;
     font-weight: 700;
-    position: relative;
-    left: 1140px;
-    /*bottom: 315px;*/
-    top: -370px;
-    right: 25px;
+    position: absolute;
+    left: 1040px;
+    bottom: 215px;
 }
 
 .project03 a{
     display: inline-flex;
     font-size: 30px;
     position: relative;
-    top: -360px;
-    left: 1150px;
+    top: 359px;
+    left: 1180px;
     right: 20px;
     padding: 10px;
     border: 2px solid #6AADF8 ;
