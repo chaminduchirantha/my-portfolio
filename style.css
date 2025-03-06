@@ -15,7 +15,7 @@ body{
     width: 100vw;
     /*height: 100vh;*/
     background-color: #162837;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     /*overflow-scrolling: auto;*/
 }
 
@@ -746,4 +746,10 @@ a{
     background-color: #6AADF8;
     color:  #1f242d;
     box-shadow: 0 0 10px #6AADF8;
+}
+
+.skills{
+    color: white;
+    font-family: "Open Sans", serif;
+
 }
