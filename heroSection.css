@@ -1,0 +1,100 @@
+.home{
+    width:fit-content;
+    height:100vh;
+    max-width: 100%;
+}
+
+.title>h3{
+    width: fit-content;
+    height: fit-content;
+    font-size: 35px;
+    line-height: 10px;
+    color: white;
+}
+
+.title>h1{
+    font-size: 60px;
+    line-height: 20px;
+    color: white;
+}
+
+.title>p{
+    width: 45% ;
+    font-size: 22px;
+    line-height: 35px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.title .title01{
+    color: #6AADF8;
+    font-size: 40px;
+    line-height: 10px;
+}
+
+#button01{
+    width: 130px;
+    height: 50px;
+    border-radius: 18px;
+    font-size: 15px;
+    background:#6AADF8 ;
+    border-color: #6AADF8;
+    box-shadow: 0 0 1px #6AADF8;
+    font-weight: 700;
+    position: absolute;
+    left: 490px;
+    top: 605px;
+}
+
+#home-pic{
+    width: 350px ;
+    height: 450px;
+    background-color: white;
+    position: relative;
+    left: 1072px;
+    bottom: 540px;
+    right: 600px;
+    border-radius: 10%;
+}
+
+.nav{
+    margin-left: 0px;
+    position: absolute;
+    left: 170px;
+    bottom: -20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav a{
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    top: -58px;
+    left: 3px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid #6AADF8 ;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.home .nav a:hover{
+    background-color: #6AADF8;
+    color:  #1f242d;
+    box-shadow: 0 0 10px #6AADF8;
+}
+
+.title{
+    width: 100%;
+    height: 95vh;
+    padding: -0px 180px;
+    position: relative;
+    top: 120px;
+}
