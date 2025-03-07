@@ -1,0 +1,155 @@
+.education{
+    color: white;
+    width: 100vw;
+    height: 135vh;
+}
+
+.education>fieldset{
+    width: 55vw;
+    height: 85vh;
+    position: relative;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 160px;
+    margin: auto;
+    background-color:#2B5175;
+    border-radius: 30px;
+    border: 3px solid #66a2e4;
+    /*box-shadow: rgba(0, 144, 243, 0.37) 0px 3px 6px, rgb(67, 96, 130) 0px 3px 6px;*/
+}
+
+.education h1{
+    font-size: 48px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+
+}
+
+.education hr{
+    height: 1px;
+    background-color: black;
+    border-color: black;
+    border-radius: 20px;
+    width: 800px;
+
+}
+
+.education ul li{
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+    line-height: 28px;
+    position: relative;
+
+}
+
+#para01 #id01{
+    width: 75%;
+}
+
+#para02 #id02{
+    width: 65%;
+}
+
+#para02 #id03{
+    width: 75%
+}
+
+#para03 #id04{
+    width: 68%
+}
+
+#para04 #id05{
+    width: 68%
+}
+
+#para01 hr{
+    position: relative;
+    top: -60px;
+    height: 1px;
+}
+
+
+#para01 li{
+    top: 10px;
+    left: 180px;
+}
+
+#para02 li{
+    top: -50px;
+    left: 180px;
+}
+
+#para03 li{
+    top: -110px;
+    left: 180px;
+}
+
+#para02 hr{
+    position: relative;
+    top: -120px;
+}
+
+#para03 hr{
+    position: relative;
+    top: -170px;
+}
+
+#para04 li{
+    top: -160px;
+    left: 180px;
+}
+
+.pic-01{
+    border: 3px solid #66a2e4;
+    border-radius: 10px;
+    position: relative;
+    bottom: 80px;
+    left: 48px;
+    width: 70px;
+}
+
+.pic-02{
+    border: 3px solid #66a2e4;
+    border-radius: 10px;
+    position: relative;
+    bottom: 168px;
+    left: 48px;
+    width: 70px;
+}
+
+.pic-03{
+    border: 3px solid #66a2e4;
+    border-radius: 10px;
+    position: relative;
+    bottom: 180px;
+    left: 48px;
+    width: 70px;
+}
+
+.pic-04{
+    border: 3px solid #66a2e4;
+    border-radius: 10px;
+    position: relative;
+    bottom: 230px;
+    left: 30px;
+    width: 100px;
+}
+
+.education>hr{
+    width: 590px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    top: 105px;
+    left:440px;
+}
+.education #hr2{
+    width: 600px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: 90px;
+    left:-450px;
+}
