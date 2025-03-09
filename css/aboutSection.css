@@ -5,7 +5,6 @@
     height: 130vh;
     /*overflow-x: hidden;*/
     /*overflow-y: hidden;*/
-
 }
 
 .about-img{
@@ -34,7 +33,6 @@
     font-family: "Open Sans", serif;
 }
 
-
 .about-tittle>h3{
     width: fit-content;
     font-size: 40px;
@@ -56,7 +54,6 @@
     bottom: 315px;
     top: 20px;
     font-family: "Open Sans", serif;
-
 }
 
 .second-para p{
@@ -76,7 +73,6 @@
     width: fit-content;
     font-size: 18px;
     position: relative;
-    /*padding: 10px 120px;*/
     left: 685px;
     bottom: 205px;
     right: 10px;
@@ -111,8 +107,9 @@
     height: 55px;
     border-radius: 18px;
     font-size: 15px;
-    background:#6AADF8 ;
-    border-color: #6AADF8;
+    background-color: #162837;
+    color:#6AADF8;
+    border:2px solid #6AADF8;
     box-shadow: 0 0 1px #6AADF8;
     font-weight: bold;
     position: relative;
@@ -120,15 +117,27 @@
     bottom: 315px;
     top: 30px;
     right: 10px;
+    transition-duration: 800ms;
+    cursor: pointer;
 }
+
+.button02 #btn01:hover{
+    background-color: #6AADF8;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #6AADF8;
+}
+
+
 
 .button02 #btn02{
     width: 145px;
     height: 55px;
     border-radius: 18px;
     font-size: 15px;
-    background:#6AADF8 ;
-    border-color: #6AADF8;
+    color: #6AADF8;
+    background-color: #162837;
+    border:2px solid #6AADF8;
     box-shadow: 0 0 1px #6AADF8;
     font-weight: 700;
     position: relative;
@@ -136,6 +145,15 @@
     bottom: 315px;
     top: 30px;
     right: 25px;
+    transition-duration: 800ms;
+    cursor: pointer;
+}
+
+.button02 #btn02:hover{
+    background-color: #6AADF8;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #6AADF8;
 }
 
 .button02{
@@ -144,4 +162,5 @@
     left: 440px;
     top: -540px;
     right: 5px;
+
 }
