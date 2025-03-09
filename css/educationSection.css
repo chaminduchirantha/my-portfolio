@@ -16,7 +16,11 @@
     background-color:#2B5175;
     border-radius: 30px;
     border: 3px solid #66a2e4;
-    /*box-shadow: rgba(0, 144, 243, 0.37) 0px 3px 6px, rgb(67, 96, 130) 0px 3px 6px;*/
+    transition-duration: 800ms;
+}
+
+.education>fieldset:hover{
+    transform: scale(1.1);
 }
 
 .education h1{
@@ -108,6 +112,15 @@
     bottom: 80px;
     left: 48px;
     width: 70px;
+}
+
+.education img{
+    transition-duration: 800ms;
+}
+
+.education img:hover{
+    transform: scale(1.1);
+    opacity: 10.8;
 }
 
 .pic-02{
