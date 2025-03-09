@@ -38,13 +38,21 @@
     height: 50px;
     border-radius: 18px;
     font-size: 15px;
-    background:#6AADF8 ;
-    border-color: #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
+    color: #6AADF8;
+    background-color: #162837;
+    border: 2px solid #6AADF8;
     font-weight: 700;
     position: absolute;
     left: 490px;
     top: 591px;
+    transition-duration: 800ms;
+}
+
+#button01:hover{
+    background-color:#6AADF8 ;
+    transform: scale(1.1);
+    color: black;
+    box-shadow: 0 0 10px #6AADF8;
 }
 
 #home-pic{
@@ -56,6 +64,12 @@
     bottom: 540px;
     right: 600px;
     border-radius: 10%;
+    transition-duration: 800ms;
+
+}
+
+#home-pic:hover{
+    transform: scale(1.1);
 }
 
 .nav{
@@ -82,13 +96,14 @@ a{
     border-radius: 50%;
     color: #6AADF8;
     margin: 0 8px;
-    transition: .5s;
+    transition-duration: 800ms;
 }
 
 .home .nav a:hover{
     background-color: #6AADF8;
     color:  #1f242d;
     box-shadow: 0 0 10px #6AADF8;
+    transform: scale(1.1);
 }
 
 .title{
