@@ -26,7 +26,7 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 1000;
     border-bottom: 3px solid white ;
 }
 
@@ -153,7 +153,7 @@ nav>a>img{
 /*    font-weight: 700;*/
 /*    position: absolute;*/
 /*    left: 490px;*/
-/*    top: 605px;*/
+/*    top: 580px;*/
 /*}*/
 
 /*#home-pic{*/
@@ -169,7 +169,7 @@ nav>a>img{
 /*}*/
 
 /*.nav{*/
-/*    margin-left: 0px;*/
+/*    margin-left: 0;*/
 /*    position: absolute;*/
 /*    left: 170px;*/
 /*    bottom: -20px;*/
@@ -184,7 +184,7 @@ nav>a>img{
 /*    display: inline-flex;*/
 /*    font-size: 30px;*/
 /*    position: relative;*/
-/*    top: -58px;*/
+/*    top: -67px;*/
 /*    left: 3px;*/
 /*    right: 20px;*/
 /*    padding: 10px;*/
@@ -668,7 +668,7 @@ nav>a>img{
 /*#h42{*/
 /*    font-size: 25px;*/
 /*    position: absolute;*/
-/*    top: 710px;*/
+/*    top: 680px;*/
 /*    left:969px;*/
 /*}*/
 
@@ -706,7 +706,7 @@ nav>a>img{
 /*#h43{*/
 /*    font-size: 25px;*/
 /*    position: absolute;*/
-/*    bottom: 435px;*/
+/*    bottom: 465px;*/
 /*    left: 230px;*/
 /*}*/
 
@@ -732,14 +732,14 @@ nav>a>img{
 /*    font-weight: 700;*/
 /*    position: absolute;*/
 /*    left: 1040px;*/
-/*    bottom: 35px;*/
+/*    bottom: 25px;*/
 /*}*/
 
 /*.project03 a{*/
 /*    display: inline-flex;*/
 /*    font-size: 30px;*/
 /*    position: relative;*/
-/*    top: 30px;*/
+/*    top: 70px;*/
 /*    left: 1180px;*/
 /*    right: 20px;*/
 /*    padding: 10px;*/
@@ -756,180 +756,180 @@ nav>a>img{
 /*    box-shadow: 0 0 10px #6AADF8;*/
 /*}*/
 
-.skills{
-    color: white;
-    font-family: "Open Sans", serif;
-    overflow-x: hidden;
+/*.skills{*/
+/*    color: white;*/
+/*    font-family: "Open Sans", serif;*/
+/*    overflow-x: hidden;*/
 
-}
+/*}*/
 
-.skills>h1{
-    position: relative;
-    padding: 10px 583px;
-    align-items: center;
-    font-size: 48px;
+/*.skills>h1{*/
+/*    position: relative;*/
+/*    padding: 10px 583px;*/
+/*    align-items: center;*/
+/*    font-size: 48px;*/
 
- }
+/* }*/
 
-.header-lang{
-    font-size: 25px;
-    padding: 10px 190px;
-    position: relative;
-    top: 90px;
-}
+/*.header-lang{*/
+/*    font-size: 25px;*/
+/*    padding: 10px 190px;*/
+/*    position: relative;*/
+/*    top: 90px;*/
+/*}*/
 
-.tool-section-01{
-    font-size: 19px;
-}
+/*.tool-section-01{*/
+/*    font-size: 19px;*/
+/*}*/
 
-.tool01{
-    padding: 10px 80px;
-    position: relative;
-    top: 155px;
-}
+/*.tool01{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 155px;*/
+/*}*/
 
-.tool02{
-    padding: 10px 80px;
-    position: relative;
-    top: 155px;
-    left: -76px;
-}
+/*.tool02{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 155px;*/
+/*    left: -76px;*/
+/*}*/
 
-.tool03 {
-    padding: 10px 80px;
-    position: relative;
-    top: 155px;
-    left: -171px;
-}
-.tool04{
-    padding: 10px 80px;
-    position: relative;
-    top: 285px;
-    left: -689px;
-}
+/*.tool03 {*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 155px;*/
+/*    left: -171px;*/
+/*}*/
+/*.tool04{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 285px;*/
+/*    left: -689px;*/
+/*}*/
 
-.header-design{
-    font-size: 25px;
-    padding: 10px 693px;
-    position: relative;
-    top: -93px;
-}
+/*.header-design{*/
+/*    font-size: 25px;*/
+/*    padding: 10px 693px;*/
+/*    position: relative;*/
+/*    top: -93px;*/
+/*}*/
 
-.tool-section-02{
-    font-size: 19px;
-}
+/*.tool-section-02{*/
+/*    font-size: 19px;*/
+/*}*/
 
-.tool-figma{
-    padding: 10px 80px;
-    position: relative;
-    top: -32px;
-    left: 485px;
-}
+/*.tool-figma{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: -32px;*/
+/*    left: 485px;*/
+/*}*/
 
-.tool-canva{
-    padding: 10px 80px;
-    position: relative;
-    top: -34px;
-    left: 407px;
-}
+/*.tool-canva{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: -34px;*/
+/*    left: 407px;*/
+/*}*/
 
-.tool-Draw{
-    padding: 10px 80px;
-    position: relative;
-    top: -34px;
-    left: 338px;
-}
+/*.tool-Draw{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: -34px;*/
+/*    left: 338px;*/
+/*}*/
 
-.tool-lightroom{
-    padding: 10px 80px;
-    position: relative;
-    top: 84px;
-    left: -175px;
-}
+/*.tool-lightroom{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 84px;*/
+/*    left: -175px;*/
+/*}*/
 
-.tool-photoshop{
-    padding: 10px 80px;
-    position: relative;
-    top: 83px;
-    left: -255px;
-}
+/*.tool-photoshop{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 83px;*/
+/*    left: -255px;*/
+/*}*/
 
-.header-version{
-    font-size: 25px;
-    padding: 10px 583px;
-    position: relative;
-    top: -283px;
-    left: 552px;
+/*.header-version{*/
+/*    font-size: 25px;*/
+/*    padding: 10px 583px;*/
+/*    position: relative;*/
+/*    top: -283px;*/
+/*    left: 552px;*/
 
-}
+/*}*/
 
-.tool-section-03{
-    font-size: 19px;
-}
+/*.tool-section-03{*/
+/*    font-size: 19px;*/
+/*}*/
 
-.tool-git{
-    padding: 10px 80px;
-    position: relative;
-    top: -222px;
-    left: 971px;
-}
+/*.tool-git{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: -222px;*/
+/*    left: 971px;*/
+/*}*/
 
-.tool-gitHub{
-    padding: 10px 80px;
-    position: relative;
-    top: -222px;
-    left: 933px;
-}
+/*.tool-gitHub{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: -222px;*/
+/*    left: 933px;*/
+/*}*/
 
-.tool-console{
-    padding: 10px 80px;
-    position: relative;
-    top: -222px;
-    left: 875px;
-}
+/*.tool-console{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: -222px;*/
+/*    left: 875px;*/
+/*}*/
 
-#java{
-    padding: 10px 80px;
-    position: relative;
-    top: 68px;
-    left: -2px;
-}
+/*#java{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 68px;*/
+/*    left: -2px;*/
+/*}*/
 
-#mysql{
-    padding: 10px 80px;
-    position: relative;
-    top: 68px;
-    left: -80px;
-}
+/*#mysql{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 68px;*/
+/*    left: -80px;*/
+/*}*/
 
-#html{
-    padding: 10px 80px;
-    position: relative;
-    top: 196px;
-    left: -642px;
-}
+/*#html{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 196px;*/
+/*    left: -642px;*/
+/*}*/
 
-#figma{
-    padding: 10px 80px;
-    position: relative;
-    top: -138px;
-    left: 484px;
-}
+/*#figma{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: -138px;*/
+/*    left: 484px;*/
+/*}*/
 
-#lightRoom{
-    padding: 10px 80px;
-    position: relative;
-    top: -138px;
-    left: 484px;
-}
+/*#lightRoom{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: -138px;*/
+/*    left: 484px;*/
+/*}*/
 
 
-#js{
-    padding: 10px 80px;
-    position: relative;
-    top: 68px;
-    left: -150px;
-}
+/*#js{*/
+/*    padding: 10px 80px;*/
+/*    position: relative;*/
+/*    top: 68px;*/
+/*    left: -150px;*/
+/*}*/
 
 
 
