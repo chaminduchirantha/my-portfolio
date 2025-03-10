@@ -2,6 +2,7 @@
     font-family: Arial, sans-serif;
     box-sizing: border-box;
     padding: 0;
+    /*margin: 0;*/
     /*outline: none;*/
 
 }
@@ -102,6 +103,16 @@ nav>a>img{
 
 .header-nav>ul>li>a:hover::after{
     width: 90%;
+}
+
+#\#menu-bar{
+    position: absolute;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    display: none;
 }
 
 /*.home{*/
