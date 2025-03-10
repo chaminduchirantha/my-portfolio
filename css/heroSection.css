@@ -1,7 +1,12 @@
 .home{
-    width:fit-content;
+    /*width:fit-content;*/
     height:100vh;
-    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
 }
 
 .title>h3{
@@ -9,25 +14,32 @@
     height: fit-content;
     font-size: 35px;
     line-height: 10px;
+    position: relative;
+    margin-left: 5px;
     color: white;
 }
 
 .title>h1{
+    width: fit-content;
     font-size: 60px;
     line-height: 20px;
     color: white;
 }
 
-.title>p{
-    width: 45% ;
+.title>div>p{
+    width:70%;
     font-size: 22px;
     line-height: 35px;
     color: white;
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
+    /*bottom: -5px;*/
+    /*left: 5px;*/
 }
 
 .title .title01{
+    width: fit-content;
     color: #6AADF8;
     font-size: 40px;
     line-height: 10px;
@@ -43,8 +55,8 @@
     border: 2px solid #6AADF8;
     font-weight: 700;
     position: absolute;
-    left: 490px;
-    top: 591px;
+    margin-left: -702px;
+    margin-top: 241px;
     transition-duration: 800ms;
 }
 
@@ -60,9 +72,8 @@
     height: 450px;
     background-color: white;
     position: relative;
-    left: 1072px;
-    bottom: 540px;
-    right: 600px;
+    right: 200px;
+    top: 31px;
     border-radius: 10%;
     transition-duration: 800ms;
 
@@ -113,3 +124,119 @@ a{
     position: relative;
     top: 120px;
 }
+
+@media all and (max-width: 500px) {
+    .home{
+        width: fit-content;
+        height: 160vh;
+        flex-direction: row;
+        /*overflow-x: hidden;*/
+    }
+
+    .nav-links a {
+        display: none;
+    }
+
+    #\#menu-bar{
+        display: block;
+    }
+
+    .title>h3{
+        /*width: fit-content;*/
+        font-size: 40px;
+        line-height: 10px;
+        color: white;
+        position: relative;
+        margin-left: -172px;
+        top: -150px;
+
+    }
+
+
+
+    .title>h1{
+        width: fit-content;
+        font-size: 40px;
+        line-height: 20px;
+        color: white;
+        position: relative;
+        left: -173px;
+        top: -147px;
+    }
+
+    .title>div>p {
+        width: 156%;
+        font-size: 17px;
+        line-height: 27px;
+        margin-top: 14px;
+        margin-bottom: 20px;
+        position: relative;
+        bottom: 143px;
+        left: -170px;
+    }
+
+    .title .title01{
+        width: 142%;
+        color: #6AADF8;
+        font-size: 22px;
+        line-height: 6px;
+        position: relative;
+        right: 171px;
+        bottom: 144px;
+    }
+
+
+    #home-pic{
+        width: 200px ;
+        height: 259px;
+        position: relative;
+        margin-left: -305px;
+        left: -270px;
+        margin-top: -286px;
+        border-radius: 100%;
+        transition-duration: 800ms;
+        top: -192px;
+
+    }
+
+    .nav a{
+        display: inline-flex;
+        font-size: 20px;
+        padding: 10px;
+        margin: 0 8px 40px;
+        transition: .5s;
+        position: relative;
+        top: 179px;
+        left: -54px;
+    }
+
+    #button01{
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+        position: absolute;
+        margin-left: -556px;
+        margin-top: 309px;
+    }
+
+    .title{
+        position: relative;
+        align-items: center;
+        margin-left: 117px;
+        margin-top: 393px;
+    }
+
+    .logo {
+        display: flex;
+        /*align-items: center;*/
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        right: -10px;
+
+    }
+
+}
+
