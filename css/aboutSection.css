@@ -161,7 +161,7 @@
     right: 5px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 500px) and (min-height: 675px) {
     .about{
         height: 150vh;
     }
