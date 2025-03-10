@@ -236,7 +236,7 @@
 
 .version{
     position: relative;
-    bottom: 45px;
+    bottom:27px;
 }
 
 #git-hub{
@@ -260,3 +260,151 @@
     left: 1307px;
     bottom: 295px;
 }
+
+.header-styles{
+    width: fit-content;
+    font-size: 25px;
+    padding: 10px 190px;
+    position: relative;
+    top: 20px;
+}
+
+.tool-section-04{
+    font-size: 19px;
+    position: relative;
+    right: 28px;
+}
+
+.tool-html{
+    padding: 10px 80px;
+    position: relative;
+    top: 107px;
+    left: 0;
+}
+
+.tool-css{
+    padding: 10px 80px;
+    position: relative;
+    top: 107px;
+    left: -78px;
+}
+
+.tool-js{
+    padding: 10px 80px;
+    position: relative;
+    top: 107px;
+    left: -159px;
+}
+
+#html01{
+    padding: 10px 80px;
+    position: relative;
+    top: 18px;
+    left: -30px;
+}
+
+#css{
+    padding: 10px 80px;
+    position: relative;
+    top: 18px;
+    left: -105px;
+}
+
+#js01{
+    padding: 10px 80px;
+    position: relative;
+    top: 18px;
+    left: -170px;
+}
+
+.styles{
+    position: relative;
+    top: -43px;
+    left: 32px;
+}
+
+.others{
+    position: relative;
+    top: -43px;
+    left: 520px;
+}
+
+.header-other{
+    width: fit-content;
+    font-size: 25px;
+    padding: 10px 190px;
+    position: relative;
+    top: -189px;
+    left: 7px;
+}
+
+.tool-section-05{
+    font-size: 19px;
+}
+
+.tool-idea{
+    padding: 10px 80px;
+    position: relative;
+    top: -100px;
+    left: -30px;
+}
+
+.tool-window{
+    padding: 10px 80px;
+    position: relative;
+    top: -100px;
+    left: -135px;
+}
+
+.tool-linux{
+    padding: 10px 80px;
+    position: relative;
+    top: 12px;
+    left: -756px;
+}
+
+.tool-vs{
+    padding: 10px 80px;
+    position: relative;
+    top: -100px;
+    left: -103px;
+}
+
+.tool-powerPoint{
+    padding: 10px 80px;
+    position: relative;
+    top: 11px;
+    left: -807px;
+}
+
+#idea{
+    padding: 10px 80px;
+    position: relative;
+    top: -189px;
+    left: -24px;
+
+}
+
+#windows{
+    padding: 10px 80px;
+    position: relative;
+    top: -196px;
+    left: -33px;
+}
+
+#linux{
+    padding: 10px 80px;
+    position: relative;
+    top: -83px;
+    left: -225px;
+
+}
+
+#powerPoint{
+    padding: 10px 80px;
+    position: relative;
+    top: -74px;
+    left: -464px;
+
+}
+
