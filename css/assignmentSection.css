@@ -1,5 +1,5 @@
 .assignment-section{
-    height: 195vh;
+    height: 205vh;
     color: white;
     font-family: "Open Sans", serif;
     position: relative;
@@ -15,6 +15,7 @@
 
 .first-column{
     display: flex;
+    top: 40px;
 
 }
 .assignment-section div{
@@ -28,8 +29,8 @@
 .assignment-section .first-cart{
     background-color: #2B5175;
     position: absolute;
-    left: 143px;
-    top: 88px;
+    left: 140px;
+    top: 178px;
     border: 2px solid #6AADF8;
 
     /*margin-left: 2;*/
@@ -38,7 +39,7 @@
 .assignment-section .second-cart{
     background-color: #2B5175;
     position: absolute;
-    top: 87px;
+    top: 174px;
     left: 564px;
     border: 2px solid #6AADF8;
 
@@ -48,7 +49,7 @@
     background-color: #2B5175;
     position: absolute;
     right: 165px;
-    top: 89px;
+    top: 174px;
     border: 2px solid #6AADF8;
 
     /*left: -20px;*/
@@ -148,6 +149,44 @@
     top: 159px;
     left: 105px;
 }
+
+#view-more {
+    width: 129px;
+    height: 44px;
+    border-radius: 18px;
+    font-size: 15px;
+    background-color: #1e425f;
+    color: #6AADF8;
+    border: 2px solid #6AADF8;
+    box-shadow: 0 0 1px #6AADF8;
+    font-weight: bold;
+    position: relative;
+    top: 179px;
+    left: 99px;
+}
+
+.second-cart i{
+    display: inline-flex;
+    font-size: 25px;
+    position: relative;
+    top: 132px;
+    left: 226px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid #6AADF8;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 8px;
+    transition-duration: 800ms;
+}
+
+.second-cart i:hover{
+    background-color: #6AADF8;
+    color:  #1f242d;
+    box-shadow: 0 0 10px #6AADF8;
+    transform: scale(1.1);
+}
+
 
 /*.second-column{*/
 /*    position: absolute;*/
