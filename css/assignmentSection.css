@@ -21,59 +21,132 @@
     width: 23vw;
     height: 75vh;
     margin: 20px;
+    border-radius: 20px;
+
 }
 
 .assignment-section .first-cart{
     background-color: #2B5175;
-    border-radius: 15px;
     position: absolute;
     left: 143px;
     top: 88px;
+    border: 2px solid #6AADF8;
+
     /*margin-left: 2;*/
 }
 
 .assignment-section .second-cart{
     background-color: #2B5175;
-    border-radius: 15px;
     position: absolute;
     top: 87px;
     left: 564px;
+    border: 2px solid #6AADF8;
+
 }
 
 .assignment-section .third-cart{
     background-color: #2B5175;
-    border-radius: 15px;
     position: absolute;
     right: 165px;
-    top: 89px
+    top: 89px;
+    border: 2px solid #6AADF8;
+
     /*left: -20px;*/
 
 }
 
 .assignment-section .forth-cart {
     background-color: #2B5175;
-    border-radius: 15px;
     position: absolute;
     left: 142px;
     bottom: 115px;
+    border: 2px solid #6AADF8;
+
 }
 
 .assignment-section .fifth-cart {
     background-color: #2B5175;
-    border-radius: 15px;
     position: absolute;
     right: 0;
     bottom: 133px;
     margin: auto;
     left: -14px;
+    border: 2px solid #6AADF8;
+
 }
 
 .assignment-section .sixth-cart {
     background-color: #2B5175;
-    border-radius: 15px;
     position: absolute;
     right: 165px;
     bottom: 113px;
+    border: 2px solid #6AADF8;
+
+}
+
+.first-column h4{
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 75px;
+
+}
+
+.first-column p{
+    align-items: center;
+    position: relative;
+    left: 45px;
+    width: 80%;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: normal;
+    top: 73px;
+}
+
+#sit-map{
+    width: 129px;
+    height: 44px;
+    border-radius: 18px;
+    font-size: 15px;
+    background-color: #1e425f;
+    color: #6AADF8;
+    border: 2px solid #6AADF8;
+    box-shadow: 0 0 1px #6AADF8;
+    font-weight: bold;
+    position: relative;
+    top: 83px;
+    left: 105px;
+}
+
+
+#wirFrame {
+    width: 129px;
+    height: 44px;
+    border-radius: 18px;
+    font-size: 15px;
+    background-color: #1e425f;
+    color: #6AADF8;
+    border: 2px solid #6AADF8;
+    box-shadow: 0 0 1px #6AADF8;
+    font-weight: bold;
+    position: relative;
+    top: 142px;
+    left: -29px;
+}
+
+#mockups {
+    width: 129px;
+    height: 44px;
+    border-radius: 18px;
+    font-size: 15px;
+    background-color: #1e425f;
+    color: #6AADF8;
+    border: 2px solid #6AADF8;
+    box-shadow: 0 0 1px #6AADF8;
+    font-weight: bold;
+    position: relative;
+    top: 159px;
+    left: 105px;
 }
 
 /*.second-column{*/
