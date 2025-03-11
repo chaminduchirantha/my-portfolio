@@ -1,0 +1,82 @@
+.assignment-section{
+    height: 195vh;
+    color: white;
+    font-family: "Open Sans", serif;
+    position: relative;
+    background-color: rgb(17, 34, 45);
+    /*height: fit-content;*/
+}
+
+.assignment-section h1{
+    font-size: 48px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.first-column{
+    display: flex;
+
+}
+.assignment-section div{
+    width: 23vw;
+    height: 75vh;
+    margin: 20px;
+}
+
+.assignment-section .first-cart{
+    background-color: #2B5175;
+    border-radius: 15px;
+    position: absolute;
+    left: 143px;
+    top: 88px;
+    /*margin-left: 2;*/
+}
+
+.assignment-section .second-cart{
+    background-color: #2B5175;
+    border-radius: 15px;
+    position: absolute;
+    top: 87px;
+    left: 564px;
+}
+
+.assignment-section .third-cart{
+    background-color: #2B5175;
+    border-radius: 15px;
+    position: absolute;
+    right: 165px;
+    top: 89px
+    /*left: -20px;*/
+
+}
+
+.assignment-section .forth-cart {
+    background-color: #2B5175;
+    border-radius: 15px;
+    position: absolute;
+    left: 142px;
+    bottom: 115px;
+}
+
+.assignment-section .fifth-cart {
+    background-color: #2B5175;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 133px;
+    margin: auto;
+    left: -14px;
+}
+
+.assignment-section .sixth-cart {
+    background-color: #2B5175;
+    border-radius: 15px;
+    position: absolute;
+    right: 165px;
+    bottom: 113px;
+}
+
+/*.second-column{*/
+/*    position: absolute;*/
+/*    top: 20px;*/
+/*}*/
