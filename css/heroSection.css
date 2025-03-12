@@ -55,9 +55,10 @@
     border: 2px solid #6AADF8;
     font-weight: 700;
     position: absolute;
-    margin-left: -702px;
-    margin-top: 241px;
+    margin-left: -685px;
+    margin-top: 243px;
     transition-duration: 800ms;
+    cursor: pointer;
 }
 
 #button01:hover{
@@ -142,7 +143,7 @@ a{
     }
 
     .nav-bar{
-        width: fit-content;
+        width: 100%;
     }
 
     #\#menu-bar{
