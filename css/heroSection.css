@@ -129,15 +129,36 @@ a{
     .home{
         width: fit-content;
         height: 120vh;
-        flex-direction: row;
+        display: flex;
+        /*flex-direction: row;*/
     }
 
     .nav-links a {
         display: none;
     }
 
+    .header-nav{
+        width: fit-content;
+    }
+
+    .nav-bar{
+        width: fit-content;
+    }
+
     #\#menu-bar{
         display: block;
+    }
+
+    .project{
+        display: none;
+    }
+
+    .skills{
+        display: none;
+    }
+
+    .assignment-section{
+        display: none;
     }
 
     .title>h3{
@@ -228,4 +249,130 @@ a{
         right: -10px;
     }
 }
+
+@media all and (max-width: 425px) and (min-height:675px) {
+    .home{
+        width: fit-content;
+        height: 120vh;
+        display: flex;
+        /*flex-direction: row;*/
+    }
+
+    .nav-links a {
+        display: none;
+    }
+
+    .header-nav{
+        width: fit-content;
+    }
+
+    .nav-bar{
+        width: fit-content;
+    }
+
+    #\#menu-bar{
+        display: block;
+    }
+
+    .project{
+        display: none;
+    }
+
+    .skills{
+        display: none;
+    }
+
+    .assignment-section{
+        display: none;
+    }
+
+    .title>h3{
+        /*width: fit-content;*/
+        font-size: 40px;
+        line-height: 10px;
+        position: relative;
+        margin-left: -172px;
+        top: -150px;
+
+    }
+
+    .title>h1{
+        width: fit-content;
+        font-size: 40px;
+        line-height: 20px;
+        color: white;
+        position: relative;
+        left: -173px;
+        top: -147px;
+    }
+
+    .title>div>p {
+        width: 156%;
+        font-size: 17px;
+        line-height: 27px;
+        margin-top: 14px;
+        margin-bottom: 20px;
+        position: relative;
+        bottom: 143px;
+        left: -170px;
+    }
+
+    .title .title01{
+        width: 142%;
+        font-size: 22px;
+        line-height: 6px;
+        position: relative;
+        right: 171px;
+        bottom: 144px;
+    }
+
+    #home-pic{
+        width: 180px;
+        height: 236px;
+        position: relative;
+        margin-left: -305px;
+        left: -270px;
+        margin-top: -286px;
+        border-radius: 100%;
+        transition-duration: 800ms;
+        top: -109px;
+    }
+
+    .nav a{
+        display: inline-flex;
+        font-size: 20px;
+        padding: 10px;
+        margin: 0 8px 40px;
+        transition: .5s;
+        position: relative;
+        top: 93px;
+        left: -54px;
+    }
+
+    #button01{
+        width: 90px;
+        height: 30px;
+        font-size: 10px;
+        position: absolute;
+        margin-left: -556px;
+        margin-top: 353px;
+    }
+
+    .title{
+        position: relative;
+        align-items: center;
+        margin-left: 117px;
+        margin-top: 497px;
+    }
+
+    .logo {
+        display: flex;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        right: -10px;
+    }
+}
+
 
