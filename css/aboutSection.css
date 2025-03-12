@@ -162,8 +162,113 @@
 }
 
 @media all and (max-width: 500px) and (min-height: 675px) {
+
+    body{
+        overflow-x: hidden;
+    }
     .about{
         height: 150vh;
+    }
+
+    .about>hr{
+        display:none;
+    }
+
+    .about #hr{
+        display: none;
+    }
+
+    .about-img{
+        width: 46vw;
+        height: 36vh;
+        position: relative;
+        top: -353px;
+        left: 125px;
+    }
+
+    .about>h1{
+        font-size: 29px;
+        font-weight: bolder;
+        padding: 10px 180px;
+        position: relative;
+        right: 6px;
+        top: 7px;
+        width: fit-content;
+        font-family: "Open Sans", serif;
+    }
+
+    .about-tittle>h3{
+        width: fit-content;
+        font-size: 25px;
+        line-height: 15px;
+        position: relative;
+        left: 60px;
+        bottom: 315px;
+        top: 323px;
+        font-family: "Open Sans", serif;
+    }
+
+    .about-tittle>p{
+        font-size: 16px;
+        line-height: 28px;
+        width: 78%;
+        padding: 2px 5px;
+        position: relative;
+        left: 55px;
+        /* bottom: 312px; */
+        top: 315px;
+        font-family: "Open Sans", serif;
+    }
+
+    .second-para p{
+        font-size: 16px;
+        line-height: 27px;
+        width: 84%;
+        padding: 2px 5px;
+        position: relative;
+        top: 302px;
+        left: 55px;
+        bottom: 315px;
+        font-family: "Open Sans", serif;
+    }
+
+    .detail>ul>li{
+        font-size: 14px;
+        position: relative;
+        left: 78px;
+        font-weight: lighter;
+        top: 38px;
+    }
+
+    .button02 #btn01 {
+        width: 107px;
+        height: 36px;
+        border-radius: 12px;
+        font-size: 9px;
+        position: relative;
+        left: -371px;
+        bottom: 15px;
+        top: 585px;
+        right: 8px;
+    }
+
+    .button02 #btn02{
+        width: 107px;
+        height: 36px;
+        border-radius: 12px;
+        font-size: 9px;
+        position: relative;
+        left: -360px;
+        bottom: 15px;
+        top: 585px;
+        right: 25px;
+    }
+}
+
+@media all and (max-width: 425px) and (min-height: 675px) {
+    .about{
+        height: 190vh;
+        overflow-x: hidden;
     }
 
     .about>hr{
