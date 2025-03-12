@@ -149,7 +149,6 @@
     left: 30px;
     width: 100px;
 }
-
 .education>hr{
     width: 590px;
     height: 3px;
@@ -165,4 +164,103 @@
     position: relative;
     top: 90px;
     left:-450px;
+}
+
+@media all and (max-width: 500px)  {
+    .education>hr{
+        display: none;
+    }
+
+
+    .education{
+        height: 95vh;
+    }
+
+    .education #hr2{
+        display: none;
+    }
+
+    .education>fieldset{
+        width: 17vw;
+        height: 65vh;
+        position: relative;
+        top: 70px;
+        left: -8px;
+        right: 10px;
+        bottom: 160px;
+    }
+
+    .education h1{
+        font-size: 29px;
+        position: relative;
+        left: -15px;
+        top: 30px;
+        text-align: center;
+
+    }
+
+    .education ul li{
+        font-size: 12px;
+        line-height: 24px;
+        position: relative;
+
+    }
+
+    .pic-01{
+        position: relative;
+        bottom: 80px;
+        left: 18px;
+        width: 40px;
+    }
+
+    .pic-02{
+        position: relative;
+        bottom: 168px;
+        left: 18px;
+        width: 40px;
+    }
+
+    .pic-03{
+        position: relative;
+        bottom: 180px;
+        left: 18px;
+        width: 40px;
+    }
+
+    .pic-04{
+        position: relative;
+        bottom: 220px;
+        left: 10px;
+        width: 60px;
+    }
+
+    .education hr{
+        width: 400px;
+
+    }
+
+    #para01 li{
+        top: -5px;
+        left: 85px;
+    }
+
+    #para02 li{
+        top: -65px;
+        left: 80px;
+    }
+
+    #para03 li{
+        top: -120px;
+        left: 85px;
+    }
+
+    #para02 hr{
+        position: relative;
+        top: -120px;
+    }
+
+    #para04 li{
+        top: -160px;
+        left: 90px;
+    }
 }
