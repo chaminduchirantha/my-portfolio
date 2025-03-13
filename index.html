@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/skillSection.css">
     <link rel="stylesheet" href="css/assignmentSection.css">
     <link rel="stylesheet" href="css/serviceSection.css">
+    <link rel="stylesheet" href="css/contactSection.css">
+    <link rel="stylesheet" href="css/footerSection.css">
 </head>
 <body>
 <!--<header-->
@@ -491,24 +493,32 @@
     </section>
 
 <!--    contactSection-->
-    <section>
+    <section class="contact-section">
         <h1 id="contact">Contact</h1>
-        <div>
-            <h4>Phone</h4>
-            <img src="Asset/images/icons8-telephone-24.png" width="24" alt="telephone">
-            <h5>077-335-2204</h5>
-            <h4>Email</h4>
-            <h5>chaminduchirantha73@gmail.com</h5>
-            <img src="Asset/images/icons8-email-50.png" width="24" alt="email">
-            <h4>Location</h4>
-            <img src="Asset/images/icons8-address-64.png" width="24" alt="address">
-            <h5>Piliyandala</h5>
+        <div class="detail-contact">
+            <div class="phone">
+                <h4>Phone</h4>
+                <i class='bx bxs-phone' cla></i>
+                <h5>077-335-2204</h5>
+            </div>
+
+            <div class="email">
+                <h4>Email</h4>
+                <h5>chaminduchirantha73@gmail.com</h5>
+                <i class='bx bxl-gmail'></i>
+            </div>
+
+            <div class="location">
+                <h4>Location</h4>
+                <i class='bx bx-current-location'></i>
+                <h5>Piliyandala</h5>
+            </div>
         </div>
 
 <!--        form-->
-        <div>
-            <fieldset>
-                <form>
+        <div class="form">
+            <form>
+                <div class="inputs">
                     <input type="text" id="firstName"   placeholder="First name" width="50" name="firstName"><br>
                     <br>
                     <input type="text" id="lastName"  placeholder="Last Name" name="lastName"><br>
@@ -518,41 +528,41 @@
                     <textarea placeholder="Massage" id="textArea" rows="10" ></textarea><br>
                     <br>
                     <button type="submit" id="submit">Submit</button>
-                </form>
-            </fieldset>
+                </div>
+
+            </form>
         </div>
     </section>
     <br>
 
 
 <!--    footerSection-->
-    <footer>
-        <hr>
+    <footer class="footer-section">
+        <hr id="footer-hr">
         <div>
-            <h4>Phone</h4>
-            <span>0773352204</span><br>
-            <img src="Asset/images/icons8-telephone-24.png" alt="">
+            <div class="footer-phone">
+                <h4>Phone</h4>
+                <h5>0773352204</h5><br>
+                <i class='bx bxs-phone' cla></i>
+            </div>
+
+            <div class="footer-email">
+                <h4>Email</h4>
+                <h5>chaminduchirantha73@gmail.com</h5><br>
+                <i class='bx bxl-gmail'></i>
+            </div>
         </div>
 
-        <div>
-            <h4>Email</h4>
-            <span>chaminduchirantha73@gmail.com</span><br>
-            <img src="Asset/images/icons8-email-50.png" width="35" alt="">
-        </div>
         <br>
         <br>
 
-        <nav>
-            <a href=""><img src="Asset/images/icons8-facebook-logo-50.png" width="35" alt=""></a>
-            <h4>facebook</h4>
-            <a href="https://github.com/chaminduchirantha" target="_blank"><img src="Asset/images/icons8-github-94.png" width="35" alt=""></a><br>
-            <h4>github</h4>
-            <a href="https://www.linkedin.com/in/chamindu-chirantha-1b839531a/" target="_blank"> <img src="Asset/images/icons8-linkedin-50.png" width="35" alt=""></a>
-            <h4>linked in</h4>
-            <a href="https://t.me/Cha_mindu_Chir_antha" target="_blank"> <img src="Asset/images/icons8-telegram-app-48.png" width="35" alt=""></a>
-            <h4>Telegram</h4>
-        </nav>
-        <div>
+        <nav class="footer-nav">
+            <a href=""><i class='bx bxl-facebook-circle'></i></a>
+            <a href="https://github.com/chaminduchirantha" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/chamindu-chirantha-1b839531a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://t.me/Cha_mindu_Chir_antha" target="_blank"><i class='bx bxl-telegram'></i></a>
+           </nav>
+        <div class="footer-copyright">
             <p>Copyright 2025Chamindu Chirantha. All Rights Reserved.</p>
         </div>
     </footer>
