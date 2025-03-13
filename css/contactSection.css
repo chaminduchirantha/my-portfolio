@@ -1,13 +1,16 @@
 .contact-section{
     color: white;
+    height: 125vh;
     font-family: "Open Sans",sans-serif;
     background-color: rgb(17, 34, 45);
+    position: relative;
 }
 
 #contact{
     font-size: 48px;
     position: relative;
-    left: 90px;
+    left: 120px;
+    top: 50px;
 }
 
 .contact-section h4{
@@ -119,5 +122,82 @@
 .location h5{
     position: relative;
     margin-left: 310px;
-    top: -79px;
+    top: -84px;
+}
+
+.form{
+    width: 33vw;
+    height: 75vh;
+    background-color: #2B5175;
+    border-radius: 20px;
+    position: absolute;
+    right: 170px;
+    top: 194px;
+    border:2px solid #6AADF8;
+}
+
+.inputs{
+    position: relative;
+    left: 58px;
+    top: 43px;
+    align-items: center;
+}
+
+.inputs #firstName{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid #6AADF8;
+}
+
+
+.inputs #lastName{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid #6AADF8;
+
+}
+
+.inputs #email{
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid #6AADF8;
+
+}
+
+.inputs #textArea{
+    width: 400px;
+    height: 150px;
+    border-radius: 15px;
+    border: 3px solid #6AADF8;
+
+}
+
+#submit{
+    width: 120px;
+    height: 45px;
+    font-weight: bolder;
+    border: 3px solid #6AADF8;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    font-size: 18px;
+    font-weight: lighter;
+    position: relative;
+    left: 20px ;
+}
+
+textarea::placeholder{
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+
+}
+
+.detail-contact{
+    position: relative;
+    top: 44px;
 }
