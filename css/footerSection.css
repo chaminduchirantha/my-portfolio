@@ -1,0 +1,143 @@
+.footer-section{
+    color: white;
+    height: 20vh;
+}
+
+#footer-hr{
+    width: 1450px;
+    height: 3px;
+    background-color: #6AADF8;
+    border: 1px solid #6AADF8;
+    border-radius: 20px;
+    position: relative;
+    bottom: 30px;
+    right: 15px;
+    align-items: center;
+}
+
+.footer-phone h4{
+    font-size: 25px;
+}
+
+.footer-phone h5{
+    font-size: 20px;
+}
+
+.footer-phone i{
+    width: fit-content;
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    top: -70px;
+    left: 199px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid #6AADF8;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 8px;
+    transition-duration: 800ms;
+    cursor: pointer;
+}
+.footer-phone i:hover{
+    background-color:#6AADF8;
+    color:  black;
+    box-shadow: 0 0 10px #6AADF8;
+    transform: scale(1.1);
+}
+
+.footer-phone h5{
+    position: relative;
+    left: 281px;
+    top: 36px;
+}
+
+.footer-phone h4{
+    position: relative;
+    top: 62px;
+    left: 282px;
+}
+
+.footer-email i{
+    width: fit-content;
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    top: -88px;
+    left: 203px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid #6AADF8;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 8px;
+    transition-duration: 800ms;
+    cursor: pointer;
+}
+
+.footer-email i:hover{
+    background-color:#6AADF8;
+    color:  black;
+    box-shadow: 0 0 10px #6AADF8;
+    transform: scale(1.1);
+}
+
+.footer-email h5{
+    width: fit-content;
+    font-size: 20px;
+    position: relative;
+    left: 281px;
+    top: 19px;
+}
+
+.footer-email h4{
+    width: fit-content;
+    font-size: 25px;
+    position: relative;
+    top: 43px;
+    left: 280px;
+}
+
+.footer-email{
+    width: fit-content;
+    position: relative;
+    bottom: 206px;
+    left: 180px;
+}
+
+.footer-phone{
+    width: fit-content;
+    position: relative;
+    right: 100px;
+}
+
+.footer-nav a{
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    top: -382px;
+    left: 908px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid #6AADF8 ;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 15px;
+    transition-duration: 800ms;
+}
+
+.footer-nav a:hover{
+    background-color: #6AADF8;
+    color:  #1f242d;
+    box-shadow: 0 0 10px #6AADF8;
+    transform: scale(1.1);
+}
+
+.footer-copyright{
+    font-size: 20px;
+    position: relative;
+    bottom: 190px;
+    text-align: center;
+    color: #061c32;
+    background: linear-gradient(120deg , #162837,#6AADF8,#061c32);
+}
