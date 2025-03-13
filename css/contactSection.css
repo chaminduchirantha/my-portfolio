@@ -7,6 +7,7 @@
 }
 
 #contact{
+    width: fit-content;
     font-size: 48px;
     position: relative;
     left: 120px;
@@ -22,6 +23,7 @@
 }
 
 .phone i{
+    width: fit-content;
     display: inline-flex;
     font-size: 30px;
     position: relative;
@@ -36,6 +38,17 @@
     transition-duration: 800ms;
     cursor: pointer;
 }
+.phone{
+    width: fit-content;
+}
+
+.email{
+    width: fit-content;
+}
+
+.location{
+    width: fit-content;
+}
 
 .phone i:hover{
     background-color:#6AADF8;
@@ -45,17 +58,20 @@
 }
 
 .phone h4{
+    width: fit-content;
     position: relative;
     margin-left: 310px;
     top: 189px;
 }
 .phone h5{
+    width: fit-content;
     position: relative;
     margin-left: 310px;
     top: 75px;
 }
 
 .email i{
+    width: fit-content;
     display: inline-flex;
     font-size: 30px;
     position: relative;
@@ -79,11 +95,13 @@
 }
 
 .email h4{
+    width: fit-content;
     position: relative;
     margin-left: 310px;
     top: 111px;
 }
 .email h5{
+    width: fit-content;
     position: relative;
     margin-left: 310px;
     top: 84px;
@@ -91,6 +109,7 @@
 
 
 .location i{
+    width: fit-content;
     display: inline-flex;
     font-size: 30px;
     position: relative;
@@ -114,12 +133,14 @@
 }
 
 .location h4{
+    width: fit-content;
     position: relative;
     margin-left: 310px;
     top: 32px;
 }
 
 .location h5{
+    width: fit-content;
     position: relative;
     margin-left: 310px;
     top: -84px;
@@ -134,6 +155,12 @@
     right: 170px;
     top: 194px;
     border:2px solid #6AADF8;
+    transition-duration: 800ms;
+}
+
+.form:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px #6AADF8;
 }
 
 .inputs{
@@ -198,6 +225,8 @@ textarea::placeholder{
 }
 
 .detail-contact{
+    width: fit-content;
     position: relative;
     top: 44px;
 }
+
