@@ -1,0 +1,123 @@
+.contact-section{
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    background-color: rgb(17, 34, 45);
+}
+
+#contact{
+    font-size: 48px;
+    position: relative;
+    left: 90px;
+}
+
+.contact-section h4{
+    font-size: 25px;
+}
+
+.contact-section h5{
+    font-size: 20px;
+}
+
+.phone i{
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    top: 132px;
+    left: 226px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid #6AADF8;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 8px;
+    transition-duration: 800ms;
+    cursor: pointer;
+}
+
+.phone i:hover{
+    background-color:#6AADF8;
+    color:  black;
+    box-shadow: 0 0 10px #6AADF8;
+    transform: scale(1.1);
+}
+
+.phone h4{
+    position: relative;
+    margin-left: 310px;
+    top: 189px;
+}
+.phone h5{
+    position: relative;
+    margin-left: 310px;
+    top: 75px;
+}
+
+.email i{
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    top: -4px;
+    left: 226px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid #6AADF8;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 8px;
+    transition-duration: 800ms;
+    cursor: pointer;
+}
+
+.email i:hover{
+    background-color:#6AADF8;
+    color:  black;
+    box-shadow: 0 0 10px #6AADF8;
+    transform: scale(1.1);
+}
+
+.email h4{
+    position: relative;
+    margin-left: 310px;
+    top: 111px;
+}
+.email h5{
+    position: relative;
+    margin-left: 310px;
+    top: 84px;
+}
+
+
+.location i{
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    top: -29px;
+    left: 226px;
+    right: 20px;
+    padding: 10px;
+    border: 2px solid #6AADF8;
+    border-radius: 50%;
+    color: #6AADF8;
+    margin: 0 8px;
+    transition-duration: 800ms;
+    cursor: pointer;
+}
+
+.location i:hover{
+    background-color:#6AADF8;
+    color:  black;
+    box-shadow: 0 0 10px #6AADF8;
+    transform: scale(1.1);
+}
+
+.location h4{
+    position: relative;
+    margin-left: 310px;
+    top: 32px;
+}
+
+.location h5{
+    position: relative;
+    margin-left: 310px;
+    top: -79px;
+}
