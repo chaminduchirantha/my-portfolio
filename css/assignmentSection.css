@@ -34,11 +34,13 @@
     top: 178px;
     border: 2px solid #6AADF8;
     transition-duration: 800ms;
+    transition-timing-function: ease-in-out ;
 
     /*margin-left: 2;*/
 }
 
 .assignment-section .first-cart:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 }
@@ -50,9 +52,12 @@
     left: 564px;
     border: 2px solid #6AADF8;
     transition-duration: 800ms;
+    transition-timing-function: ease-in-out ;
+
 }
 
 .assignment-section .second-cart:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 
@@ -65,9 +70,12 @@
     top: 174px;
     border: 2px solid #6AADF8;
     transition-duration: 800ms;
+    transition-timing-function: ease-in-out ;
+
 }
 
 .assignment-section .third-cart:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 
@@ -80,9 +88,12 @@
     bottom: 115px;
     border: 2px solid #6AADF8;
     transition-duration: 800ms;
+    transition-timing-function: ease-in-out ;
+
 }
 
 .assignment-section .forth-cart:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 
@@ -97,9 +108,12 @@
     left: -14px;
     border: 2px solid #6AADF8;
     transition-duration: 800ms;
+    transition-timing-function: ease-in-out ;
+
 }
 
 .assignment-section .fifth-cart:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 
@@ -112,9 +126,12 @@
     bottom: 113px;
     border: 2px solid #6AADF8;
     transition-duration: 800ms;
+    transition-timing-function: ease-in-out ;
+
 }
 
 .assignment-section .sixth-cart:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 

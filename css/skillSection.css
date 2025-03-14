@@ -116,7 +116,7 @@
     padding: 10px 80px;
     position: relative;
     top: -222px;
-    left: 971px;
+    left: 1004px;
 }
 
 .tool-gitHub{
@@ -130,7 +130,7 @@
     padding: 10px 80px;
     position: relative;
     top: -222px;
-    left: 875px;
+    left: 835px;
 }
 
 #java{
@@ -251,13 +251,13 @@
 
 #git{
     position: relative;
-    left: 1000px;
+    left: 1029px;
     bottom: 295px;
 }
 
 #console{
     position: relative;
-    left: 1307px;
+    left: 1269px;
     bottom: 295px;
 }
 
@@ -346,21 +346,21 @@
     padding: 10px 80px;
     position: relative;
     top: -100px;
-    left: -30px;
+    left: 3px;
 }
 
 .tool-window{
     padding: 10px 80px;
     position: relative;
     top: -100px;
-    left: -135px;
+    left: -205px;
 }
 
 .tool-linux{
     padding: 10px 80px;
     position: relative;
     top: 12px;
-    left: -756px;
+    left: -718px;
 }
 
 .tool-vs{
@@ -381,30 +381,36 @@
     padding: 10px 80px;
     position: relative;
     top: -189px;
-    left: -24px;
+    left: 19px;
 
 }
 
 #windows{
     padding: 10px 80px;
     position: relative;
-    top: -196px;
-    left: -33px;
+    top: -188px;
+    left: -297px;
 }
 
 #linux{
     padding: 10px 80px;
     position: relative;
     top: -83px;
-    left: -225px;
+    left: -184px;
+}
 
+#vsCode{
+    padding: 10px 80px;
+    position: relative;
+    top: -195px;
+    left: -229px;
 }
 
 #powerPoint{
     padding: 10px 80px;
     position: relative;
     top: -74px;
-    left: -464px;
+    left: -643px;
 
 }
 

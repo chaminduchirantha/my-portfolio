@@ -22,10 +22,11 @@
     border: 2px solid #6AADF8;
     position: absolute;
     left: 107px;
-    transition-duration: 500ms;
+    transition-duration: 800ms;
 }
 
 .service-cart01:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 0 0 10px #6AADF8;
 }
@@ -81,10 +82,11 @@
     left: 0;
     right: 0;
     margin: auto;
-    transition-duration: 500ms;
+    transition-duration: 800ms;
 }
 
 .service-cart02:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 0 0 10px #6AADF8;
 }
@@ -129,10 +131,11 @@
     position:absolute;
     right: 110px;
     top: 90px;
-    transition-duration: 300ms;
+    transition-duration: 800ms;
 }
 
 .service-cart03:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 0 0 10px #6AADF8;
 

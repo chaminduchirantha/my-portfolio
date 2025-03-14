@@ -70,6 +70,7 @@
 }
 
 .cart01:hover{
+    background-color: #032440;
     transform: scale(1.1);
     box-shadow: 0 0 10px #6AADF8;
 
@@ -86,7 +87,7 @@
     font-size: 48px;
     position: relative;
     top: 70px;
-    left: 115px;
+    left: 164px;
 }
 
 .project hr{
@@ -120,6 +121,7 @@
 }
 
 .cart02:hover{
+    background-color: #032440;
     transform: scale(1.1);
     box-shadow: 0 0 10px #6AADF8;
 }
@@ -159,7 +161,7 @@
 #h42{
     font-size: 25px;
     position: absolute;
-    top: 675px;
+    top: 630px;
     left:969px;
 }
 
@@ -168,7 +170,7 @@
     height: 44vh;
     background-color:#2B5175;
     position: relative;
-    bottom: 10px;
+    bottom: -38px;
     left: 225px;
     border-radius: 20px;
     transition-duration: 800ms;
@@ -176,6 +178,7 @@
 }
 
 .cart03:hover{
+    background-color: #032440;
     transform: scale(1.1);
     box-shadow: 0 0 10px #6AADF8;
 }
@@ -230,7 +233,7 @@
     font-weight: 700;
     position: absolute;
     left: 1040px;
-    bottom: 35px;
+    bottom: 67px;
     transition-duration: 800ms;
     cursor: pointer;;
 
@@ -246,7 +249,7 @@
     display: inline-flex;
     font-size: 30px;
     position: relative;
-    top: 60px;
+    top: 78px;
     left: 1180px;
     right: 20px;
     padding: 10px;

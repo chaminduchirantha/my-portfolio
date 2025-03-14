@@ -27,8 +27,8 @@
     font-weight: bolder;
     padding: 10px 180px;
     position: relative;
-    right: 90px;
-    top: -28px;
+    right: 2px;
+    top: 19px;
     width: fit-content;
     font-family: "Open Sans", serif;
 }
@@ -81,25 +81,8 @@
 
 }
 
-.about>hr{
-    width: 1150px;
-    position: relative;
-    top: 56px;
-    left: 151px;
-    height: 2px;
-    border-radius: 15px;
-    background-color: white;
-}
 
-.about #hr{
-    width: 60px;
-    position: relative;
-    top: 44px;
-    left: -724px;
-    height: 2px;
-    border-radius: 15px;
-    background-color: white;
-}
+
 
 .button02 #btn01 {
     width: 145px;
