@@ -16,6 +16,7 @@ body{
     /*width: 100vw;*/
     /*height: 100vh;*/
     background-color: #162837;
+    overflow-x: hidden;
 
     /*overflow-scrolling: auto;*/
 }
@@ -49,7 +50,6 @@ body{
     position: relative;
     border-radius: 100%;
     right: 70px;
-    border: 2px solid #6AADF8;
     transition-duration: 800ms;
 }
 
@@ -62,6 +62,14 @@ nav>a>img{
     position: relative;
     right: 25px;
     border-radius: 20px;
+}
+
+.header-nav h1{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    border-radius: 10px;
+    right: 160px;
 }
 
 .nav-links {

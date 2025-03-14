@@ -39,7 +39,7 @@
 }
 
 .assignment-section .first-cart:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .assignment-section .second-cart:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 
 }
@@ -68,7 +68,7 @@
 }
 
 .assignment-section .third-cart:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 
 }
@@ -83,7 +83,7 @@
 }
 
 .assignment-section .forth-cart:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 
 }
@@ -100,7 +100,7 @@
 }
 
 .assignment-section .fifth-cart:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 
 }
@@ -115,7 +115,7 @@
 }
 
 .assignment-section .sixth-cart:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 
 }
