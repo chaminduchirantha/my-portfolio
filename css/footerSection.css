@@ -1,6 +1,8 @@
 .footer-section{
+    font-weight: lighter;
     color: white;
-    height: 20vh;
+    width: 100%;
+    height: 15vh;
 }
 
 #footer-hr{
@@ -17,9 +19,11 @@
 
 .footer-phone h4{
     font-size: 25px;
+    font-weight:lighter ;
 }
 
 .footer-phone h5{
+    font-weight:lighter ;
     font-size: 20px;
 }
 
@@ -32,17 +36,17 @@
     left: 199px;
     right: 20px;
     padding: 10px;
-    border: 2px solid #6AADF8;
+    border: 2px solid #6af8c6;
     border-radius: 50%;
-    color: #6AADF8;
+    color: #09f4f4;
     margin: 0 8px;
     transition-duration: 800ms;
     cursor: pointer;
 }
 .footer-phone i:hover{
-    background-color:#6AADF8;
-    color:  black;
-    box-shadow: 0 0 10px #6AADF8;
+    /*background-color:#6AADF8;*/
+    /*color:  black;*/
+    box-shadow: 0 0 20px #6AADF8;
     transform: scale(1.1);
 }
 
@@ -63,39 +67,41 @@
     display: inline-flex;
     font-size: 30px;
     position: relative;
-    top: -88px;
-    left: 203px;
-    right: 20px;
+    top: 34px;
+    left: -78px;
+    right: 19px;
     padding: 10px;
-    border: 2px solid #6AADF8;
+    border: 2px solid #6af8c6;
     border-radius: 50%;
-    color: #6AADF8;
+    color: #09f4f4;
     margin: 0 8px;
     transition-duration: 800ms;
     cursor: pointer;
 }
 
 .footer-email i:hover{
-    background-color:#6AADF8;
-    color:  black;
-    box-shadow: 0 0 10px #6AADF8;
+    /*background-color:#6AADF8;*/
+    /*color:  black;*/
+    box-shadow: 0 0 20px #6AADF8;
     transform: scale(1.1);
 }
 
 .footer-email h5{
     width: fit-content;
+    font-weight: lighter;
     font-size: 20px;
     position: relative;
-    left: 281px;
-    top: 19px;
+    left: 5px;
+    top: 143px;
 }
 
 .footer-email h4{
     width: fit-content;
+    font-weight: lighter;
     font-size: 25px;
     position: relative;
-    top: 43px;
-    left: 280px;
+    top: 168px;
+    left: 6px;
 }
 
 .footer-email{
@@ -115,29 +121,60 @@
     display: inline-flex;
     font-size: 30px;
     position: relative;
-    top: -382px;
-    left: 908px;
-    right: 20px;
+    bottom: 763px;
+    left: 1026px;
+    right: 69px;
     padding: 10px;
-    border: 2px solid #6AADF8 ;
+    border: 2px solid #6af8c6;
     border-radius: 50%;
-    color: #6AADF8;
+    color: #09f4f4;
     margin: 0 15px;
     transition-duration: 800ms;
 }
 
 .footer-nav a:hover{
-    background-color: #6AADF8;
-    color:  #1f242d;
-    box-shadow: 0 0 10px #6AADF8;
+    /*background-color: #6AADF8;*/
+    /*color:  #1f242d;*/
+    box-shadow: 0 0 20px #6AADF8;
     transform: scale(1.1);
 }
 
 .footer-copyright{
     font-size: 20px;
+    font-weight: bold;
     position: relative;
-    bottom: 190px;
+    bottom: 420px;
     text-align: center;
     color: #061c32;
-    background: linear-gradient(120deg , #162837,#6AADF8,#061c32);
+    background: linear-gradient(120deg , rgba(92, 171, 194, 0.54),#6af8c6, #7fc9cd);
+}
+
+.services-footer{
+    font-size: 19px;
+    /*font-weight: bold;*/
+    position: relative;
+    top: -455px;
+    left: -7px;
+    text-align: center;
+}
+
+.experience-footer{
+    font-size: 19px;
+    font-family: DejaVu Sans Mono, monospace;
+    /*font-weight: bold;*/
+    position: relative;
+    top: -417px;
+    left: 5px;
+    text-align: center;
+}
+
+.services-footer h4{
+    font-size: 20px;
+    font-weight: lighter;
+    position: relative;
+    left: 3px;
+}
+
+.experience-footer h4{
+    font-weight: lighter;
 }

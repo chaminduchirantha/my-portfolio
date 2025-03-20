@@ -159,6 +159,7 @@
 }
 
 .form:hover{
+    background-color: #032440;
     transform: scale(0.9);
     box-shadow: 2px 2px 10px #6AADF8;
 }

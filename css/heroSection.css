@@ -2,7 +2,7 @@
     /*width:fit-content;*/
     height:100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 8px;
@@ -12,7 +12,7 @@
 .title>h3{
     width: fit-content;
     height: fit-content;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 10px;
     position: relative;
     margin-left: 5px;
@@ -21,18 +21,18 @@
 
 .title>h1{
     width: fit-content;
-    font-size: 60px;
+    font-size: 55px;
     line-height: 20px;
     color: white;
 }
 
 .title>div>p{
-    width:70%;
-    font-size: 22px;
+    width:46%;
+    font-size: 18px;
     line-height: 35px;
     color: white;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: -189px;
     position: relative;
     /*bottom: -5px;*/
     /*left: 5px;*/
@@ -41,13 +41,13 @@
 .title .title01{
     width: fit-content;
     color: #6AADF8;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 10px;
 }
 
 #button01{
     width: 130px;
-    height: 50px;
+    height: 46px;
     border-radius: 18px;
     font-size: 15px;
     color: #6AADF8;
@@ -55,8 +55,8 @@
     border: 2px solid #6AADF8;
     font-weight: 700;
     position: absolute;
-    margin-left: -685px;
-    margin-top: 246px;
+    margin-left: -300px;
+    margin-top: 303px;;
     transition-duration: 800ms;
     cursor: pointer;
 }
@@ -69,19 +69,21 @@
 }
 
 #home-pic{
-    width: 350px ;
-    height: 450px;
+    width: 301px;
+    height: 440px;
     background-color: white;
     position: relative;
-    right: 200px;
-    top: 31px;
-    border-radius: 10%;
+    left: 415px;
+    top: -90px;
+    border-radius: 5%;
+    border: 3px solid #6AADF8;
     transition-duration: 800ms;
 
 }
 
 #home-pic:hover{
-    transform: scale(1.1);
+    box-shadow: 0 0 10px #6AADF8;
+    /*transform: scale(0.9);*/
 }
 
 .nav{
@@ -98,9 +100,9 @@ a{
 
 .nav a{
     display: inline-flex;
-    font-size: 30px;
+    font-size: 26px;
     position: relative;
-    top: -70px;
+    top: -120px;
     left: 3px;
     right: 20px;
     padding: 10px;
@@ -108,14 +110,14 @@ a{
     border-radius: 50%;
     color: #6AADF8;
     margin: 0 8px;
-    transition-duration: 800ms;
+    transition-duration: 900ms;
 }
 
 .home .nav a:hover{
     background-color: #6AADF8;
     color:  #1f242d;
     box-shadow: 0 0 10px #6AADF8;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .title{
@@ -126,35 +128,104 @@ a{
     top: 120px;
 }
 
-@media all and (max-width: 500px) and (min-height:675px) {
-    .home{
-        width: fit-content;
-        height: 120vh;
-        display: flex;
-        /*flex-direction: row;*/
+@media all and (max-width: 320px) and (max-width: 375px){
+
+    .home {
+        height: 135vh;
+        padding: 20px;
+        gap: 5px;
     }
 
-    .nav-links a {
-        display: none;
-    }
-
-    .header-nav{
-        width: fit-content;
-    }
-
-    .nav-bar{
+    .title {
         width: 100%;
+        height: auto;
+        padding: 0 20px;
+        text-align: center;
+        top: 0;
     }
 
-    #\#menu-bar{
-        display: block;
+    .title>h3 {
+        font-size: 20px;
+        margin-left: 0;
+        position: relative;
+        top: 289px;
+        left: 66px;
     }
 
-    .project{
-        display: none;
+    .title>h1 {
+        font-size: 35px;
+        line-height: 25px;
+        position: relative;
+        top: 290px;
+        left: 34px;
+    }
+
+    .title>div>p {
+        width: 90%;
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 0;
+        position: relative;
+        top: 341px;
+        left: 13px;
+    }
+
+    .title .title01 {
+        font-size: 25px;
+        width: fit-content;
+        line-height: 10px;
+        position: relative;
+        margin-top: 23px;
+        left: 20px;
+    }
+
+    #button01 {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        margin-left: 0;
+        margin-top: 20px;
+        position: relative;
+        top: 388px;
+    }
+
+    #home-pic {
+        width: 156px;
+        height: 230px;
+        position: relative;
+        left: -10px;
+        top: -415px;;
+        margin-top: 20px;
+    }
+
+    .nav {
+        left: 0;
+        bottom: 0;
+        position: relative;
+        text-align: center;
+    }
+
+    .nav a {
+        font-size: 20px;
+        padding: 8px;
+        margin: 0 5px;
+        top: 29px;
+        left: 8px;
+    }
+    .title .title01{
+        width: fit-content;
+        font-size: 15px;
+        line-height: 10px;
+        position: absolute;
+        top: 396px;
+        left: 46px;
     }
 
     .skills{
+        display: none;
+    }
+
+    .project{
         display: none;
     }
 
@@ -162,218 +233,463 @@ a{
         display: none;
     }
 
-    .title>h3{
-        /*width: fit-content;*/
-        font-size: 40px;
-        line-height: 10px;
-        position: relative;
-        margin-left: -172px;
-        top: -150px;
-
+    .service-section{
+        display: none;
+    }
+    .contact-section{
+        display: none;
     }
 
-    .title>h1{
-        width: fit-content;
-        font-size: 40px;
-        line-height: 20px;
-        color: white;
-        position: relative;
-        left: -173px;
-        top: -147px;
-    }
-
-    .title>div>p {
-        width: 156%;
-        font-size: 17px;
-        line-height: 27px;
-        margin-top: 14px;
-        margin-bottom: 20px;
-        position: relative;
-        bottom: 143px;
-        left: -170px;
-    }
-
-    .title .title01{
-        width: 142%;
-        font-size: 22px;
-        line-height: 6px;
-        position: relative;
-        right: 171px;
-        bottom: 144px;
-    }
-
-    #home-pic{
-        width: 180px;
-        height: 236px;
-        position: relative;
-        margin-left: -305px;
-        left: -270px;
-        margin-top: -286px;
-        border-radius: 100%;
-        transition-duration: 800ms;
-        top: -109px;
-    }
-
-    .nav a{
-        display: inline-flex;
-        font-size: 20px;
-        padding: 10px;
-        margin: 0 8px 40px;
-        transition: .5s;
-        position: relative;
-        top: 93px;
-        left: -54px;
-    }
-
-    #button01{
-        width: 90px;
-        height: 30px;
-        font-size: 10px;
-        position: absolute;
-        margin-left: -556px;
-        margin-top: 353px;
-    }
-
-    .title{
-        position: relative;
-        align-items: center;
-        margin-left: 117px;
-        margin-top: 497px;
-    }
-
-    .logo {
-        display: flex;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
-        position: relative;
-        right: -10px;
+    .footer-section{
+        display: none;
     }
 }
 
-@media all and (max-width: 425px) and (min-height:675px) {
-    .home{
-        width: fit-content;
-        height: 120vh;
-        display: flex;
-        /*flex-direction: row;*/
-    }
+/*@media (max-width: 375px) {*/
+/*    .home {*/
+/*        height: auto;*/
+/*        padding: 20px;*/
+/*        gap: 10px;*/
+/*    }*/
 
-    .nav-links a {
-        display: none;
-    }
+/*    .title {*/
+/*        width: 100%;*/
+/*        height: auto;*/
+/*        padding: 0 15px;*/
+/*        text-align: center;*/
+/*        top: 0;*/
+/*    }*/
 
-    .header-nav{
-        width: fit-content;
-    }
+/*    .title>h3 {*/
+/*        font-size: 22px;*/
+/*        margin-left: 0;*/
+/*    }*/
 
-    .nav-bar{
-        width: fit-content;
-    }
+/*    .title>h1 {*/
+/*        font-size: 40px;*/
+/*        line-height: 30px;*/
+/*    }*/
 
-    #\#menu-bar{
-        display: block;
-    }
+/*    .title>div>p {*/
+/*        width: 85%;*/
+/*        font-size: 16px;*/
+/*        line-height: 28px;*/
+/*        margin-bottom: 0;*/
+/*    }*/
 
-    .project{
-        display: none;
-    }
+/*    .title .title01 {*/
+/*        font-size: 28px;*/
+/*    }*/
 
-    .skills{
-        display: none;
-    }
+/*    #button01 {*/
+/*        width: 110px;*/
+/*        height: 42px;*/
+/*        font-size: 14px;*/
+/*        margin-left: 0;*/
+/*        margin-top: 20px;*/
+/*        position: relative;*/
+/*    }*/
 
-    .assignment-section{
-        display: none;
-    }
+/*    #home-pic {*/
+/*        width: 220px;*/
+/*        height: 330px;*/
+/*        left: 0;*/
+/*        top: 0;*/
+/*        margin-top: 20px;*/
+/*    }*/
 
-    .title>h3{
-        /*width: fit-content;*/
-        font-size: 40px;
-        line-height: 10px;
-        position: relative;
-        margin-left: -172px;
-        top: -150px;
+/*    .nav {*/
+/*        left: 0;*/
+/*        bottom: 0;*/
+/*        position: relative;*/
+/*        text-align: center;*/
+/*    }*/
 
-    }
+/*    .nav a {*/
+/*        font-size: 22px;*/
+/*        padding: 8px;*/
+/*        margin: 0 6px;*/
+/*        top: 0;*/
+/*    }*/
+/*}*/
 
-    .title>h1{
-        width: fit-content;
-        font-size: 40px;
-        line-height: 20px;
-        color: white;
-        position: relative;
-        left: -173px;
-        top: -147px;
-    }
 
-    .title>div>p {
-        width: 156%;
-        font-size: 17px;
-        line-height: 27px;
-        margin-top: 14px;
-        margin-bottom: 20px;
-        position: relative;
-        bottom: 143px;
-        left: -170px;
-    }
+/*@media all and (max-width: 500px) and (min-height:675px) {*/
+/*    .home{*/
+/*        width: fit-content;*/
+/*        height: 120vh;*/
+/*        display: flex;*/
+/*        !*flex-direction: row;*!*/
+/*    }*/
 
-    .title .title01{
-        width: 142%;
-        font-size: 22px;
-        line-height: 6px;
-        position: relative;
-        right: 171px;
-        bottom: 144px;
-    }
+/*    .nav-links a {*/
+/*        display: none;*/
+/*    }*/
 
-    #home-pic{
-        width: 180px;
-        height: 236px;
-        position: relative;
-        margin-left: -305px;
-        left: -270px;
-        margin-top: -286px;
-        border-radius: 100%;
-        transition-duration: 800ms;
-        top: -109px;
-    }
+/*    .header-nav{*/
+/*        width: fit-content;*/
+/*    }*/
 
-    .nav a{
-        display: inline-flex;
-        font-size: 20px;
-        padding: 10px;
-        margin: 0 8px 40px;
-        transition: .5s;
-        position: relative;
-        top: 93px;
-        left: -54px;
-    }
+/*    .nav-bar{*/
+/*        width: 100%;*/
+/*    }*/
 
-    #button01{
-        width: 90px;
-        height: 30px;
-        font-size: 10px;
-        position: absolute;
-        margin-left: -556px;
-        margin-top: 353px;
-    }
+/*    #\#menu-bar{*/
+/*        display: block;*/
+/*    }*/
 
-    .title{
-        position: relative;
-        align-items: center;
-        margin-left: 117px;
-        margin-top: 497px;
-    }
+/*    .project{*/
+/*        display: block;*/
+/*    }*/
 
-    .logo {
-        display: flex;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bold;
-        position: relative;
-        right: -10px;
-    }
-}
+/*    .skills{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .assignment-section{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .title>h3{*/
+/*        !*width: fit-content;*!*/
+/*        font-size: 40px;*/
+/*        line-height: 10px;*/
+/*        position: relative;*/
+/*        margin-left: -172px;*/
+/*        top: -150px;*/
+
+/*    }*/
+
+/*    .title>h1{*/
+/*        width: fit-content;*/
+/*        font-size: 40px;*/
+/*        line-height: 20px;*/
+/*        color: white;*/
+/*        position: relative;*/
+/*        left: -173px;*/
+/*        top: -147px;*/
+/*    }*/
+
+/*    .title>div>p {*/
+/*        width: 156%;*/
+/*        font-size: 17px;*/
+/*        line-height: 27px;*/
+/*        margin-top: 14px;*/
+/*        margin-bottom: 20px;*/
+/*        position: relative;*/
+/*        bottom: 143px;*/
+/*        left: -170px;*/
+/*    }*/
+
+/*    .title .title01{*/
+/*        width: 142%;*/
+/*        font-size: 22px;*/
+/*        line-height: 6px;*/
+/*        position: relative;*/
+/*        right: 171px;*/
+/*        bottom: 144px;*/
+/*    }*/
+
+/*    #home-pic{*/
+/*        width: 180px;*/
+/*        height: 236px;*/
+/*        position: relative;*/
+/*        margin-left: -305px;*/
+/*        left: -270px;*/
+/*        margin-top: -286px;*/
+/*        border-radius: 100%;*/
+/*        transition-duration: 800ms;*/
+/*        top: -109px;*/
+/*    }*/
+
+/*    .nav a{*/
+/*        display: inline-flex;*/
+/*        font-size: 20px;*/
+/*        padding: 10px;*/
+/*        margin: 0 8px 40px;*/
+/*        transition: .5s;*/
+/*        position: relative;*/
+/*        top: 93px;*/
+/*        left: -54px;*/
+/*    }*/
+
+/*    #button01{*/
+/*        width: 90px;*/
+/*        height: 30px;*/
+/*        font-size: 10px;*/
+/*        position: absolute;*/
+/*        margin-left: -556px;*/
+/*        margin-top: 353px;*/
+/*    }*/
+
+/*    .title{*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*        margin-left: 117px;*/
+/*        margin-top: 497px;*/
+/*    }*/
+
+/*    .logo {*/
+/*        display: flex;*/
+/*        text-decoration: none;*/
+/*        font-size: 20px;*/
+/*        font-weight: bold;*/
+/*        position: relative;*/
+/*        right: -10px;*/
+/*    }*/
+/*}*/
+
+/*@media all and (max-width: 425px) and (min-height:675px) {*/
+/*    .home{*/
+/*        width: fit-content;*/
+/*        height: 120vh;*/
+/*        display: flex;*/
+/*        !*flex-direction: row;*!*/
+/*    }*/
+
+/*    .nav-links a {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header-nav{*/
+/*        width: fit-content;*/
+/*    }*/
+
+/*    .nav-bar{*/
+/*        width: fit-content;*/
+/*    }*/
+
+/*    #\#menu-bar{*/
+/*        display: block;*/
+/*    }*/
+
+/*    .project{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .skills{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .assignment-section{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .title>h3{*/
+/*        !*width: fit-content;*!*/
+/*        font-size: 40px;*/
+/*        line-height: 10px;*/
+/*        position: relative;*/
+/*        margin-left: -172px;*/
+/*        top: -150px;*/
+
+/*    }*/
+
+/*    .title>h1{*/
+/*        width: fit-content;*/
+/*        font-size: 40px;*/
+/*        line-height: 20px;*/
+/*        color: white;*/
+/*        position: relative;*/
+/*        left: -173px;*/
+/*        top: -147px;*/
+/*    }*/
+
+/*    .title>div>p {*/
+/*        width: 143%;*/
+/*        font-size: 17px;*/
+/*        line-height: 27px;*/
+/*        margin-top: 14px;*/
+/*        margin-bottom: 30px;*/
+/*        position: relative;*/
+/*        bottom: 283px;*/
+/*        left: -225px;*/
+/*    }*/
+
+/*    .title .title01{*/
+
+/*        font-size: 22px;*/
+/*        line-height: 6px;*/
+/*        position: relative;*/
+/*        right: 171px;*/
+/*        bottom: 144px;*/
+/*    }*/
+
+/*    #home-pic{*/
+/*        width: 180px;*/
+/*        height: 236px;*/
+/*        position: relative;*/
+/*        margin-left: -305px;*/
+/*        left: -270px;*/
+/*        margin-top: -286px;*/
+/*        border-radius: 100%;*/
+/*        transition-duration: 800ms;*/
+/*        top: -109px;*/
+/*    }*/
+
+/*    .nav a{*/
+/*        display: inline-flex*/
+/*    ;*/
+/*        font-size: 22px;*/
+/*        padding: 10px;*/
+/*        margin: 0 8px 40px;*/
+/*        transition: .5s;*/
+/*        position: relative;*/
+/*        top: -153px;*/
+/*        left: -123px;*/
+/*    }*/
+
+/*    #button01{*/
+/*        width: 90px;*/
+/*        height: 30px;*/
+/*        font-size: 10px;*/
+/*        position: absolute;*/
+/*        margin-left: -473px;*/
+/*        margin-top: 22px;*/
+/*    }*/
+
+/*    .title{*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*        margin-left: 117px;*/
+/*        margin-top: 497px;*/
+/*    }*/
+
+/*    .logo {*/
+/*        display: flex;*/
+/*        text-decoration: none;*/
+/*        font-size: 20px;*/
+/*        font-weight: bold;*/
+/*        position: relative;*/
+/*        right: -10px;*/
+/*    }*/
+/*}*/
+
+
+/*@media all and (max-width: 768px) and (min-height:675px) {*/
+/*    .home{*/
+/*        width: fit-content;*/
+/*        height: 120vh;*/
+/*        display: flex;*/
+/*        !*flex-direction: row;*!*/
+/*    }*/
+
+/*    .nav-links a {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header-nav{*/
+/*        width: fit-content;*/
+/*    }*/
+
+/*    .nav-bar{*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    #\#menu-bar{*/
+/*        display: block;*/
+/*    }*/
+
+/*    .project{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .skills{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .assignment-section{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .title>h3{*/
+/*        !*width: fit-content;*!*/
+/*        font-size: 30px;*/
+/*        line-height: 10px;*/
+/*        position: relative;*/
+/*        margin-left: -230px;*/
+/*        top: -291px;*/
+
+/*    }*/
+
+/*    .title>h1{*/
+/*        width: fit-content;*/
+/*        font-size: 35px;*/
+/*        line-height: 20px;*/
+/*        color: white;*/
+/*        position: relative;*/
+/*        left: -230px;*/
+/*        top: -289px;*/
+/*    }*/
+
+/*    .title>div>p {*/
+/*        width: 217%;*/
+/*        font-size: 17px;*/
+/*        line-height: 27px;*/
+/*        margin-top: 14px;*/
+/*        margin-bottom: 20px;*/
+/*        position: relative;*/
+/*        bottom: 143px;*/
+/*        left: -221px;*/
+/*    }*/
+
+/*    .title .title01{*/
+/*        width: 142%;*/
+/*        font-size: 22px;*/
+/*        line-height: 6px;*/
+/*        position: relative;*/
+/*        right: 227px;*/
+/*        bottom: 279px;*/
+/*    }*/
+
+/*    #home-pic{*/
+/*        width: 209px;*/
+/*        height: 271px;*/
+/*        position: relative;*/
+/*        margin-left: -279px;*/
+/*        left: 29px;*/
+/*        bottom: 28px;*/
+/*        margin-top: -294px;*/
+/*        border-radius: 100%;*/
+/*        transition-duration: 800ms;*/
+/*        top: 49px;*/
+/*    }*/
+
+/*    .nav a{*/
+/*        display: inline-flex;*/
+/*        font-size: 20px;*/
+/*        padding: 10px;*/
+/*        margin: 0 8px 40px;*/
+/*        transition: .5s;*/
+/*        position: relative;*/
+/*        top: 93px;*/
+/*        left: -54px;*/
+/*    }*/
+
+/*    #button01{*/
+/*        width: 90px;*/
+/*        height: 30px;*/
+/*        font-size: 10px;*/
+/*        position: absolute;*/
+/*        margin-left: -556px;*/
+/*        margin-top: 353px;*/
+/*    }*/
+
+/*    .title{*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*        margin-left: 97px;*/
+/*        margin-top: 497px;*/
+/*    }*/
+
+/*    .logo {*/
+/*        display: flex;*/
+/*        text-decoration: none;*/
+/*        font-size: 20px;*/
+/*        font-weight: bold;*/
+/*        position: relative;*/
+/*        right: -10px;*/
+/*    }*/
+/*}*/
 
 

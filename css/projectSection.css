@@ -71,7 +71,7 @@
 
 .cart01:hover{
     background-color: #032440;
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 0 0 10px #6AADF8;
 
 }
@@ -88,6 +88,15 @@
     position: relative;
     top: 70px;
     left: 164px;
+}
+
+#projects::after{
+    content: "";
+    width: 172px;
+    height: 1px;
+    background-color: white;
+
+
 }
 
 .project hr{
@@ -122,7 +131,7 @@
 
 .cart02:hover{
     background-color: #032440;
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 0 0 10px #6AADF8;
 }
 
@@ -179,7 +188,7 @@
 
 .cart03:hover{
     background-color: #032440;
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 0 0 10px #6AADF8;
 }
 
@@ -199,7 +208,7 @@
     line-height: 35px;
     font-size: 20px;
     position: absolute;
-    bottom: 134px;
+    bottom: 156px;
     left: 740px;
 }
 
@@ -265,4 +274,128 @@
     color:  #1f242d;
     box-shadow: 0 0 10px #6AADF8;
     transform: scale(1.1);
+}
+
+@media all and (max-width: 500px) and (min-height: 675px){
+
+    .project{
+        height: 365vh;
+    }
+
+    .cart01{
+        width: 60vw;
+        height: 45vh;
+        background-color: #2B5175;
+        position: relative;
+        bottom: 204px;
+        left: 95px;
+        border-radius: 20px;
+        border: 3px solid #66a2e4;
+        transition-duration: 800ms;
+    }
+
+    .project #h4{
+        width: fit-content;
+        font-size: 25px;
+        position: relative;
+        top: 101px;
+        left: 180px;
+    }
+
+    #stock {
+        width: 255px;
+        border-radius: 20px;
+        position: relative;
+        bottom: -25px;
+        left: 21px;
+        border: 3px solid #66a2e4;
+    }
+
+    .project .project01{
+        font-family: "Open Sans", serif;
+        width: 67%;
+        line-height: 25px;
+        font-size: 15px;
+        position: relative;
+        top: 306px;
+        left: 84px;
+    }
+
+    .cart02{
+        width: 60vw;
+        height: 45vh;
+        background-color:#2B5175;
+        position: relative;
+        bottom: -70px;
+        left: 96px;
+        border-radius: 20px;
+        transition-duration: 800ms;
+        border: 3px solid #66a2e4;
+    }
+
+    #tic-tac-toe{
+        width: 255px;
+        border-radius: 20px;
+        position: absolute;
+        bottom: 120px;
+        left: 25px;
+        border: 3px solid #66a2e4;
+    }
+
+
+    .project02{
+        font-family: "Open Sans", serif;
+        width: 73%;
+        line-height: 22px;
+        font-size: 14px;
+        position: relative;
+        top: 615px;
+        left: 84px
+    }
+
+
+    #tittle-2{
+        position: absolute;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: "Open Sans", serif;
+        top: 200px;
+        left: 30px;
+        right: 10px;
+    }
+
+    #h42{
+        font-size: 25px;
+        position: absolute;
+        top: 809px;
+        left: 172px;
+    }
+
+    #projects{
+        width: fit-content;
+        font-size: 35px;
+        position: relative;
+        top: 70px;
+        left: 164px;
+    }
+
+    .cart03{
+        width: 60vw;
+        height: 45vh;
+        background-color:#2B5175;
+        position: relative;
+        bottom: -377px;
+        left: 96px;
+        border-radius: 20px;
+        transition-duration: 800ms;
+        border: 3px solid #66a2e4;
+    }
+
+    #h43{
+        font-size: 25px;
+        position: absolute;
+        top: 809px;
+        left: 172px;
+    }
+
 }
