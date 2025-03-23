@@ -1,14 +1,18 @@
 .education{
     color: white;
     width: 100vw;
-    height: 135vh;
+    height: 125vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .education>fieldset{
     width: 55vw;
     height: 85vh;
     position: relative;
-    top: 70px;
+    top: -24px;
     left: 0;
     right: 0;
     bottom: 160px;
@@ -162,102 +166,206 @@
 /*    top: 90px;*/
 /*    left:-450px;*/
 /*}*/
-
-@media all and (max-width: 500px)  {
-    .education>hr{
-        display: none;
+@media screen and (max-width: 320px) {
+    .education {
+        width: 100vw;
+        height: auto;
+        padding: 20px 0;
     }
 
-
-    .education{
-        height: 95vh;
-    }
-
-    .education #hr2{
-        display: none;
-    }
-
-    .education>fieldset{
-        width: 17vw;
-        height: 65vh;
+    .education > fieldset {
+        width: 490px;
+        height: 485px;
         position: relative;
-        top: 70px;
-        left: -8px;
-        right: 10px;
-        bottom: 160px;
+        left: 26px;
+        top: 52px;
+        /* padding: 5px; */
     }
 
-    .education h1{
-        font-size: 29px;
-        position: relative;
-        left: -15px;
-        top: 30px;
-        text-align: center;
-
+    .education h1 {
+        font-size: 46px;
+        top: 5px;
+        left: 93px;
     }
 
-    .education ul li{
-        font-size: 12px;
-        line-height: 24px;
-        position: relative;
-
+    .education hr {
+        width: 90%;
     }
 
-    .pic-01{
-        position: relative;
-        bottom: 80px;
-        left: 18px;
-        width: 40px;
-    }
-
-    .pic-02{
-        position: relative;
-        bottom: 168px;
-        left: 18px;
-        width: 40px;
-    }
-
-    .pic-03{
-        position: relative;
-        bottom: 180px;
-        left: 18px;
-        width: 40px;
-    }
-
-    .pic-04{
-        position: relative;
-        bottom: 220px;
+    .education ul li {
+        font-size: 14px;
+        line-height: 22px;
         left: 10px;
-        width: 60px;
     }
 
-    .education hr{
-        width: 400px;
 
+
+    #para01 li, #para02 li, #para03 li, #para04 li {
+        font-size: 14px;
+        width: 90%;
+        /* FONT-WEIGHT: 500; */
+        left: 56px;
     }
 
     #para01 li{
-        top: -5px;
-        left: 85px;
+        top: 3px;
+        left: 87px;
     }
 
     #para02 li{
-        top: -65px;
-        left: 80px;
+        top: -59px;
+        left: 83px;
     }
 
     #para03 li{
-        top: -120px;
-        left: 85px;
+        top: -110px;
+        left: 86px;
     }
 
     #para02 hr{
         position: relative;
-        top: -120px;
+        top: -110px;
+    }
+
+    #para03 hr{
+        position: relative;
+        top: -150px;
     }
 
     #para04 li{
-        top: -160px;
-        left: 90px;
+        top: -147px;
+        left: 88px;
     }
+
+    .pic-01 {
+        bottom: 73px;
+        left: 16px;
+        width: 44px;
+    }
+
+    .pic-02 {
+        bottom: 151px;
+        left: 13px;
+        width: 44px;
+    }
+
+    .pic-03 {
+        bottom: 173px;
+        left: 16px;
+        width: 44px;
+    }
+
+    .pic-04 {
+        bottom: 201px;
+        left: 10px;
+        width: 55px;
+    }
+
+
+
+
+    /*.pic-01, .pic-02, .pic-03, .pic-04 {*/
+    /*    width: 50px;*/
+    /*    bottom: 0;*/
+    /*    left: 10px;*/
+    /*}*/
 }
+
+/*@media all and (max-width: 500px)  {*/
+/*    .education>hr{*/
+/*        display: none;*/
+/*    }*/
+
+
+/*    .education{*/
+/*        height: 95vh;*/
+/*    }*/
+
+/*    .education #hr2{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .education>fieldset{*/
+/*        width: 17vw;*/
+/*        height: 65vh;*/
+/*        position: relative;*/
+/*        top: 70px;*/
+/*        left: -8px;*/
+/*        right: 10px;*/
+/*        bottom: 160px;*/
+/*    }*/
+
+/*    .education h1{*/
+/*        font-size: 29px;*/
+/*        position: relative;*/
+/*        left: -15px;*/
+/*        top: 30px;*/
+/*        text-align: center;*/
+
+/*    }*/
+
+/*    .education ul li{*/
+/*        font-size: 12px;*/
+/*        line-height: 24px;*/
+/*        position: relative;*/
+
+/*    }*/
+
+/*    .pic-01{*/
+/*        position: relative;*/
+/*        bottom: 80px;*/
+/*        left: 18px;*/
+/*        width: 40px;*/
+/*    }*/
+
+/*    .pic-02{*/
+/*        position: relative;*/
+/*        bottom: 168px;*/
+/*        left: 18px;*/
+/*        width: 40px;*/
+/*    }*/
+
+/*    .pic-03{*/
+/*        position: relative;*/
+/*        bottom: 180px;*/
+/*        left: 18px;*/
+/*        width: 40px;*/
+/*    }*/
+
+/*    .pic-04{*/
+/*        position: relative;*/
+/*        bottom: 220px;*/
+/*        left: 10px;*/
+/*        width: 60px;*/
+/*    }*/
+
+/*    .education hr{*/
+/*        width: 400px;*/
+
+/*    }*/
+
+/*    #para01 li{*/
+/*        top: -5px;*/
+/*        left: 85px;*/
+/*    }*/
+
+/*    #para02 li{*/
+/*        top: -65px;*/
+/*        left: 80px;*/
+/*    }*/
+
+/*    #para03 li{*/
+/*        top: -120px;*/
+/*        left: 85px;*/
+/*    }*/
+
+/*    #para02 hr{*/
+/*        position: relative;*/
+/*        top: -120px;*/
+/*    }*/
+
+/*    #para04 li{*/
+/*        top: -160px;*/
+/*        left: 90px;*/
+/*    }*/
+/*}*/
