@@ -131,9 +131,10 @@ a{
     top: 130px;
 }
 
-@media all and (max-width: 320px){
+@media all and (min-width: 320px) and (max-width: 375px){
 
     .home {
+        flex-direction: column;
         height: 162vh;
         padding: 20px;
         gap: 5px;
@@ -276,6 +277,61 @@ a{
     }
 }
 
+/*@media all and (max-width: 1024px) {*/
+/*    .home{*/
+/*        height: 142vh;*/
+/*    }*/
+
+/*    #home-pic{*/
+/*        width: 280px;*/
+/*        height: 390px;*/
+/*        position: relative;*/
+/*        left: 665px;*/
+/*        top: -300px;*/
+/*    }*/
+
+/*    .nav a {*/
+/*        position: relative;*/
+/*        top: -30px;*/
+/*        left: 3px;*/
+/*        right: 20px;*/
+/*        padding: 10px;*/
+/*    }*/
+
+/*    .title>div>p{*/
+/*        width: 80%;*/
+/*        font-size:  18px;*/
+/*    }*/
+
+/*    #button01{*/
+/*        position: relative;*/
+/*        top: 135px;*/
+/*        left: 250px;*/
+/*    }*/
+
+/*    .skills{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .project{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .assignment-section{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .service-section{*/
+/*        display: none;*/
+/*    }*/
+/*    .contact-section{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .footer-section{*/
+/*        display: none;*/
+/*    }*/
+/*}*/
 
 
 /*@media all and (max-width: 375px){*/
