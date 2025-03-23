@@ -1,5 +1,4 @@
 .home{
-    /*width:fit-content;*/
     height:100vh;
     display: flex;
     flex-direction: column;
@@ -15,6 +14,7 @@
     font-size: 30px;
     line-height: 10px;
     position: relative;
+    top: 23px;
     margin-left: 5px;
     color: white;
 }
@@ -24,18 +24,19 @@
     font-size: 55px;
     line-height: 20px;
     color: white;
+    position: relative;
+    top: 23px;
 }
 
 .title>div>p{
     width:46%;
-    font-size: 18px;
-    line-height: 35px;
+    font-size: 17px;
+    line-height: 1.6;
     color: white;
-    margin-top: 10px;
-    margin-bottom: -189px;
+    margin-top: 20px;
+    margin-bottom: -289px;
     position: relative;
-    /*bottom: -5px;*/
-    /*left: 5px;*/
+    bottom: -12px;
 }
 
 .title .title01{
@@ -43,7 +44,10 @@
     color: #6AADF8;
     font-size: 35px;
     line-height: 10px;
+    position: relative;
+    top: 23px;
 }
+
 
 #button01{
     width: 130px;
@@ -55,8 +59,8 @@
     border: 2px solid #6AADF8;
     font-weight: 700;
     position: absolute;
-    margin-left: -300px;
-    margin-top: 303px;;
+    margin-left: -330px;
+    margin-top: 303px;
     transition-duration: 800ms;
     cursor: pointer;
 }
@@ -83,7 +87,6 @@
 
 #home-pic:hover{
     box-shadow: 0 0 10px #6AADF8;
-    /*transform: scale(0.9);*/
 }
 
 .nav{
@@ -100,7 +103,7 @@ a{
 
 .nav a{
     display: inline-flex;
-    font-size: 26px;
+    font-size: 24px;
     position: relative;
     top: -120px;
     left: 3px;
@@ -109,7 +112,7 @@ a{
     border: 2px solid #6AADF8 ;
     border-radius: 50%;
     color: #6AADF8;
-    margin: 0 8px;
+    margin: 0 5px;
     transition-duration: 900ms;
 }
 
@@ -117,7 +120,7 @@ a{
     background-color: #6AADF8;
     color:  #1f242d;
     box-shadow: 0 0 10px #6AADF8;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .title{
@@ -125,49 +128,72 @@ a{
     height: 95vh;
     padding: -0px 180px;
     position: relative;
-    top: 120px;
+    top: 130px;
 }
 
-@media all and (max-width: 320px) and (max-width: 375px){
+@media all and (max-width: 320px){
 
     .home {
-        height: 135vh;
+        height: 162vh;
         padding: 20px;
         gap: 5px;
     }
+
+    .nav-links a {
+        display: none;
+    }
+
+    .header-nav{
+        width: fit-content;
+    }
+
+    .nav-bar{
+        width: 100%;
+    }
+
+    #\#menu-bar{
+        display: block;
+    }
+
+    .header-nav h1{
+        right: 50px;
+    }
+
 
     .title {
         width: 100%;
         height: auto;
         padding: 0 20px;
         text-align: center;
-        top: 0;
+        top: -15px;
+        left: 126px;
     }
 
     .title>h3 {
-        font-size: 20px;
+        font-size: 26px;
         margin-left: 0;
         position: relative;
-        top: 289px;
-        left: 66px;
+        top: 291px;
+        left: 48px;
     }
 
     .title>h1 {
-        font-size: 35px;
+        font-size: 44px;
         line-height: 25px;
+        text-align: center;
         position: relative;
         top: 290px;
-        left: 34px;
+        left: 9px;
     }
 
     .title>div>p {
-        width: 90%;
-        font-size: 14px;
-        line-height: 25px;
+        width: 130%;
+        font-size: 20px;
+        line-height: 1.6;
         margin-bottom: 0;
         position: relative;
-        top: 341px;
-        left: 13px;
+        top: 345px;
+        left: -40px;
     }
 
     .title .title01 {
@@ -176,7 +202,8 @@ a{
         line-height: 10px;
         position: relative;
         margin-top: 23px;
-        left: 20px;
+        top: 416px;
+        left: 24px;
     }
 
     #button01 {
@@ -186,39 +213,43 @@ a{
         margin-left: 0;
         margin-top: 20px;
         position: relative;
-        top: 388px;
+        top: 408px;
+        left: 119px;
     }
 
     #home-pic {
-        width: 156px;
-        height: 230px;
+        width: 199px;
+        height: 285px;
         position: relative;
-        left: -10px;
-        top: -415px;;
-        margin-top: 20px;
+        left: 119px;
+        top: -424px;
     }
 
     .nav {
-        left: 0;
+        left: 21px;
         bottom: 0;
         position: relative;
         text-align: center;
     }
 
     .nav a {
-        font-size: 20px;
+        font-size: 36px;
         padding: 8px;
         margin: 0 5px;
-        top: 29px;
-        left: 8px;
+        top: -10px;
+        left: 98px;
+        /*left: 21px;*/
+        bottom: 0;
+        position: relative;
+        text-align: center;
     }
-    .title .title01{
+    .title .title01 {
         width: fit-content;
-        font-size: 15px;
+        font-size: 19px;
         line-height: 10px;
         position: absolute;
-        top: 396px;
-        left: 46px;
+        top: 416px;
+        left: 21px;
     }
 
     .skills{
@@ -244,6 +275,265 @@ a{
         display: none;
     }
 }
+
+
+
+/*@media all and (max-width: 375px){*/
+
+/*    .home {*/
+/*        height: 135vh;*/
+/*        padding: 20px;*/
+/*        gap: 5px;*/
+/*    }*/
+
+/*    .nav-links a {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header-nav{*/
+/*        width: fit-content;*/
+/*    }*/
+
+/*    .nav-bar{*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    #\#menu-bar{*/
+/*        display: block;*/
+/*    }*/
+
+/*    .title {*/
+/*        width: 100%;*/
+/*        height: auto;*/
+/*        padding: 0 20px;*/
+/*        text-align: center;*/
+/*        top: 84px;*/
+/*        left: 5px;*/
+/*    }*/
+
+/*    .title>h3 {*/
+/*        font-size: 26px;*/
+/*        margin-left: 0;*/
+/*        position: relative;*/
+/*        top: 291px;*/
+/*        left: 48px;*/
+/*    }*/
+
+/*    .title>h1 {*/
+/*        font-size: 38px;*/
+/*        line-height: 25px;*/
+/*        text-align: center;*/
+/*        position: relative;*/
+/*        top: 290px;*/
+/*        left: 9px;*/
+/*    }*/
+
+/*    .title>div>p {*/
+/*        width: 90%;*/
+/*        font-size: 17px;*/
+/*        line-height: 1.6;*/
+/*        margin-bottom: 0;*/
+/*        position: relative;*/
+/*        top: 341px;*/
+/*        left: 13px;*/
+/*    }*/
+
+/*    .title .title01 {*/
+/*        font-size: 25px;*/
+/*        width: fit-content;*/
+/*        line-height: 10px;*/
+/*        position: relative;*/
+/*        margin-top: 23px;*/
+/*        top: 416px;*/
+/*        left: 24px;*/
+/*    }*/
+
+/*    #button01 {*/
+/*        width: 100px;*/
+/*        height: 40px;*/
+/*        font-size: 12px;*/
+/*        margin-left: 0;*/
+/*        margin-top: 20px;*/
+/*        position: relative;*/
+/*        top: 608px;*/
+/*        left: -1px;*/
+/*    }*/
+
+/*    #home-pic {*/
+/*        width: 199px;*/
+/*        height: 269px;*/
+/*        position: relative;*/
+/*        left: 2px;*/
+/*        top: -334px;*/
+/*    }*/
+
+/*    .nav {*/
+/*        left: 0;*/
+/*        bottom: 0;*/
+/*        position: relative;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .nav a {*/
+/*        font-size: 23px;*/
+/*        padding: 8px;*/
+/*        margin: 0 5px;*/
+/*        top: 143px;*/
+/*        left: 1px;*/
+/*    }*/
+/*    .title .title01 {*/
+/*        width: fit-content;*/
+/*        font-size: 18px;*/
+/*        line-height: 10px;*/
+/*        position: absolute;*/
+/*        top: 416px;*/
+/*        left: 21px;*/
+/*    }*/
+
+/*    .about{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .education{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .skills{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .project{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .assignment-section{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .service-section{*/
+/*        display: none;*/
+/*    }*/
+/*    .contact-section{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .footer-section{*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+/*@media all and (max-width: 1024px) {*/
+
+/*    #home-pic {*/
+/*        position: relative;*/
+/*        left: 585px;*/
+/*        top: -112px;*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .title>div>p{*/
+/*        width: 77%;*/
+/*        margin-top: auto;*/
+/*        margin-bottom: -151px;*/
+/*        position: relative;*/
+/*        bottom: -159px;*/
+/*        !*left: 5px;*!*/
+/*    }*/
+
+/*    .title .title01{*/
+/*        position: relative;*/
+/*        top: 172px;*/
+/*    }*/
+
+/*    .title>h3{*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        top: 165px;*/
+/*        margin-left: 5px;*/
+/*    }*/
+
+/*    .title>h1{*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        top: 167px;*/
+/*    }*/
+
+/*    #button01{*/
+/*        position: absolute;*/
+/*        margin-left: -44px;*/
+/*        margin-top: 322px;;*/
+/*    }*/
+/*}*/
+
+/*@media all and (max-width: 768px) {*/
+
+/*    .home {*/
+/*        height: 135vh;*/
+/*    }*/
+
+/*    #\#menu-bar{*/
+/*        display: block;*/
+/*    }*/
+
+/*    .nav-links a{*/
+/*        display: none;*/
+/*    }*/
+
+
+/*    #home-pic {*/
+/*        width: 268px;*/
+/*        height: 376px;*/
+/*        position: relative;*/
+/*        left: 614px;*/
+/*        top: -197px;*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .title>div>p{*/
+/*        width: 96%;*/
+/*        margin-top: auto;*/
+/*        margin-bottom: -151px;*/
+/*        position: relative;*/
+/*        bottom: -159px;*/
+/*    }*/
+
+/*    .title>h3{*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        top: 165px;*/
+/*        margin-left: 5px;*/
+/*    }*/
+
+/*    .title>h1{*/
+/*        width: fit-content;*/
+/*        position: relative;*/
+/*        top: 167px;*/
+/*    }*/
+
+/*    .title .title01{*/
+/*        position: relative;*/
+/*        top: 172px;*/
+/*        font-size: 25px;*/
+/*    }*/
+/*    .title{*/
+/*        position: relative;*/
+/*        top: 31px;*/
+/*    }*/
+
+/*    .nav a {*/
+/*        font-size: 26px;*/
+/*        padding: 8px;*/
+/*        margin: 0 5px;*/
+/*        top: 29px;*/
+/*        left: 8px;*/
+/*    }*/
+
+/*    #button01{*/
+/*        position: absolute;*/
+/*        margin-left: 48px;*/
+/*        margin-top: 197px;*/
+/*    }*/
+/*}*/
 
 /*@media (max-width: 375px) {*/
 /*    .home {*/
