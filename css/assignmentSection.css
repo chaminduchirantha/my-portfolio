@@ -1,162 +1,80 @@
-.assignment-section{
-    height: 205vh;
-    color: white;
-    font-family: "Open Sans", serif;
-    position: relative;
-    background-color: rgb(17, 34, 45);
-    /*height: fit-content;*/
+/* General Styles */
+
+/* Container */
+.assignment-container {
+    padding: 30px;
 }
 
-.assignment-section h1{
+.header-assignment {
     font-size: 48px;
+    font-weight: bold;
+    text-align: center;
     position: relative;
-    top: 40px;
-    margin-left: 100px;
+    top: 270px;
+    margin-bottom: 30px;
 }
 
-.first-column{
+.assignments-first-row {
     display: flex;
-    top: 40px;
-
-}
-.assignment-section div{
-    width: 23vw;
-    height: 75vh;
-    margin: 20px;
-    border-radius: 20px;
-
-}
-
-.assignment-section .first-cart{
-    background-color: #2B5175;
-    position: absolute;
-    left: 140px;
-    top: 178px;
-    border: 2px solid #6AADF8;
-    transition-duration: 800ms;
-    transition-timing-function: ease-in-out ;
-
-    /*margin-left: 2;*/
-}
-
-.assignment-section .first-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 2px 2px 10px #6AADF8;
-}
-
-.assignment-section .second-cart{
-    background-color: #2B5175;
-    position: absolute;
-    top: 174px;
-    left: 564px;
-    border: 2px solid #6AADF8;
-    transition-duration: 800ms;
-    transition-timing-function: ease-in-out ;
-
-}
-
-.assignment-section .second-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 2px 2px 10px #6AADF8;
-
-}
-
-.assignment-section .third-cart{
-    background-color: #2B5175;
-    position: absolute;
-    right: 165px;
-    top: 174px;
-    border: 2px solid #6AADF8;
-    transition-duration: 800ms;
-    transition-timing-function: ease-in-out ;
-
-}
-
-.assignment-section .third-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 2px 2px 10px #6AADF8;
-
-}
-
-.assignment-section .forth-cart {
-    background-color: #2B5175;
-    position: absolute;
-    left: 142px;
-    bottom: 115px;
-    border: 2px solid #6AADF8;
-    transition-duration: 800ms;
-    transition-timing-function: ease-in-out ;
-
-}
-
-.assignment-section .forth-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 2px 2px 10px #6AADF8;
-
-}
-
-.assignment-section .fifth-cart {
-    background-color: #2B5175;
-    position: absolute;
-    right: 0;
-    bottom: 133px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
     margin: auto;
-    left: -14px;
-    border: 2px solid #6AADF8;
-    transition-duration: 800ms;
-    transition-timing-function: ease-in-out ;
-
 }
 
-.assignment-section .fifth-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 2px 2px 10px #6AADF8;
-
-}
-
-.assignment-section .sixth-cart {
-    background-color: #2B5175;
-    position: absolute;
-    right: 165px;
-    bottom: 113px;
-    border: 2px solid #6AADF8;
-    transition-duration: 800ms;
-    transition-timing-function: ease-in-out ;
-
-}
-
-.assignment-section .sixth-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 2px 2px 10px #6AADF8;
-
-}
-
-.first-column h4{
-    font-size: 25px;
-    position: relative;
-    top: 20px;
-    left: 75px;
-}
-
-.first-column p{
+.assignments-second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     position: relative;
-    left: 45px;
-    width: 80%;
-    line-height: 35px;
-    font-size: 20px;
-    font-weight: normal;
-    top: 73px;
+    top: 40px;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-#sit-map{
-    width: 129px;
+.assignments-card {
+    width: 23vw;
+    height: 75vh;
+    background-color: #244160;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    top: 320px;
+    transition-duration: 500ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.assignments-card h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.assignments-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.assignments-card p{
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.assignments-btn {
+    width: 180px;
     height: 44px;
     border-radius: 18px;
     font-size: 15px;
@@ -164,119 +82,17 @@
     color: #6AADF8;
     border: 2px solid #6AADF8;
     box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
     position: relative;
-    top: 83px;
-    left: 105px;
-    transition-duration: 800ms ;
-    cursor: pointer;
-}
-
-#sit-map:hover{
-    transform: scale(1.1);
-    background-color: #162837;
-}
-
-
-#wirFrame {
-    width: 129px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
-    position: relative;
-    top: 142px;
-    left: -29px;
-    transition-duration: 800ms;
-    cursor: pointer;
-}
-
-#wirFrame:hover{
-    transform: scale(1.1);
-    background-color: #162837;
-}
-
-#mockups {
-    width: 129px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
-    position: relative;
-    top: 159px;
-    left: 105px;
-    transition-duration: 800ms;
-    cursor: pointer;
-}
-
-#mockups:hover{
-    transform: scale(1.1);
-    background-color: #162837;
-}
-
-#view-more {
-    width: 129px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
-    position: relative;
-    top: 179px;
-    left: 99px;
-    transition-duration: 800ms;
-    cursor: pointer;
-}
-
-#view-more:hover {
-    transform: scale(1.1);
-    background-color: #162837;
-}
-
-.second-cart i{
-    display: inline-flex;
-    font-size: 25px;
-    position: relative;
-    top: 132px;
-    left: 226px;
-    right: 20px;
-    padding: 10px;
-    border: 2px solid #6AADF8;
-    border-radius: 50%;
-    color: #6AADF8;
-    margin: 0 8px;
-    transition-duration: 800ms;
-    cursor: pointer;
-}
-
-.second-cart i:hover{
-    background-color:#162837;
-    color:  #6AADF8;
-    box-shadow: 0 0 10px #6AADF8;
-    transform: scale(1.1);
-}
-
-.second-column h4{
-    font-size: 25px;
-    position: relative;
-    top: 20px;
     left: 75px;
-
+    top: 70px;
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#case01{
-    width: 129px;
+.view-more {
+    width: 180px;
     height: 44px;
     border-radius: 18px;
     font-size: 15px;
@@ -284,134 +100,73 @@
     color: #6AADF8;
     border: 2px solid #6AADF8;
     box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
     position: relative;
-    top: 109px;
-    left: 29px;
-    transition-duration: 800ms;
+    left: 75px;
+    top: 70px;
+    padding: 8px;
     cursor: pointer;
-
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
-#case01:hover{
-    transform: scale(1.1);
-    background-color: #061c32;
-}
-
-#case02{
-    width: 129px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
+.assignments-cases01{
+    width: 20vw;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 109px;
-    left: 59px;
-    transition-duration: 800ms;
-    cursor: pointer;
-
+    left: -140px;
 }
 
-#case02:hover{
-    transform: scale(1.1);
-    background-color: #061c32;
-
+.view-more img {
+    width: 16px;
+    height: 16px;
 }
 
-#case03{
-    width: 129px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
-    position: relative;
-    top: 139px;
-    left: 29px;
-    transition-duration: 800ms;
-    cursor: pointer;
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .assignments {
+        flex-direction: column;
+    }
 }
 
-#case03:hover{
-    transform: scale(1.1);
-    background-color: #061c32;
+@media screen and (max-width: 768px) {
+    .assignments {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    .btn {
+        padding: 6px;
+        font-size: 14px;
+    }
 }
 
-#case04{
-    width: 129px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
-    position: relative;
-    top: 139px;
-    left: 59px;
-    transition-duration: 800ms;
-    cursor: pointer;
+@media screen and (max-width: 425px) {
+    .assignments {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .btn {
+        width: 100%;
+    }
 }
 
-#case04:hover{
-    transform: scale(1.1);
-    background-color: #061c32;
-}
+@media screen and (max-width: 375px) {
+    .assignments {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-#case05{
-    width: 129px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
-    position: relative;
-    top: 169px;
-    left: 29px;
-    transition-duration: 800ms;
-    cursor: pointer;
-}
-
-#case05:hover{
-    transform: scale(1.1);
-    background-color: #061c32;
-
-}
-#case06{
-    width: 129px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    font-weight: bold;
-    position: relative;
-    top: 169px;
-    left: 59px;
-    transition-duration: 800ms;
-    cursor: pointer;
-}
-
-#case06:hover{
-    transform: scale(1.1);
-    background-color: #061c32;
-}
-
-.third-cart nav{
-    position: relative;
-    top: -10px;
+    .btn {
+        font-size: 12px;
+        padding: 5px;
+    }
 }

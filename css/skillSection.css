@@ -1,425 +1,143 @@
-.skills{
-    color: white;
-    height: 175vh;
-    font-family: "Open Sans", serif;
-    /*overflow-x: hidden;*/
-    position: relative;
+
+.skill-container {
+    padding: 30px;
+    margin-top: 60px;
 
 }
 
-.skills>h1{
-    position: relative;
-    padding: 10px 576px;
-    align-items: center;
+.header-skill {
     font-size: 48px;
-
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    margin-top: 20px;
 }
 
-.skills>div{
-    width: 25vw;
-    height: 25vw;
-    border-radius: 15px;
-    background-color: #2B5175;
+.cards {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 225px;
+}
+
+.card {
+    background-color: #244160;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #6AADF8;
+
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#lightroom{
+    border-radius: 40px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    border: 2px solid #6AADF8;
+    width: 80px;
 }
 
-.language-cart{
-    position: relative;
-    top: 56px;
-    left: 124px;
-    transition-duration: 400ms;
-}
-
-.language-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 0 0 10px #6AADF8;
-
-}
-
-.design-cart{
-    position: absolute;
-    left: 576px;
-    right: 0;
-    top: 163px;
-    transition-duration: 400ms;
-
-    /*bottom: 0;*/
-}
-
-.design-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 0 0 10px #6AADF8;
-}
-
-.version-cart{
-    position: absolute;
-    right: 110px;
-    top: 163px;
-    transition-duration: 400ms;
-
-}
-
-.version-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 0 0 10px #6AADF8;
-}
-
-.other-cart{
-    position: absolute;
-    top: 410px;
-    left: 462px;
-    right: -29px;
-    bottom: 0;
-    margin:auto;
-    transition-duration: 400ms;
-}
-
-.other-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 0 0 10px #6AADF8;
-}
-
-.style-cart{
-    position: relative;
-    top: 130px;
-    left: 368px;
-    transition-duration: 400ms;
-}
-
-.style-cart:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 0 0 10px #6AADF8;
-}
-
-
-.header-lang{
-    font-size: 24px;
-    position: relative;
-    bottom: 140px;
-    left: 120px;
-}
-
-.tool-section-01{
-    font-size: 18px;
-}
-
-.tool01{
-    position: relative;
-    left: 50px;
-    top: -52px;
-}
-
-.tool02{
-    position: relative;
-    left: 123px;
-    top: -52px;
-}
-
-.tool03{
-    position: relative;
-    left: 168px;
-    top: -52px;
-}
-
-.tool04{
-    position: relative;
-    left: 47px;
-    top: 28px;
-}
-
-#java{
-    width: 60px;
-    position: relative;
-    left: -152px;
-    right: 29px;
-    top: -36px;
-}
-
-#mysql{
-    width: 60px;
-    position: relative;
-    left: -98px;
-    right: 29px;
-    top: -29px;
-}
-
-#js{
-    width: 60px;
-    position: relative;
-    left: 85px;
-    right: 29px;
-    top: -91px;
-
-}
-
-#html{
-    position: relative;
-    left: -207px;
-    top: 13px;
-
-}
-
-.header-design{
-    font-size: 24px;
-    position: relative;
-    bottom: 140px;
-    left: 150px;
-}
-
-.tool-section-02{
-    font-size: 18px;
-}
-
-.tool-figma{
-    position: relative;
-    left: -40px;
-    top: 10px;
-}
-
-.tool-canva{
-    position: relative;
-    left: 29px;
-    top: 9px;
-}
-
-.tool-Draw{
-    position: relative;
-    left: 100px;
-    top: 9px;
-}
-
-.tool-lightroom{
-    position: relative;
-    left: -51px;
-    top: 84px;
-}
-
-.tool-photoshop{
-    position: relative;
-    left: 81px;
-    top: 62px;
-}
-
-#figma{
+.icon img {
     width: 50px;
-    position: relative;
-    left: -214px;
-    right: 26px;
-    top: -3px;
+    height: 50px;
 }
 
-#canva{
-    width: 60px;
-    position: relative;
-    left: -146px;
-    right: 29px;
-    top: -58px;
+.icon p {
+    margin-top: 5px;
+    font-size: 14px;
 }
 
-#draw{
-    /*width: 60px;*/
-    position: relative;
-    left: 43px;
-    right: 44px;
-    top: -114px;
+@media screen and (max-width: 1024px) {
+    .cards {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .card {
+        width: 260px;
+    }
 }
 
-#lightRoom{
-    position: relative;
-    left: -207px;
-    right: 44px;
-    top: 38px;
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .cards {
+        flex-direction: row;
+        justify-content: center;
+        /*gap: 20px;*/
+    }
+
+    .card {
+        width: 45%;
+    }
+
 }
 
-#photoshop{
-    position: relative;
-    left: -130px;
-    top: 99px;
+@media screen and (max-width: 425px) {
+    .cards {
+        flex-direction: row;
+        /*align-items: center;*/
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
 }
 
-.tool-section-03{
-    font-size: 18px;
+@media screen and (min-width: 320px) and (max-width: 500px) {
+
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 90px;
+    }
+    .card {
+        width: 95%;
+    }
+
+    .header-skill{
+        font-size: 36px;
+        margin-top: 200px;
+    }
+
+    .icon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon p {
+        font-size: 12px;
+    }
 }
-
-.header-version{
-    font-size: 24px;
-    position: relative;
-    bottom: 140px;
-    left: 130px;
-}
-
-
-.tool-git{
-    position: relative;
-    left: -107px;
-    top: 28px;
-}
-
-.tool-gitHub{
-    position: relative;
-    left: -18px;
-    top: 28px;
-}
-
-.tool-console{
-    position: relative;
-    left: 131px;
-    top: 8px;
-}
-
-#git{
-    width: 50px;
-    position: relative;
-    left: -283px;
-    right: 26px;
-    top: -3px;
-}
-
-#git-hub{
-    /*width: 60px;*/
-    position: relative;
-    left: -103px;
-    right: 29px;
-    top: -10px;
-}
-
-#console{
-    position: relative;
-    left: 21px;
-    right: 44px;
-    top: -52px;
-}
-
-.header-styles{
-    font-size: 24px;
-    position: relative;
-    bottom: 140px;
-    left: 156px;
-}
-
-#html01{
-    width: 50px;
-    position: relative;
-    left: -189px;
-    right: 16px;
-    top: -36px;
-}
-
-#css{
-    /*width: 60px;*/
-    position: relative;
-    left: -109px;
-    right: 29px;
-    top: -38px;
-}
-
-#js01{
-    position: relative;
-    left: -38px;
-    right: 44px;
-    top: -38px;
-}
-
-.tool-html{
-    position: relative;
-    left: -49px;
-    top: 12px;
-}
-
-.tool-css{
-    position: relative;
-    left: 36px;
-    top: 9px;
-}
-
-.tool-js{
-    position: relative;
-    left: 131px;
-    top: 8px;
-}
-
-.header-other{
-    font-size: 24px;
-    position: relative;
-    bottom: 140px;
-    left: 156px;
-}
-
-
-
-.tool-idea{
-    position: relative;
-    left: -20px;
-    top: 22px;
-}
-
-.tool-vs{
-    position: relative;
-    left: 30px;
-    top: 23px
-}
-
-.tool-window{
-    position: relative;
-    left: 230px;
-    top: 3px;
-}
-
-.tool-linux{
-    position: relative;
-    left: -67px;
-    top: 89px;
-}
-.tool-powerPoint{
-    position: relative;
-    left: 166px;
-    top: 67px;
-}
-
-#idea{
-    width: 50px;
-    position: relative;
-    left: -172px;
-    right: 17px;
-    top: -6px;
-}
-
-
-#vsCode{
-    width: 49px;
-    position: relative;
-    left: -49px;
-    right: 29px;
-    top: -56px
-}
-
-#windows{
-    position: relative;
-    left: 21px;
-    right: 44px;
-    top: -53px;
-}
-
-#linux{
-    position: relative;
-    left: -235px;
-    right: 44px;
-    top: 87px;
-}
-
-
-
-
-
-
-
-
-

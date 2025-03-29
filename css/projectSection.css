@@ -1,401 +1,343 @@
-.project{
-    background-color: rgb(17, 34, 45);
-    color: white;
-    width: 100vw;
-    height: 250vh;
-    position: relative;
-    /*display: flex;*/
-    /*overflow-x: hidden;*/
-    /*overflow-y: hidden;*/
-
+.project-section {
+    display: flex;
+    flex-direction: row;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: -20px;
 }
 
-.project .project01{
-    font-family: "Open Sans", serif;
-    width: 38%;
-    line-height: 35px;
-    font-size: 20px;
-    position: relative;
-    top: 30px;
-    left: 650px;
-}
-
-#stock{
-    width: 255px;
-    border-radius: 20px;
-    position: relative;
-    bottom: -25px;
-    left: 28px;
-    border: 3px solid #66a2e4;
-
-
-}
-
-
-.project>div h4{
-    width: fit-content;
-    font-size: 20px;
-    font-family: "Open Sans", serif;
-    font-weight: lighter;
-    line-height: 31px;
-    text-align: center;
-    position: absolute;
-    top: 210px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    /*top: 170px;*/
-    /*left: 25px;*/
-}
-
-.project #h4{
-    width: fit-content;
-    font-size: 25px;
-    position: relative;
-    top: 110px;
-    left: 230px;
-}
-
-.cart01{
-    width: 20vw;
-    height: 45vh;
-    background-color:#2B5175;
-    position: relative;
-    bottom: 220px;
-    left: 220px;
-    border-radius: 20px;
-    border: 3px solid #66a2e4;
-    transition-duration: 800ms;
-}
-
-.cart01:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 0 0 10px #6AADF8;
-
-}
-
-.first-project{
-    position: relative;
-    top: 130px;
-}
-
-
-#projects{
-    width: fit-content;
+.project-section h1 {
     font-size: 48px;
+    align-items: center;
+    color: white;
+    margin-top: 360px;
     position: relative;
-    top: 70px;
-    left: 164px;
+    text-align: center;
+    left: 660px;
+    padding-bottom: 0.5rem;
 }
 
-#projects::after{
-    content: "";
-    width: 172px;
-    height: 1px;
-    background-color: white;
-
-
+.first-project, .second-project, .thirdProject {
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e425f;
+    border: 2px solid #6AADF8;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 19rem;
+    margin-top: 570px;
+    position: relative;
+    right: 55px;
+    transition: transform 0.3s ease;
 }
 
-.project hr{
-    width: 1159px;
-    height: 2px;
-    background-color: white;
-    border-radius: 10px;
-    position: relative;
-    left: 150px;
-    top: 10px;
+.first-project:hover, .second-project:hover, .thirdProject:hover {
+    transform: scale(0.95);
 }
 
-.project #hr3{
-    width: 70px;
-    height: 2px;
+#h4, #h42, #h43{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
     position: relative;
-    top: -1px;
-    left: -730px;
+    top: 480px;
+    left: 140px;
 }
 
-.cart02{
-    width: 20vw;
-    height: 44vh;
-    background-color:#2B5175;
+#h4{
     position: relative;
-    bottom: 205px;
-    left: 955px;
+    left:140px;
+}
+
+.project01, .project02, .project-03 {
+    font-size: 10px;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
     border-radius: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.cart01, .cart02, .cart03 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(43, 81, 117, 0.58);
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.cart01 img, .cart02 img, .cart03 img {
+    max-width: 100%;
+    border-radius: 20px;
+    border: 2px solid #6AADF8;
     transition-duration: 800ms;
-    border: 3px solid #66a2e4;
 }
 
-.cart02:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 0 0 10px #6AADF8;
+.cart01 img:hover, .cart02 img:hover, .cart03 img:hover {
+    transform: scale(1.05);
 }
 
-#tic-tac-toe{
-    width: 255px;
-    border-radius: 20px;
-    position: absolute;
-    bottom: 120px;
-    left: 25px;
-    border: 3px solid #66a2e4;
+#tittle-1, #tittle-2, #tittle-3 {
+    color: white;
+    font-size: 19px;
 }
 
-
-.project02{
-    font-family: "Open Sans", serif;
-    width: 38%;
-    line-height: 35px;
-    font-size: 20px;
+#tittle-1 {
     position: relative;
-    top: 75px;
-    left: 230px;
 }
 
-
-#tittle-2{
-    position: absolute;
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: "Open Sans", serif;
-    top: 200px;
-    left: 30px;
-    right: 10px;
-}
-
-
-#h42{
-    font-size: 25px;
-    position: absolute;
-    top: 630px;
-    left:969px;
-}
-
-.cart03{
-    width: 20vw;
-    height: 44vh;
-    background-color:#2B5175;
+#tittle-2 {
     position: relative;
-    bottom: -38px;
-    left: 225px;
-    border-radius: 20px;
-    transition-duration: 800ms;
-    border: 3px solid #66a2e4;
+    bottom: 195px;
 }
 
-.cart03:hover{
-    background-color: #032440;
-    transform: scale(0.9);
-    box-shadow: 0 0 10px #6AADF8;
-}
-
-#garment{
-    width: 255px;
-    border-radius: 20px;
+#tittle-3 {
     position: relative;
-    bottom: -22px;
-    left: 25px;
-    border: 3px solid #66a2e4;
-
+    bottom: 195px;
 }
 
-.project-03{
-    font-family: "Open Sans", serif;
-    width: 38%;
-    line-height: 35px;
-    font-size: 20px;
-    position: absolute;
-    bottom: 156px;
-    left: 740px;
+.cart02 img{
+    position: relative;
+    bottom: -40px;
 }
 
-#h43{
-    font-size: 25px;
-    position: absolute;
-    bottom: 465px;
-    left: 230px;
+.cart03 img{
+    position: relative;
+    bottom: -70px;
 }
 
-#tittle-3{
-    position: absolute;
-    font-size: 20px;
-    font-family: "Open Sans", serif;
-    font-weight: lighter;
-    top: 210px;
-    left: 10px;
-    width: 95%;
-    line-height: 35px;
+#title-2, #title-3 {
+    position: relative;
+    top: 100px;
+    bottom: 200px;
 }
 
-#github{
+.project01 p, .project02 p, .project-03 p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+#github {
     width: 130px;
-    height: 55px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 18px;
     font-size: 15px;
-    background:#162837 ;
+    background:#162837;
     color: #6AADF8;
     border:2px solid #6AADF8;
-    box-shadow: 0 0 10px #6AADF8;
-    font-weight: 700;
-    position: absolute;
-    left: 1040px;
-    bottom: 67px;
-    transition-duration: 800ms;
-    cursor: pointer;;
-
-}
-
-#github:hover{
-    background-color: #6AADF8;
-    transform: scale(1.1);
-    color: black;
-}
-
-.project03 a{
-    display: inline-flex;
-    font-size: 30px;
     position: relative;
-    top: 78px;
-    left: 1180px;
-    right: 20px;
-    padding: 10px;
-    border: 2px solid #6AADF8 ;
-    border-radius: 50%;
-    color: #6AADF8;
-    margin: 0 8px;
+    top: 1250px;
+    right: 680px;
+    margin: 1rem auto;
+    padding: 0.75rem;
+    cursor: pointer;
     transition-duration: 800ms;
 }
 
-.project03 a:hover{
-    background-color: #6AADF8;
-    color:  #1f242d;
-    box-shadow: 0 0 10px #6AADF8;
+#github:hover {
     transform: scale(1.1);
+    color: #6AADF8;
+    box-shadow: 0 0 10px #6AADF8;
+
 }
 
-@media all and (max-width: 500px) and (min-height: 675px){
+#git-hub {
+    font-size: 30px;
+    display: inline-flex;
+    text-align: center;
+    border: 2px solid #6AADF8;
+    border-radius:100%;
+    padding: 10px;
+    position: relative;
+    top: 1182px;
+    right: 530px;
+    color: #6AADF8;
+    text-decoration: none;
+    transition-duration: 800ms;
+}
 
-    .project{
-        height: 365vh;
+#git-hub:hover {
+    color: #6AADF8;
+    box-shadow: 0 0 10px #6AADF8;
+    transform: scale(1.05);
+}
+@media screen and (max-width: 1024px) {
+    .github-container {
+        flex-direction: row;
+        justify-content: center;
     }
 
-    .cart01{
-        width: 60vw;
-        height: 45vh;
-        background-color: #2B5175;
-        position: relative;
-        bottom: 204px;
-        left: 95px;
-        border-radius: 20px;
-        border: 3px solid #66a2e4;
-        transition-duration: 800ms;
-    }
-
-    .project #h4{
-        width: fit-content;
-        font-size: 25px;
-        position: relative;
-        top: 101px;
-        left: 180px;
-    }
-
-    #stock {
-        width: 255px;
-        border-radius: 20px;
-        position: relative;
-        bottom: -25px;
-        left: 21px;
-        border: 3px solid #66a2e4;
-    }
-
-    .project .project01{
-        font-family: "Open Sans", serif;
-        width: 67%;
-        line-height: 25px;
-        font-size: 15px;
-        position: relative;
-        top: 306px;
-        left: 84px;
-    }
-
-    .cart02{
-        width: 60vw;
-        height: 45vh;
-        background-color:#2B5175;
-        position: relative;
-        bottom: -70px;
-        left: 96px;
-        border-radius: 20px;
-        transition-duration: 800ms;
-        border: 3px solid #66a2e4;
-    }
-
-    #tic-tac-toe{
-        width: 255px;
-        border-radius: 20px;
-        position: absolute;
-        bottom: 120px;
-        left: 25px;
-        border: 3px solid #66a2e4;
-    }
-
-
-    .project02{
-        font-family: "Open Sans", serif;
-        width: 73%;
-        line-height: 22px;
+    #github {
+        width: 120px;
+        height: 45px;
         font-size: 14px;
-        position: relative;
-        top: 615px;
-        left: 84px
     }
 
+    #git-hub {
+        font-size: 28px;
+        width: 45px;
+        height: 45px;
+    }
+}
 
-    #tittle-2{
+/* For Large Mobile Screens (425px - 767px) */
+@media screen and (min-width: 501px) and (min-width: 512px) and (max-width: 767px) {
+    .github-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #github {
+        width: 110px;
+        height: 42px;
+        font-size: 13px;
+    }
+
+    #git-hub {
+        font-size: 26px;
+        width: 42px;
+        height: 42px;
+    }
+}
+
+/* For Medium Mobile Screens (375px - 424px) */
+@media screen and (max-width: 424px) {
+    .github-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #github {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    #git-hub {
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* For Small Mobile Screens (320px - 374px) */
+@media screen and (min-width: 320px) and  (max-width: 500px) {
+
+    .project-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-project, .second-project, .thirdProject {
+        max-width: 310px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 45px;
+        top: -125px;
+    }
+
+    .project-section h1 {
+        font-size: 48px;
         position: absolute;
-        font-size: 20px;
-        font-weight: lighter;
-        font-family: "Open Sans", serif;
-        top: 200px;
-        left: 30px;
-        right: 10px;
+        /*bottom: 520px;*/
+        left: 100px;
+    }
+    .github-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #h4{
+        font-size: 23px;
+        position: relative;
+        left: 10px;
+        top: 450px;
+        /*top: -20px;*/
+    }
+
+    .second-project{
+        position: relative;
+        top: -850px;
     }
 
     #h42{
-        font-size: 25px;
-        position: absolute;
-        top: 809px;
-        left: 172px;
+        position: relative;
+        top: -280px;
+        left: 10px;
     }
 
-    #projects{
-        width: fit-content;
-        font-size: 35px;
+    .thirdProject{
         position: relative;
-        top: 70px;
-        left: 164px;
-    }
-
-    .cart03{
-        width: 60vw;
-        height: 45vh;
-        background-color:#2B5175;
-        position: relative;
-        bottom: -377px;
-        left: 96px;
-        border-radius: 20px;
-        transition-duration: 800ms;
-        border: 3px solid #66a2e4;
+        top: -1650px;
     }
 
     #h43{
-        font-size: 25px;
-        position: absolute;
-        top: 809px;
-        left: 172px;
+        font-size: 24px;
+        position: relative;
+        top: -1050px;
+        left: 10px;
     }
 
 }
+
+/*@media screen and (max-width: 768px) {*/
+/*    .first-project,*/
+/*    .second-project,*/
+/*    .thirdProject {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .project01,*/
+/*    .project02,*/
+/*    .project-03,*/
+/*    .cart01,*/
+/*    .cart02,*/
+/*    .cart03 {*/
+/*        flex: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .cart01 img,*/
+/*    .cart02 img,*/
+/*    .cart03 img {*/
+/*        max-height: 250px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 318px) and (max-width: 480px) {*/
+
+/*    .project-section {*/
+/*        flex-direction: column;*/
+/*        padding: 1rem;*/
+
+/*    }*/
+
+/*    .project-section h1 {*/
+/*        font-size: 48px;*/
+/*        margin-left: -1297px;*/
+/*    }*/
+
+/*    .first-project, .second-project, .thirdProject {*/
+/*        max-width: 80%;*/
+/*        position: relative;*/
+/*        left: 40px;*/
+/*        bottom: 200px;*/
+/*    }*/
+
+/*    .cart01 img, .cart02 img, .cart03 img {*/
+/*        max-height: 200px;*/
+/*    }*/
+/*}*/
