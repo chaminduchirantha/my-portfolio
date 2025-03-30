@@ -281,6 +281,7 @@
         position: absolute;
         top: 13px;
         margin: 0px;
+        left: -180px;
         right: 84px;
         height: 45px;
         font-size: 11px;
@@ -289,13 +290,13 @@
 
     .about-buttons .contact {
         position: relative;
-        bottom: 10px;
+        bottom: -5px;
         right: -100px;
     }
 
     .about-buttons .download {
         position: relative;
-        bottom: -10px;
+        bottom: -15px;
         left: 250px;
     }
 }

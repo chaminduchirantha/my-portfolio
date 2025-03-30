@@ -242,7 +242,7 @@ body {
 }
 
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 320px) and (max-width: 500px) {
     .home {
         flex-direction: column;
         align-items: center;
@@ -308,6 +308,10 @@ body {
         gap: 10px;
     }
 
+    .navbar{
+        width: 100%;
+    }
+
     .nav-links li a {
         display: none;
     }
@@ -321,12 +325,13 @@ body {
         right: 0;
     }
 
+
     .project-section{
         display: none;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
     .content h1 {
         font-size: 28px;
     }
