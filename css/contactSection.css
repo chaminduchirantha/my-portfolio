@@ -1,6 +1,8 @@
 
 
 .contact-section {
+    position: relative;
+    top: 520px ;
     text-align: center;
     padding: 50px 20px;
 }
@@ -9,7 +11,7 @@ h2 {
     font-size: 2em;
 }
 
-/* Contact Container */
+
 .contact-container {
     display: flex;
     justify-content: center;

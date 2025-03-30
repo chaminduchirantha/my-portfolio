@@ -1,15 +1,19 @@
 
 .footer {
+    height: 135vh;
     background-color: #1b2a38;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    position: relative;
+    top: 920px;
 }
 
 .container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
+    position: relative;
+    top: 593px;
 }
 
 .contact-info {

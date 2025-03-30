@@ -1,9 +1,14 @@
 .services-section{
     padding: 50px 20px;
+    position: relative;
+    top:520px ;
 }
 
-h2 {
-    font-size: 2.5rem;
+.services-section h1 {
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
 }
 
 .services-container {
@@ -14,36 +19,70 @@ h2 {
     margin-top: 30px;
 }
 
+.service-box h3{
+    text-align: center;
+    line-height: 1.6;
+}
+
 
 .service-box {
-    background-color: #1e3b5a;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
+    background-color:#244160;
+    padding: 10px;
+    border: 2px solid #6AADF8;
+    border-radius: 20px;
+    width: 380px;
+    height: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s;
+    transition-duration: 200ms;
 }
 
 .service-box img {
-    width: 50px;
+    width: 68px;
     height: auto;
     margin-bottom: 10px;
+    position: relative;
+    left: 160px;
+    top: 60px;
 }
 
 .service-box h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
+    position: relative;
+    top: 40px;
 }
 
-.service-box p {
-    font-size: 1rem;
-    line-height: 1.5;
+.text-01{
+    width: 100%;
+    font-size:18px;
+    line-height: 1.6;
+    position: relative;
+    left: 10px;
+    top: 40px;
 }
 
-/* Hover Effect */
+.text-02{
+    width: 370px;
+    font-size:18px;
+    line-height: 1.6;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+.text-03{
+    width: 370px;
+    font-size:18px;
+    line-height: 1.6;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
 .service-box:hover {
-    transform: scale(1.05);
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #6AADF8;
+
 }
 
 @media (max-width: 1024px) {

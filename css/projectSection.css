@@ -34,6 +34,8 @@
 
 .first-project:hover, .second-project:hover, .thirdProject:hover {
     transform: scale(0.95);
+    box-shadow: 0 0 10px #6AADF8;
+
 }
 
 #h4, #h42, #h43{
