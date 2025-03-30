@@ -52,8 +52,9 @@
     .education {
         max-width: 100%;
         height: auto;
-        margin: 20px auto;
-        padding: 10px;
+        margin: 60px auto ;
+        padding: 30px;
+        top: 200px;
     }
 
     .education h1 {
@@ -67,7 +68,7 @@
         width: 300px;
         position: relative;
         top: 240px;
-        left: 45px;
+        margin-left: 10px;
         border-radius: 20px;
     }
 

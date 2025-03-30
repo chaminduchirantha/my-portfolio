@@ -1,5 +1,4 @@
 body {
-    /*overflow-x: hidden;*/
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -195,7 +194,7 @@ body {
         padding: 15px;
         position: relative;
         top: 40px;
-        left: -150px;
+        left: -50px;
     }
 
     .content h1 {
@@ -218,11 +217,11 @@ body {
     }
 
     .profile-pic img {
-        width: 200px; /* Smaller image for better fit */
+        width: 200px;
         height: auto;
         position: relative;
         top: -370px;
-        left: 250px;
+        left: 300px;
         border-radius: 50%;
         margin: 15px auto;
     }
@@ -256,8 +255,8 @@ body {
         margin-left: 0;
         padding: 15px;
         position: relative;
-        left: 0;
-        top: 350px;
+        left:30px;
+        top: 410px;
     }
 
     .content h1 {
@@ -267,6 +266,7 @@ body {
 
     .content h2 {
         font-size: 22px;
+        top: 40px;
     }
 
     .content h3 {
@@ -285,7 +285,8 @@ body {
         height: auto;
         border-radius: 50%;
         margin: 20px auto;
-        top: -500px;
+        top: -450px;
+        left: 30px;
     }
 
     .social-icons {
@@ -325,41 +326,6 @@ body {
     }
 }
 
-@media screen and (max-width: 375px) {
-    .content h1 {
-        font-size: 32px;
-    }
-
-    .content h2 {
-        font-size: 20px;
-    }
-
-    .content h3 {
-        font-size: 22px;
-    }
-
-    .content p {
-        font-size: 16px;
-    }
-
-    .profile-pic img {
-        width: 200px;
-        margin-top: -20px;
-    }
-
-    .content{
-        margin: auto;
-        position: relative;
-        top: 290px;
-    }
-
-    .social-icons {
-        width: 300px;
-        position: relative;
-        left: -41px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .content h1 {
         font-size: 28px;
@@ -371,6 +337,10 @@ body {
 
     .content h3 {
         font-size: 20px;
+    }
+
+    .content{
+        top: 340px;
     }
 
     .content p {

@@ -202,7 +202,7 @@
 
 @media (min-width: 320px) and (max-width: 500px)  {
     .about-section {
-        margin-top: 61px;
+        margin-top: -11px;
         padding: 20px;
         text-align: center;
     }
@@ -226,16 +226,16 @@
         height: 250px;
         border-radius: 50%;
         position: relative;
-        right: 0;
+        right: -28px;
         top: 30px;
     }
 
     .about-content {
         max-width: 100%;
         position: relative;
-        left: 0;
+        left: -20px;
         top: 0;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
     .about-content .header-about {
@@ -248,6 +248,7 @@
     .about-content h1 {
         font-size: 24px;
         top: 0;
+        left: 45px;
         margin: 10px 0;
     }
 
@@ -258,12 +259,13 @@
     .about-content p {
         font-size: 16px;
         line-height: 1.4;
-        margin: 10px 0;
+        left: 20px;
+        margin: 18px 51px;
     }
 
     .about-details p {
         font-size: 16px;
-        margin: 10px 0;
+        margin: 10px 48px;
     }
 
     .about-buttons {
@@ -277,9 +279,9 @@
     .about-buttons button {
         width: 129px;
         position: absolute;
-        top: 18px;
+        top: 13px;
         margin: 0px;
-        right: 90px;
+        right: 84px;
         height: 45px;
         font-size: 11px;
         gap: 20px;
@@ -288,18 +290,18 @@
     .about-buttons .contact {
         position: relative;
         bottom: 10px;
-        right: 50px;
+        right: -100px;
     }
 
     .about-buttons .download {
         position: relative;
         bottom: -10px;
-        left: 90px;
+        left: 250px;
     }
 }
 
-@media all and (max-width: 425px){
-    .about-buttons button{
-
+@media (min-width: 320px) and (max-width: 378px){
+    .about-buttons button {
+        right: 220px;
     }
 }

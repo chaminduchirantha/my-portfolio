@@ -121,14 +121,19 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 90px;
+        top:290px;
+        left: 25px;
+
     }
     .card {
         width: 95%;
     }
 
     .header-skill{
-        font-size: 36px;
+        font-size: 30px;
+        text-align: center;
+        left: 20px;
+        top: 290px;
         margin-top: 200px;
     }
 

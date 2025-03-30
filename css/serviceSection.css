@@ -101,6 +101,7 @@
     }
 }
 
+
 @media (max-width: 480px) {
     h2 {
         font-size: 1.8rem;
@@ -108,5 +109,40 @@
     .service-box {
         width: 90%;
         padding: 15px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 512px) {
+    .service-box {
+        width: 300px;
+        height: 700px;
+        align-items: center;
+        position: relative;
+        left: 10px;
+    }
+
+    .services-section h1{
+        left: 30px;
+        text-align: center;
+    }
+
+    .service-box  p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-02{
+        position: relative;
+        left: 5px;
+    }
+
+    .text-03{
+        position: relative;
+        left: 5px;
+    }
+
+    .service-box img {
+        position: relative;
+        left: 115px;
     }
 }

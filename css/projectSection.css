@@ -193,8 +193,7 @@
     }
 }
 
-/* For Large Mobile Screens (425px - 767px) */
-@media screen and (min-width: 501px) and (min-width: 512px) and (max-width: 767px) {
+@media screen and (min-width: 501px) and (max-width: 767px) {
     .github-container {
         flex-direction: row;
         justify-content: center;
@@ -214,7 +213,6 @@
     }
 }
 
-/* For Medium Mobile Screens (375px - 424px) */
 @media screen and (max-width: 424px) {
     .github-container {
         flex-direction: column;
@@ -247,15 +245,14 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 45px;
+        left: 85px;
         top: -125px;
     }
 
     .project-section h1 {
         font-size: 48px;
         position: absolute;
-        /*bottom: 520px;*/
-        left: 100px;
+        left: 140px;
     }
     .github-container {
         flex-direction: column;
@@ -283,7 +280,7 @@
 
     .thirdProject{
         position: relative;
-        top: -1650px;
+        top: -1640px;
     }
 
     #h43{
