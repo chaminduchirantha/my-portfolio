@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="chaminduChirantha frontend developer and ui ux engineer">
     <meta name="author" content="Chamindu chirantha">
-    <!--    <meta name="ViewPort" content="width=device-width, initial-scale=1.0">-->
-    <title>M.C.C</title>
+    <title>M.C.C portfolio</title>
     <link rel="icon" type="image/ico" href="Asset/images/webImg%2001.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="Asset/lib/normalize.css">
@@ -27,8 +26,8 @@
     <link rel="stylesheet" href="css/skillSection.css">
     <link rel="stylesheet" href="css/serviceSection.css">
 <!--    <link rel="stylesheet" href="css/assignmentSection.css">-->
-<!--    <link rel="stylesheet" href="css/contactSection.css">-->
-<!--    <link rel="stylesheet" href="css/footerSection.css">-->
+    <link rel="stylesheet" href="css/contactSection.css">
+    <link rel="stylesheet" href="css/footerSection.css">
 
 </head>
 <body>
@@ -36,7 +35,7 @@
 <header>
     <nav class="navbar">
         <div class="logo">
-            <img src="Asset/images/webImg%2001.png" alt="M.C.C Logo" width="50">
+            <a href="https://chamindu-ochre.vercel.app/"><img src="Asset/images/webImg%2001.png" alt="M.C.C Logo" width="50"></a>
             <span>M.C.C</span>
         </div>
         <ul class="nav-links">
@@ -81,7 +80,7 @@
 <section class="about-section">
     <div class="about-container">
         <div class="about-image">
-            <img src="Asset/images/1905.i126.005_programmer%20work.jpg" alt="About Me" width="200">
+            <img src="Asset/images/undraw_software-engineer_xv60.png" alt="About Me" width="200">
         </div>
         <div class="about-content">
             <h1 class="header-about">About Me</h1>
@@ -99,7 +98,7 @@
             </div>
 
             <div class="about-buttons">
-                <a href="resume.pdf" class="btn download"><button>DOWNLOAD CV</button></a>
+                <a href="resume.pdf" class="btn download"><button><i class="fa fa-download" aria-hidden="true"></i>DOWNLOAD CV</button></a>
                 <a href="" class="btn contact"><button id="btn02">CONTACT ME</button></a>
             </div>
         </div>
@@ -176,7 +175,8 @@
         <div class="card" id="card04">
             <h2>Styles</h2>
             <div class="icons">
-                <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="100"><p>HTML</p></div>
+                <div class="icon">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="100"><p>HTML</p></div>
                 <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="100"><p>CSS</p></div>
                 <div class="icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="100"><p>JavaScript</p></div>
             </div>
@@ -349,87 +349,78 @@
 </section>
 
 
-<!--<section class="contact-section">-->
-<!--    <h2>Contact</h2>-->
-<!--    <div class="contact-container">-->
-<!--        &lt;!&ndash; Contact Info &ndash;&gt;-->
-<!--        <div class="contact-info">-->
-<!--            <div class="info-item">-->
-<!--                <i class="fas fa-phone"></i>-->
-<!--                <div>-->
-<!--                    <h4>Phone</h4>-->
-<!--                    <p>077335204</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="info-item">-->
-<!--                <i class="fas fa-envelope"></i>-->
-<!--                <div>-->
-<!--                    <h4>Email</h4>-->
-<!--                    <p>chaminduchirantha73@gmail.com</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="info-item">-->
-<!--                <i class="fas fa-map-marker-alt"></i>-->
-<!--                <div>-->
-<!--                    <h4>Location</h4>-->
-<!--                    <p>Piliyandala</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+<section class="contact-section">
+    <h2>Contact</h2>
+    <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <div>
+                    <h4 class="phone-item">Phone</h4>
+                    <p class="phone-number">077335204</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h4 class="item-email">Email</h4>
+                    <p class="email-add">chaminduchirantha73@gmail.com</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <h4 class="location-item">Location</h4>
+                    <p class="location">Piliyandala</p>
+                </div>
+            </div>
+        </div>
+        <div>
 
-<!--        &lt;!&ndash; Contact Form &ndash;&gt;-->
-<!--        <div class="contact-form">-->
-<!--            <form>-->
-<!--                <input type="text" placeholder="First Name" name="firstName"> <br>-->
-<!--                <br>-->
-<!--                <input type="text" placeholder="Last Name" name="lastName"><br>-->
-<!--                <br>-->
-<!--                <input type="email" placeholder="Email" name="email" ><br>-->
-<!--                <br>-->
-<!--                <input type="tel" placeholder="Phone" name="phone"><br>-->
-<!--                <br>-->
-<!--                <textarea placeholder="Message" name="massage"></textarea><br>-->
-<!--                <br>-->
-<!--                <button type="submit" name="submit">Submit</button>-->
-<!--            </form>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+            <form class="contact-form">
+                <div>
+                    <input type="text" placeholder="Your Name" class="name" required>
+                    <input type="email" placeholder="Email" class="email" required>
+                </div>
+                <div>
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div>
+                    <textarea placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="send-btn">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
 
-<!--<br>-->
-<!--<br>-->
-<!--<br>-->
-<!--<br>-->
-<!--<hr>-->
-<!--<footer class="footer-section">-->
-<!--    <div class="container">-->
-<!--        <div class="contact-info">-->
-<!--            <div class="contact-item">-->
-<!--                <i class="fas fa-phone"></i>-->
-<!--                <div>-->
-<!--                    <h4>Phone</h4>-->
-<!--                    <p>077335204</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="contact-item">-->
-<!--                <i class="fas fa-envelope"></i>-->
-<!--                <div>-->
-<!--                    <h4>Email</h4>-->
-<!--                    <p>chaminduchirantha73@gmail.com</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+<br>
+<br>
+<br>
+<br>
 
-<!--        <div class="social-links">-->
-<!--            <a href="#"><i class="fab fa-linkedin"></i></a>-->
-<!--            <a href="#"><i class="fab fa-facebook"></i></a>-->
-<!--            <a href="#"><i class="fab fa-github"></i></a>-->
-<!--            <a href="#"><i class="fab fa-telegram"></i></a>-->
-<!--        </div>-->
+<footer class="footer-section">
+    <div class="container">
+        <hr>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/chamindu-chirantha-1b839531a/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/chaminduchirantha"><i class="fab fa-github"></i></a>
+            <a href="https://t.me/Cha_mindu_Chir_antha"><i class="fab fa-telegram"></i></a>
+        </div>
 
-<!--        <p class="copyright">Copyright © 2025 Chamindu Chirantha. All Rights Reserved.</p>-->
-<!--    </div>-->
-<!--</footer>-->
+        <div class="detail">
+            <p>Fronted developer</p>
+            <p>UI/UX Designer</p>
+            <p>Photo editor(lightroom)</p>
+        </div>
+
+        <p class="copyright">Copyright © 2025 Chamindu Chirantha. All Rights Reserved.</p>
+    </div>
+</footer>
 
 </body>
 </html>

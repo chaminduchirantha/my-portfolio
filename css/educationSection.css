@@ -12,13 +12,13 @@
     margin-bottom: 20px;
     text-align: center;
     position: relative;
-    top: 120px;
+    top: 320px;
 }
 
 .education-box {
     background-color: rgba(43, 81, 117, 0.58);
     position: relative;
-    top: 150px;
+    top: 350px;
     padding: 20px;
     border-radius: 30px;
     border: 3px solid #66a2e4;
@@ -48,7 +48,7 @@
 }
 
 
-@media all and (min-width: 320px) and (max-width: 500px) {
+@media all and (min-width: 320px) and (max-width: 512px) {
     .education {
         max-width: 100%;
         height: auto;
@@ -68,7 +68,7 @@
         width: 300px;
         position: relative;
         top: 240px;
-        margin-left: -10px;
+        margin-left: 10px;
         border-radius: 20px;
     }
 
@@ -107,11 +107,11 @@
 @media all and (min-width: 425px) {
     .education-box {
         position: relative;
-        left: 30px;
+        left: 10px;
     }
 }
 
-@media all and (min-width: 501px) and (max-width: 800px) {
+@media all and (min-width: 501px) and (max-width: 1023px) {
     .education-box {
         position: relative;
         top: -600px;

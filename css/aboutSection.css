@@ -76,7 +76,7 @@
 }
 
 .about-buttons button {
-    width: 145px;
+    width: 155px;
     height: 55px;
     border-radius: 18px;
     font-size: 15px;
@@ -95,14 +95,14 @@
 .about-buttons button:hover {
     background-color: #6AADF8;
     color: black;
-    transform: scale(1.1);
+    transform:translateY(-5px);
     box-shadow: 0 0 10px #6AADF8;
 }
 
 .about-buttons .download{
     position: absolute;
     bottom:27px;
-    right: 190px;
+    right: 210px;
 }
 
 .about-buttons .contact{
@@ -111,7 +111,7 @@
     right: 34px;
 }
 
-@media screen and (min-width: 501px) and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 1023px) {
     .about-section {
         padding: 30px;
         text-align: left;
@@ -200,7 +200,7 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 500px)  {
+@media (min-width: 320px) and (max-width: 512px)  {
     .about-section {
         margin-top: -11px;
         padding: 20px;

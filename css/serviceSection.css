@@ -9,6 +9,7 @@
     text-align: center;
     position: relative;
     bottom: 80px;
+    top: 80px;
 }
 
 .services-container {
@@ -33,7 +34,9 @@
     width: 380px;
     height: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition-duration: 200ms;
+    transition-duration: 700ms;
+    position: relative;
+    top: 100px;
 }
 
 .service-box img {
@@ -92,15 +95,56 @@
     }
 }
 
-@media (max-width: 768px) {
-    h2 {
-        font-size: 2rem;
+@media screen and (min-width: 512px) and (max-width: 1023px) {
+    .services-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        justify-items: center;
     }
+
     .service-box {
-        width: 80%;
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        width: 70%;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+        left: 5px;
+    }
+
+    .service-box img {
+        width: 60px;
+        height: auto;
+        /*margin-bottom: 15px;*/
+        left: 10px;
+        top: 20px;
+    }
+
+    .service-box h3 {
+        font-size: 1.6rem;
+        /*margin-bottom: 10px;*/
+        left: 130px;
+        top: -10px;
+        width: 50%;
+    }
+
+    .text-01,
+    .text-02,
+    .text-03 {
+        font-size: 16px;
+        line-height: 1.5;
+        width: 90%;
+        left: 30px;
+        top: -20px;
+    }
+
+    .services-section h1 {
+        font-size: 48px;
+        text-align: center;
     }
 }
-
 
 @media (max-width: 480px) {
     h2 {
