@@ -219,7 +219,7 @@ textarea {
 
     input,
     textarea {
-        width: 30%;
+        width: 100%;
         font-size: 14px;
     }
 }
