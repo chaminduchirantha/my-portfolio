@@ -28,9 +28,10 @@
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     margin-bottom: 19rem;
-    /*margin-top: 570px;*/
     position: relative;
-    right: 55px;
+    margin-left: 20px;
+    left: 20px;
+    margin-right: 30px;
     top: 300px;
     cursor:pointer;
     transition: transform 0.3s ease;
@@ -39,22 +40,10 @@
 .first-project:hover, .second-project:hover, .thirdProject:hover {
     transform: scale(0.95);
     box-shadow: 0 0 10px #6AADF8;
+    background-color: #173750;
 
 }
 
-#h4, #h42, #h43{
-    font-size: 20px;
-    line-height: 1.6;
-    text-align: center;
-    position: relative;
-    top: 200px;
-    left: 140px;
-}
-
-#h4{
-    position: relative;
-    left:140px;
-}
 
 .project01, .project02, .project-03 {
     font-size: 10px;
@@ -74,7 +63,7 @@
     justify-content: center;
     background-color: rgba(43, 81, 117, 0.58);
     border-radius: 20px;
-    padding: 1.5rem;
+    padding: 1.8rem;
 }
 
 .cart01 img, .cart02 img, .cart03 img {
@@ -178,6 +167,8 @@
     box-shadow: 0 0 10px #6AADF8;
     transform: scale(1.05);
 }
+
+
 @media screen and (max-width: 1024px) {
     .github-container {
         flex-direction: row;
@@ -197,47 +188,7 @@
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 767px) {
-    .github-container {
-        flex-direction: row;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    #github {
-        width: 110px;
-        height: 42px;
-        font-size: 13px;
-    }
-
-    #git-hub {
-        font-size: 26px;
-        width: 42px;
-        height: 42px;
-    }
-}
-
-@media screen and (max-width: 424px) {
-    .github-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #github {
-        width: 100px;
-        height: 40px;
-        font-size: 12px;
-    }
-
-    #git-hub {
-        font-size: 24px;
-        width: 40px;
-        height: 40px;
-    }
-}
-
-/* For Small Mobile Screens (320px - 374px) */
-@media screen and (min-width: 320px) and  (max-width: 512px) {
+@media screen and (min-width: 320px) and (max-width: 380px) {
 
     .project-section{
         display: flex;
@@ -248,8 +199,7 @@
         max-width: 310px;
         display: flex;
         flex-direction: column;
-        position: relative;
-        left: 40px;
+        margin-left: 100px;
     }
 
     .project-section h1 {
@@ -262,48 +212,80 @@
         align-items: center;
     }
 
-    #h4{
-        font-size: 23px;
-        position: relative;
-        left: 30px;
-        top: 300px;
-        /*top: -20px;*/
-    }
 
     .first-project{
         position: relative;
-        top: 325px;
+        top: 225px;
+        left: -50px;
     }
 
     .second-project{
         position: relative;
-        top: 150px;
+        top: 40px;
+        left: -50px;
     }
 
-    #h42{
-        position: relative;
-        top: 130px;
-        left: 25px;
-    }
 
     .thirdProject{
         position: relative;
-        top: -40px;
+        top:-150px;
+        left: -50px;
     }
-
-    #h43{
-        font-size: 24px;
-        position: relative;
-        top: -50px;
-        left: 25px;
-    }
-
 }
 
-@media screen and (min-width: 512px) and (max-width: 1023px) {
+
+@media screen and (min-width: 381px) and (max-width: 475px){
+
+    .project-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-project, .second-project, .thirdProject {
+        max-width: 310px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        /*position: relative;*/
+        /*left: 60px;*/
+    }
+
+    .project-section h1 {
+        font-size: 48px;
+        position: absolute;
+        left: 120px;
+    }
+    .github-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .first-project{
+        position: relative;
+        top: 225px;
+        left: -50px;
+    }
+
+    .second-project{
+        position: relative;
+        top: 40px;
+        left: -50px;
+    }
+
+
+    .thirdProject{
+        position: relative;
+        top:-150px;
+        left: -50px;
+    }
+}
+
+
+@media screen and (min-width: 475px) and (max-width: 780px) {
     .project-section {
-        display: grid;
-        grid-template-columns: 2fr;
+        display: flex;
+         flex-direction: column;
         gap: 20px;
         justify-items: center;
     }
@@ -314,16 +296,30 @@
     }
 
     .first-project, .second-project, .thirdProject {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         width: 90%;
-        position: static;
+        position: relative;
+        right: -78px;
+        top: 10px;
         margin: 10px 0;
     }
 
+    .first-project{
+        margin-left: 70px;
+    }
+
+    .second-project{
+        margin-left: 70px;
+    }
+
+    .thirdProject{
+        margin-left: 70px;
+    }
+
     .cart01, .cart02, .cart03 {
-        display: grid;
-        grid-template-rows: auto auto;
+        display: flex;
+        flex-direction: column;
         justify-items: center;
         align-items: center;
         text-align: center;
@@ -353,28 +349,23 @@
     }
 }
 
+@media all and (min-width: 425px){
+    .first-project, .second-project, .thirdProject{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: -30px;
+    }
 
-/*@media screen and (min-width: 318px) and (max-width: 480px) {*/
+}
 
-/*    .project-section {*/
-/*        flex-direction: column;*/
-/*        padding: 1rem;*/
-
-/*    }*/
-
-/*    .project-section h1 {*/
-/*        font-size: 48px;*/
-/*        margin-left: -1297px;*/
-/*    }*/
-
-/*    .first-project, .second-project, .thirdProject {*/
-/*        max-width: 80%;*/
-/*        position: relative;*/
-/*        left: 40px;*/
-/*        bottom: 200px;*/
-/*    }*/
-
-/*    .cart01 img, .cart02 img, .cart03 img {*/
-/*        max-height: 200px;*/
-/*    }*/
-/*}*/
+@media all and (min-width: 375px){
+    .first-project, .second-project, .thirdProject{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /*left: -45px;*/
+    }
+}

@@ -48,7 +48,7 @@
 }
 
 
-@media all and (min-width: 320px) and (max-width: 512px) {
+@media all and (min-width: 320px) and (max-width: 380px) {
     .education {
         max-width: 100%;
         height: auto;
@@ -60,14 +60,14 @@
     .education h1 {
         font-size: 48px;
         position: relative;
-        left: 8px;
-        top:  160px;
+        left: 28px;
+        top:  20px;
     }
 
     .education-box {
         width: 300px;
         position: relative;
-        top: 240px;
+        top: 40px;
         margin-left: 10px;
         border-radius: 20px;
     }
@@ -89,27 +89,55 @@
     }
 }
 
-@media all and (min-width: 320px) {
-    .education-box{
-        /*width: 260px;*/
-        position: relative;
-        left:-1px;
+@media all and (min-width: 381px) and (max-width: 512px) {
+    .education {
+        max-width: 100%;
+        height: auto;
+        margin: 60px auto ;
+        padding: 30px;
+        top: 200px;
     }
-}
 
-@media all and (min-width: 375px) {
-    .education-box{
+    .education h1 {
+        font-size: 48px;
         position: relative;
-        left:6px;
+        left: 8px;
+        top:  20px;
     }
-}
 
-@media all and (min-width: 425px) {
     .education-box {
+        width: 300px;
         position: relative;
-        left: 10px;
+        top: 40px;
+        margin-left: 20px;
+        border-radius: 20px;
+    }
+
+    .education-item {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .education-item img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .education-item>ul>li {
+        font-size: 16px;
+        line-height: 24px;
     }
 }
+
+@media all and (max-width: 320px) {
+    .education-box{
+
+        position: relative;
+        left:-10px;
+    }
+}
+
 
 @media all and (min-width: 501px) and (max-width: 1023px) {
     .education-box {

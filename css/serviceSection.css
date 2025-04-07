@@ -8,8 +8,8 @@
     font-size: 48px;
     text-align: center;
     position: relative;
-    bottom: 80px;
     top: 80px;
+    right: -20px;
 }
 
 .services-container {
@@ -36,7 +36,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition-duration: 700ms;
     position: relative;
-    top: 100px;
+    top: 140px;
 }
 
 .service-box img {
@@ -85,6 +85,8 @@
 .service-box:hover {
     transform: scale(0.9);
     box-shadow: 0 0 10px #6AADF8;
+    background-color: #173750;
+
 
 }
 
@@ -95,7 +97,7 @@
     }
 }
 
-@media screen and (min-width: 512px) and (max-width: 1023px) {
+@media all and (min-width: 515px) and (max-width: 1024px) {
     .services-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -111,28 +113,25 @@
         height: auto;
         text-align: center;
         padding: 20px;
-        left: 5px;
+        left: -15px;
+        top: 100px;
     }
 
     .service-box img {
         width: 60px;
         height: auto;
-        /*margin-bottom: 15px;*/
         left: 10px;
         top: 20px;
     }
 
     .service-box h3 {
         font-size: 1.6rem;
-        /*margin-bottom: 10px;*/
         left: 130px;
         top: -10px;
         width: 50%;
     }
 
-    .text-01,
-    .text-02,
-    .text-03 {
+    .text-01, .text-02, .text-03 {
         font-size: 16px;
         line-height: 1.5;
         width: 90%;
@@ -143,6 +142,7 @@
     .services-section h1 {
         font-size: 48px;
         text-align: center;
+        top: 500px;
     }
 }
 
@@ -163,11 +163,13 @@
         align-items: center;
         position: relative;
         left: 10px;
+        top: -500px;
     }
 
     .services-section h1{
         left: 30px;
         text-align: center;
+        top: -550px;
     }
 
     .service-box  p {
@@ -175,18 +177,30 @@
         text-align: center;
     }
 
+    .text-01{
+        position: relative;
+        left: 2px;
+    }
+
     .text-02{
         position: relative;
-        left: 5px;
+        left: -2px;
     }
 
     .text-03{
         position: relative;
-        left: 5px;
+        left: 2px;
     }
 
     .service-box img {
         position: relative;
         left: 115px;
+    }
+}
+
+@media (min-width: 375px) {
+    .service-box {
+        position: relative;
+        left: 23px;
     }
 }

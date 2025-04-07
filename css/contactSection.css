@@ -176,9 +176,21 @@ textarea {
         align-items: center;
     }
 
+    .contact-section h2{
+        font-size: 48px;
+        /*position: relative;*/
+        left: 10px;
+
+    }
+
     .contact-info,
     .contact-form {
         width: 100%;
+    }
+
+    .contact-form{
+        position: relative;
+        left: -110px;
     }
 }
 

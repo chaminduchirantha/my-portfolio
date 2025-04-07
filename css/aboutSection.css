@@ -1,5 +1,4 @@
 .about-section {
-    /*padding: 50px;*/
     position: relative;
     top: 83px;
     font-family: "Open Sans", serif;
@@ -111,7 +110,7 @@
     right: 34px;
 }
 
-@media screen and (min-width: 501px) and (max-width: 1023px) {
+@media screen and (min-width: 490px) and (max-width:850px) {
     .about-section {
         padding: 30px;
         text-align: left;
@@ -163,7 +162,8 @@
 
     .about-content p{
         width: 48%;
-        font-size: 16px;
+        font-size: 17px;
+        line-height: 1.7;
         position: relative;
         left: 190px;
     }
@@ -181,7 +181,7 @@
 
     .about-buttons button {
         margin-left: 0;
-        width: 140px;
+        width: 150px;
         height: 50px;
     }
 
@@ -200,7 +200,109 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 512px)  {
+@media (min-width: 300px) and (max-width: 376px)  {
+    .about-section {
+        margin-top: -11px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 19px;
+        top: 30px;
+        position: relative;
+    }
+
+    .header-about{
+        font-size: 48px;
+    }
+
+    .about-image img {
+        width: 200px;
+        height: 250px;
+        border-radius: 50%;
+        position: relative;
+        right: -28px;
+        top: 30px;
+    }
+
+    .about-content {
+        max-width: 100%;
+        position: relative;
+        left: -20px;
+        top: 0;
+        /* padding: 10px; */
+    }
+
+    .about-content .header-about {
+        font-size: 48px;
+        color: white;
+        position: relative;
+        top: -380px;
+    }
+
+    .about-content h1 {
+        font-size: 24px;
+        top: 0;
+        left: 45px;
+        margin: 10px 0;
+    }
+
+    .about-content h2 {
+        font-size: 20px;
+    }
+
+    .about-content p {
+        font-size: 17px;
+        line-height: 1.8;
+        left: 20px;
+        margin: 18px 51px;
+    }
+
+    .about-details p {
+        font-size: 16px;
+        margin: 10px 48px;
+    }
+
+    .about-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .about-buttons button {
+        width: 129px;
+        position: absolute;
+        top: 13px;
+        margin: 0px;
+        left: -180px;
+        right: 84px;
+        height: 45px;
+        font-size: 11px;
+        gap: 20px;
+    }
+
+    .about-buttons .contact {
+        position: relative;
+        bottom: -5px;
+        right: -100px;
+    }
+
+    .about-buttons .download {
+        position: relative;
+        bottom: -15px;
+        left: 250px;
+    }
+}
+
+
+@media (min-width: 378px) and (max-width: 485px){
     .about-section {
         margin-top: -11px;
         padding: 20px;
@@ -298,11 +400,5 @@
         position: relative;
         bottom: -15px;
         left: 250px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 378px){
-    .about-buttons button {
-        right: 220px;
     }
 }

@@ -16,14 +16,14 @@
 }
 
 .cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
     max-width: 1200px;
     margin: auto;
     position: relative;
     top: 355px;
+    padding: 0 20px;
 }
 
 .card {
@@ -77,78 +77,169 @@
     font-size: 14px;
 }
 
-@media screen and (max-width: 1024px) {
+#card01, #card02, #card03 {
+    border: 2px solid #6AADF8;
+}
+
+#card04, #card05{
+    border: 2px solid #6AADF8;
+}
+
+/*@media screen and (max-width: 1024px) {*/
+/*    .cards {*/
+/*        gap: 20px;*/
+/*        padding: 20px;*/
+/*    }*/
+
+/*    .card {*/
+/*        width: 260px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 501px) and (max-width: 768px) {*/
+/*    .cards {*/
+/*        flex-direction: row;*/
+/*        justify-content: center;*/
+/*        !*gap: 20px;*!*/
+/*    }*/
+
+/*    .card {*/
+/*        width: 45%;*/
+/*    }*/
+
+/*}*/
+
+
+
+/*@media screen and (min-width: 320px) and (max-width: 512px) {*/
+
+/*    .cards {*/
+/*        flex-direction: column;*/
+/*        justify-content: center;*/
+/*        align-items: center;*/
+/*        position: relative;*/
+/*        top:290px;*/
+/*        left: 14px;*/
+
+/*    }*/
+/*    .card {*/
+/*        width: 95%;*/
+/*    }*/
+
+/*    .header-skill{*/
+/*        font-size: 30px;*/
+/*        text-align: center;*/
+/*        left: 20px;*/
+/*        top: 290px;*/
+/*        margin-top: 200px;*/
+/*    }*/
+
+/*    .icon img {*/
+/*        width: 40px;*/
+/*        height: 40px;*/
+/*    }*/
+
+/*    .icon p {*/
+/*        font-size: 12px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 425px) {*/
+/*    .cards {*/
+/*        flex-direction: column;*/
+/*        position: relative;*/
+/*        left: 30px;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .card {*/
+/*        width: 90%;*/
+/*    }*/
+
+/*    h1 {*/
+/*        font-size: 28px;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 375px) {*/
+/*    .cards {*/
+/*        grid-template-columns: 1fr;*/
+/*    }*/
+
+/*    .header-skill {*/
+/*        font-size: 26px;*/
+/*        top: 20px;*/
+/*    }*/
+/*}*/
+
+@media all and (min-width: 320px) and (max-width: 380px) {
     .cards {
-        gap: 20px;
-        padding: 20px;
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+        left:2px;
     }
 
-    .card {
-        width: 260px;
+    .header-skill {
+        font-size: 48px;
+        left: 20px;
+        line-height: 1.6;
+        top: 280px;
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 768px) {
+@media screen and (max-width: 320px){
     .cards {
-        flex-direction: row;
-        justify-content: center;
-        /*gap: 20px;*/
-    }
-
-    .card {
-        width: 45%;
-    }
-
-}
-
-
-
-@media screen and (min-width: 320px) and (max-width: 512px) {
-
-    .cards {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top:290px;
-        left: 35px;
-
-    }
-    .card {
-        width: 95%;
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+        left:-13px;
     }
 
     .header-skill{
-        font-size: 30px;
-        text-align: center;
+        left: 30px;
+    }
+}
+@media screen and (min-width: 381px) and (max-width: 512px) {
+    .cards {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+        left:15px;
+    }
+
+    .header-skill {
+        font-size: 48px;
         left: 20px;
-        top: 290px;
-        margin-top: 200px;
-    }
-
-    .icon img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .icon p {
-        font-size: 12px;
+        line-height: 1.6;
+        top: 280px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media all and (min-width: 376px) and (max-width: 512px) {
     .cards {
-        flex-direction: column;
-        position: relative;
-        left: 30px;
-        align-items: center;
+        grid-template-columns: 1fr;
     }
 
-    .card {
-        width: 90%;
+    .header-skill {
+        font-size: 48px;
+        line-height: 1.6;
+    }
+}
+
+@media all and (min-width: 513px) and (max-width: 850px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
 
-    h1 {
-        font-size: 28px;
+    .header-skill {
+        font-size: 40px;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .header-skill {
+        font-size: 48px;
     }
 }

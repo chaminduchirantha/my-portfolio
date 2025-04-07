@@ -3,7 +3,8 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #162837;
-    color: #ffffff;
+    color:white;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -16,7 +17,7 @@ body {
     padding: 10px;
     font-size: 20px;
     background-color: #162837;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #55769f;
 }
 
 .logo {
@@ -27,7 +28,7 @@ body {
 .logo img {
     width: 40px;
     margin-right: 30px;
-    border: 2px solid #6AADF8;
+    border: 2px solid #55769f;
     border-radius: 50%;
     position: relative;
     left: 50px;
@@ -40,6 +41,7 @@ body {
 
 .logo span {
     font-size: 25px;
+    color: white;
     font-weight: bold;
     position: relative;
     left: 30px;
@@ -57,23 +59,42 @@ body {
 
 .nav-links li a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-size: 18px;
     font-weight: bold;
     position: relative;
     right: 40px;
 }
 
-.nav-links li a:hover {
+header>nav>ul>li>a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #6AADF8;
+    transition:.5s ;
+    bottom: 0;
+    top: 23px;
+}
+
+header>nav>ul>li>a:hover {
     color: #6AADF8;
 }
+
+header>nav>ul>li>a:hover::after{
+    width: 50%;
+}
+
+
 
 .home {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-/padding: 50px;/
+    /*padding: 50px;*/
 }
 
 
@@ -101,7 +122,7 @@ body {
 .content h3 {
     width: 50%;
     font-size: 28px;
-    color: #5daeff;
+    color: #6AADF8 ;
     line-height: 1.6;
     position: relative;
 }
@@ -113,13 +134,9 @@ body {
     margin-top: -15px;
 }
 
-/*.social-icons {*/
-/*    margin-top: 20px;*/
-/*}*/
-
 .nav-icons a {
     display: inline-flex;
-    font-size: 24px;
+    font-size: 25px;
     border: 2px solid #6AADF8;
     padding: 10px;
     border-radius: 50%;
@@ -132,9 +149,9 @@ body {
 }
 
 .nav-icons a:hover {
-    background-color: #6AADF8;
+    background-color:#6AADF8 ;
     color:  #1f242d;
-    box-shadow: 0 0 10px #6AADF8;
+    box-shadow: 0 0 10px #55769f;
     transform: scale(1.1);
 }
 
@@ -143,7 +160,7 @@ body {
     height: 45px;
     border-radius: 18px;
     font-size: 15px;
-    color: #6AADF8;
+    color: #6AADF8; ;
     background-color: #162837;
     border: 2px solid #6AADF8;
     padding: 10px 20px;
@@ -155,7 +172,7 @@ body {
 }
 
 .follow-btn:hover {
-    background-color:#6AADF8 ;
+    background-color:#6AADF8;
     transform: scale(1.1);
     color: black;
     box-shadow: 0 0 10px #6AADF8;
@@ -163,12 +180,14 @@ body {
 
 
 .profile-pic img {
-    width: 300px;
-    height: 440px;
+    width: 270px;
+    height: 400px;
     margin-right: 120px;
     border-radius: 50%;
     position: relative;
-    top: 90px;
+    top: 100px;
+    left: -90px;
+    border: 2px solid #55769f;
 }
 
 #menu-bar{
@@ -181,11 +200,10 @@ body {
     display: none;
 }
 
-@media screen and (min-width: 501px) and (max-width: 1023px) {
+@media all and (min-width: 501px) and (max-width: 1023px) {
     .home {
         flex-direction: column;
         align-items: center;
-
         padding: 20px;
     }
 
@@ -236,14 +254,10 @@ body {
     .project-section{
         display: none;
     }
-
-    .follow-btn {
-
-    }
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 512px) {
+@media all and (min-width: 300px) and (max-width: 378px) {
     .home {
         flex-direction: column;
         align-items: center;
@@ -332,7 +346,187 @@ body {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media all and (min-width: 378px) and (max-width: 485px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .content {
+        max-width: 90%;
+        margin-left: -30px;
+        padding: 15px;
+        position: relative;
+        left:30px;
+        top: 410px;
+    }
+
+    .content h1 {
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .content h2 {
+        font-size: 22px;
+        top: 40px;
+    }
+
+    .content h3 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .content p {
+        font-size: 18px;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    .profile-pic img {
+        width: 220px;
+        height: auto;
+        border-radius: 50%;
+        margin: 20px auto;
+        top: -450px;
+        left: 10px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-top: 15px;
+        margin-right: -10px;
+        margin-left: 25px;
+
+    }
+
+    .follow-btn {
+        display: block;
+        margin: 20px auto 0;
+        left: 0;
+        top: 0;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .nav-links li a {
+        display: none;
+    }
+
+    #menu-bar{
+        display: block;
+    }
+
+    .nav-links li a {
+        font-size: 14px;
+        right: 0;
+    }
+
+
+    .project-section{
+        display: none;
+    }
+}
+
+
+@media all and (min-width: 485px) and (max-width: 520px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .content {
+        max-width: 90%;
+        margin-left: -30px;
+        padding: 15px;
+        position: relative;
+        left:30px;
+        top: 410px;
+    }
+
+    .content h1 {
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .content h2 {
+        font-size: 22px;
+        top: 40px;
+    }
+
+    .content h3 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .content p {
+        font-size: 18px;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    .profile-pic img {
+        width: 220px;
+        height: auto;
+        border-radius: 50%;
+        margin: 20px auto;
+        top: -450px;
+        left: 10px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-top: 15px;
+        margin-right: -10px;
+        margin-left: 25px;
+
+    }
+
+    .follow-btn {
+        display: block;
+        margin: 20px auto 0;
+        left: 0;
+        top: 0;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+    .nav-links li a {
+        display: none;
+    }
+
+    #menu-bar{
+        display: block;
+    }
+
+    .nav-links li a {
+        font-size: 14px;
+        right: 0;
+    }
+
+
+    .project-section{
+        display: none;
+    }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 375px) {
     .content h1 {
         font-size: 28px;
     }
@@ -364,7 +558,7 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     #menu-bar{
         display: block;
     }
