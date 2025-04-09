@@ -15,7 +15,7 @@
     position: relative;
     text-align: center;
     left: 660px;
-    top: 60px;
+    top: 140px;
     padding-bottom: 0.5rem;
 }
 
@@ -169,22 +169,62 @@
 }
 
 
-@media screen and (max-width: 1024px) {
-    .github-container {
-        flex-direction: row;
-        justify-content: center;
+@media (min-width: 790px) and (max-width: 1290px) {
+    .project-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1rem;
+        bottom: 0; /* Remove large offset */
+    }
+
+    .first-project, .second-project, .thirdProject {
+        width: 100%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .project-section h1 {
+        font-size: 36px;
+        left: 0;
+        top: 0;
+        position: relative;
+        text-align: center;
     }
 
     #github {
-        width: 120px;
-        height: 45px;
-        font-size: 14px;
+        margin: 2rem auto;
+        position: relative;
+        top: 100px;
+        right: 0;
     }
 
     #git-hub {
-        font-size: 28px;
-        width: 45px;
-        height: 45px;
+        position: relative;
+        top: -85px;
+        left: 500px;
+        /*margin: 4rem auto;*/
+        /*display: flex;*/
+        justify-content: center;
+    }
+
+    .cart01 img,
+    .cart02 img,
+    .cart03 img {
+        position: static;
+    }
+
+    #tittle-2,
+    #tittle-3 {
+        bottom: 0;
+    }
+
+    #title-2,
+    #title-3 {
+        top: 0;
+        bottom: 0;
     }
 }
 
@@ -206,6 +246,7 @@
         font-size: 48px;
         position: absolute;
         left: 100px;
+        top: 60px;
     }
     .github-container {
         flex-direction: column;
@@ -245,7 +286,7 @@
         max-width: 310px;
         display: flex;
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 120px;
         /*position: relative;*/
         /*left: 60px;*/
     }
@@ -253,7 +294,8 @@
     .project-section h1 {
         font-size: 48px;
         position: absolute;
-        left: 120px;
+        left: 150px;
+        top: 50px;
     }
     .github-container {
         flex-direction: column;

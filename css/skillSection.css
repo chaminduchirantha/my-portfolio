@@ -82,8 +82,115 @@
 }
 
 #card04, #card05{
+    position: relative;
+    top: 50px;
     border: 2px solid #6AADF8;
 }
+
+/*@media (min-width: 320px) and (max-width: 375px){*/
+/*    .header-skill{*/
+/*        font-size: 48px;*/
+/*        position: relative;*/
+/*        top: 100px;*/
+/*    }*/
+
+/*    .cards {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        !*padding: 0 10px;*!*/
+
+/*    }*/
+
+/*    .card {*/
+/*        width: 100%;*/
+/*        max-width: 270px;*/
+/*        padding: 15px;*/
+/*        position: relative;*/
+/*        top: 350px;*/
+/*        left: 40px;*/
+/*        !*left: 0px;*!*/
+/*    }*/
+
+/*    .card h2 {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .icon img {*/
+/*        width: 40px;*/
+/*        height: 40px;*/
+/*    }*/
+
+/*    .icon p {*/
+/*        font-size: 12px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 375px) {*/
+/*    .header-skill {*/
+/*        font-size: 48px;*/
+/*    }*/
+
+/*    .card {*/
+/*        max-width: 290px;*/
+/*        position: relative;*/
+/*        top: 100px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 425px) {*/
+/*    .header-skill {*/
+/*        font-size: 28px;*/
+/*    }*/
+
+/*    .card {*/
+/*        max-width: 320px;*/
+/*    }*/
+/*}*/
+
+
+/*@media (max-width: 768px) {*/
+/*    .header-skill {*/
+/*        font-size: 32px;*/
+/*        top: 0;*/
+/*        margin-top: 10px;*/
+/*    }*/
+
+/*    .cards {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        top: 0;*/
+/*        padding: 0 10px;*/
+/*    }*/
+
+/*    .card {*/
+/*        width: 70%;*/
+/*        max-width: 150px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 1024px) {*/
+/*    .header-skill {*/
+/*        text-align: center ;*/
+/*        font-size: 36px;*/
+/*        top: 300px;*/
+/*        left: 35px;*/
+/*        line-height: 1.7;*/
+/*        margin-top: 10px;*/
+/*    }*/
+
+/*    .cards {*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));*/
+/*        gap: 20px;*/
+/*        top: 0;*/
+/*        padding: 0 15px;*/
+/*    }*/
+
+/*    .card {*/
+/*        max-width: 100%;*/
+/*    }*/
+/*}*/
+
 
 /*@media screen and (max-width: 1024px) {*/
 /*    .cards {*/
@@ -171,6 +278,83 @@
 /*    }*/
 /*}*/
 
+/*@media all and (min-width: 320px) and (max-width: 380px) {*/
+/*    .cards {*/
+/*        grid-template-columns: 1fr;*/
+/*        padding: 0 10px;*/
+/*        left:2px;*/
+/*    }*/
+
+/*    .header-skill {*/
+/*        font-size: 48px;*/
+/*        left: 20px;*/
+/*        line-height: 1.6;*/
+/*        top: 280px;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (max-width: 320px){*/
+/*    .cards {*/
+/*        grid-template-columns: 1fr;*/
+/*        padding: 0 10px;*/
+/*        left:-13px;*/
+/*    }*/
+
+/*    .header-skill{*/
+/*        left: 30px;*/
+/*    }*/
+/*}*/
+/*@media screen and (min-width: 381px) and (max-width: 512px) {*/
+/*    .cards {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        grid-template-columns: 1fr;*/
+/*        padding: 0 10px;*/
+/*        left:15px;*/
+/*    }*/
+
+/*    .header-skill {*/
+/*        font-size: 48px;*/
+/*        left: 20px;*/
+/*        line-height: 1.6;*/
+/*        top: 280px;*/
+/*    }*/
+/*}*/
+
+/*@media all and (min-width: 376px) and (max-width: 512px) {*/
+/*    .cards {*/
+/*        grid-template-columns: 1fr;*/
+/*    }*/
+
+/*    .header-skill {*/
+/*        font-size: 48px;*/
+/*        line-height: 1.6;*/
+/*    }*/
+/*}*/
+
+/*@media all and (min-width: 513px) and (max-width: 850px) {*/
+/*    .cards {*/
+/*        grid-template-columns: repeat(2, 1fr);*/
+/*        gap: 30px;*/
+/*    }*/
+
+/*    .header-skill {*/
+/*        font-size: 40px;*/
+/*    }*/
+/*}*/
+
+/*@media all and (min-width: 796px) and (max-width: 1290px) {*/
+/*    .cards {*/
+/*        grid-template-columns: repeat(3, 1fr);*/
+/*    }*/
+
+/*    .header-skill {*/
+/*        font-size: 48px;*/
+/*        left: 70px;*/
+/*    }*/
+/*}*/
+
+
 @media all and (min-width: 320px) and (max-width: 380px) {
     .cards {
         grid-template-columns: 1fr;
@@ -183,6 +367,11 @@
         left: 20px;
         line-height: 1.6;
         top: 280px;
+    }
+
+    #card04, #card05 {
+        position: relative;
+        top: 5px;
     }
 }
 
@@ -201,7 +390,7 @@
     .cards {
         grid-template-columns: 1fr;
         padding: 0 10px;
-        left:15px;
+        left:35px;
     }
 
     .header-skill {
@@ -209,6 +398,16 @@
         left: 20px;
         line-height: 1.6;
         top: 280px;
+    }
+
+    #card04{
+        position: relative;
+        top: 4px;
+    }
+
+    #card05{
+        position: relative;
+        top: 5px;
     }
 }
 

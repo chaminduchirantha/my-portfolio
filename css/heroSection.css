@@ -7,6 +7,11 @@ body {
     overflow-x: hidden;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 .navbar {
     width: 100%;
     display: flex;
@@ -346,6 +351,39 @@ header>nav>ul>li>a:hover::after{
     }
 }
 
+@media all and (min-width: 320px) and (max-width: 375px) {
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .content h3 {
+        font-size: 20px;
+    }
+
+    .content{
+        top: 340px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .profile-pic img {
+        width: 160px;
+        margin-top: 118px;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+        padding: 8px;
+    }
+}
+
+
 @media all and (min-width: 378px) and (max-width: 485px) {
     .home {
         flex-direction: column;
@@ -359,7 +397,7 @@ header>nav>ul>li>a:hover::after{
         margin-left: -30px;
         padding: 15px;
         position: relative;
-        left:30px;
+        left:50px;
         top: 410px;
     }
 
@@ -390,7 +428,7 @@ header>nav>ul>li>a:hover::after{
         border-radius: 50%;
         margin: 20px auto;
         top: -450px;
-        left: 10px;
+        left: 35px;
     }
 
     .social-icons {
@@ -525,39 +563,6 @@ header>nav>ul>li>a:hover::after{
     }
 }
 
-
-@media all and (min-width: 320px) and (max-width: 375px) {
-    .content h1 {
-        font-size: 28px;
-    }
-
-    .content h2 {
-        font-size: 18px;
-    }
-
-    .content h3 {
-        font-size: 20px;
-    }
-
-    .content{
-        top: 340px;
-    }
-
-    .content p {
-        font-size: 14px;
-    }
-
-    .profile-pic img {
-        width: 160px;
-        margin-top: 118px;
-    }
-
-    .social-icons a {
-        font-size: 20px;
-        padding: 8px;
-    }
-}
-
 @media all and (max-width: 768px) {
     #menu-bar{
         display: block;
@@ -565,5 +570,43 @@ header>nav>ul>li>a:hover::after{
 
     .nav-links li a {
         display: none;
+    }
+}
+
+@media all and (min-width: 790px) and (max-width: 1250px) {
+    .content h1 {
+        font-size: 36px;
+        line-height: 1.24;
+    }
+
+    .content h2 {
+        font-size: 20px;
+        top: 50px;
+    }
+
+    .content h3 {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+
+    .content p {
+        font-size: 18px;
+        width: 100%;
+        line-height: 1.9;
+
+    }
+
+    .profile-pic img {
+        width: 220px;
+        height: auto;
+        border-radius: 50%;
+        margin: 20px auto;
+        position: relative;
+        left: -20px;
+
+    }
+
+    .navbar ul li a{
+        font-size: 17px;
     }
 }
