@@ -110,7 +110,7 @@
     right: 34px;
 }
 
-@media screen and (min-width: 490px) and (max-width:850px) {
+@media screen and (min-width: 512px) and (max-width:850px) {
     .about-section {
         padding: 30px;
         text-align: left;
@@ -195,6 +195,94 @@
     .about-buttons .download{
         position: relative;
         left: 130px;
+        top: 10px;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 500px){
+    .about-section {
+        padding: 30px;
+        text-align: left;
+    }
+
+    .about-container {
+        flex-direction: column;
+        /*align-items: center;*/
+        /*position: relative;*/
+        /*left: 80px;*/
+        gap: 30px;
+        top: 50px;
+    }
+
+    .about-image img {
+        width: 280px;
+        height: 380px;
+        border-radius: 50%;
+        position: relative;
+        top: -20px;
+        right: 200px;
+        bottom: 0;
+    }
+
+    .about-content {
+        /*max-width: 60%;*/
+        position: relative;
+        top: -740px;
+        left: 60px;
+    }
+
+     .header-about {
+        font-size: 48px;
+        position: relative;
+        top: -20px;
+        left: 70px;
+        text-align: center;
+    }
+
+    .about-content h1 {
+        width: 85%;
+        font-size: 25px;
+        position: relative;
+        left: 220px;
+        line-height: 1.4;
+        margin-right: 0;
+        top: 10px;
+    }
+
+    .about-content p{
+        width: 98%;
+        font-size: 17px;
+        line-height: 1.7;
+        position: relative;
+        left: 190px;
+    }
+    .about-details p {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .about-buttons {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .about-buttons button {
+        margin-left: 10px;
+        width: 150px;
+        height: 50px;
+    }
+
+
+    .about-buttons .contact {
+        position: relative;
+        top: 10px;
+        left:130px;
+    }
+
+    .about-buttons .download{
+        position: relative;
+        left: 170px;
         top: 10px;
     }
 }

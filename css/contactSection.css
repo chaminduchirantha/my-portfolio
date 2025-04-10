@@ -165,10 +165,12 @@ textarea {
 .send-btn:hover {
     background: #5daeff;
 }
-@media (max-width: 768px) {
+@media (min-width: 475px) and (max-width: 980px) {
     .contact-section {
         width: 90%;
         padding: 40px;
+        position: relative;
+        top: -150px;
     }
 
     .contact-container {
@@ -272,5 +274,17 @@ textarea {
     .send-btn {
         width: 100%;
         font-size: 14px;
+    }
+}
+
+@media all and (min-width:980px) and (max-width: 1290px) {
+    .contact-form{
+        width: 95%;
+        left: 60px;
+    }
+
+    .info-item h4,
+    .info-item p {
+        font-size: 18px;
     }
 }

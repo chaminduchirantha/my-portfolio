@@ -90,14 +90,40 @@
 
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 891px) and (max-width: 1290px) {
     .services-container {
         flex-direction: column;
         align-items: center;
     }
+    .service-box{
+        width: 60%;
+        height: auto;
+    }
+
+    .service-box img {
+        width: 80px;
+        height: auto;
+        left: 270px;
+        top: 20px;
+    }
+
+    .service-box h3 {
+        font-size: 1.6rem;
+        left: 160px;
+        top: -10px;
+        width: 50%;
+    }
+
+    .text-01, .text-02, .text-03 {
+        font-size: 18px;
+        line-height: 1.5;
+        width: 90%;
+        left: 50px;
+        top: -20px;
+    }
 }
 
-@media all and (min-width: 515px) and (max-width: 1024px) {
+@media all and (min-width: 515px) and (max-width: 890px) {
     .services-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -114,7 +140,7 @@
         text-align: center;
         padding: 20px;
         left: -15px;
-        top: 100px;
+        top: -900px;
     }
 
     .service-box img {
@@ -142,7 +168,7 @@
     .services-section h1 {
         font-size: 48px;
         text-align: center;
-        top: 500px;
+        top:-950px;
     }
 }
 

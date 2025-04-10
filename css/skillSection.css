@@ -426,10 +426,24 @@
     .cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
+        top: -512px;
     }
 
     .header-skill {
         font-size: 40px;
+        top: -565px;
+        left: 24px;
+    }
+
+    #card04{
+        position: relative;
+        top: -1px;
+    }
+
+    #card05{
+        position: relative;
+        top: -1px;
+        left: 180px;
     }
 }
 

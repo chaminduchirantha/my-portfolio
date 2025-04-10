@@ -179,17 +179,18 @@
     }
 
     .first-project, .second-project, .thirdProject {
-        width: 100%;
-        margin: 0 auto;
-        top: 0;
-        left: 0;
+        width: 80%;
+        /*margin: 0 auto;*/
+        position: relative;
+        top: 500px;
+        margin-left: 170px;
         margin-bottom: 2rem;
     }
 
     .project-section h1 {
-        font-size: 36px;
-        left: 0;
-        top: 0;
+        font-size: 48px;
+        left: 40px;
+        top: 500px;
         position: relative;
         text-align: center;
     }
@@ -197,16 +198,14 @@
     #github {
         margin: 2rem auto;
         position: relative;
-        top: 100px;
+        top: 500px;
         right: 0;
     }
 
     #git-hub {
         position: relative;
-        top: -85px;
-        left: 500px;
-        /*margin: 4rem auto;*/
-        /*display: flex;*/
+        top: 415px;
+        left: 570px;
         justify-content: center;
     }
 
@@ -275,7 +274,7 @@
 }
 
 
-@media screen and (min-width: 381px) and (max-width: 475px){
+@media screen and (min-width: 381px) and (max-width: 480px){
 
     .project-section{
         display: flex;
@@ -334,29 +333,30 @@
 
     .project-section h1 {
         font-size: 48px;
-        left: -10px;
+        left:20px;
+        top: -800px;
     }
 
     .first-project, .second-project, .thirdProject {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 80%;
         position: relative;
-        right: -78px;
-        top: 10px;
-        margin: 10px 0;
+        left: 120px;
+        top: -810px;
+        margin: 10px 40px;
     }
 
     .first-project{
-        margin-left: 70px;
+        margin-left: 120px;
     }
 
     .second-project{
-        margin-left: 70px;
+        margin-left: 120px;
     }
 
     .thirdProject{
-        margin-left: 70px;
+        margin-left: 120px;
     }
 
     .cart01, .cart02, .cart03 {
