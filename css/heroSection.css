@@ -99,6 +99,7 @@ header>nav>ul>li>a:hover::after{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    height: 95vh;
     /*padding: 50px;*/
 }
 
@@ -117,19 +118,21 @@ header>nav>ul>li>a:hover::after{
 }
 
 .content h1 {
-    width: 50%;
+    width: 100%;
     font-size: 48px;
     font-weight: bold;
     position: relative;
     top: 30px;
+    animation-delay: 0.5s;
 }
 
 .content h3 {
-    width: 50%;
+    width: 100%;
     font-size: 28px;
     color: #6AADF8 ;
     line-height: 1.6;
     position: relative;
+    animation-delay: 1s;
 }
 
 .content p {
@@ -137,6 +140,8 @@ header>nav>ul>li>a:hover::after{
     font-size: 20px;
     line-height: 1.6;
     margin-top: -15px;
+    animation-delay: 1.5s;
+
 }
 
 .nav-icons a {
@@ -151,6 +156,7 @@ header>nav>ul>li>a:hover::after{
     text-decoration: none;
     position: relative;
     left: -6px;
+    animation-delay: 1.8s;
 }
 
 .nav-icons a:hover {
@@ -174,6 +180,7 @@ header>nav>ul>li>a:hover::after{
     top: -46px;
     left: 251px;
     transition-duration:800ms;
+    animation-delay: 2.3s;
 }
 
 .follow-btn:hover {
@@ -188,11 +195,16 @@ header>nav>ul>li>a:hover::after{
     width: 270px;
     height: 400px;
     margin-right: 120px;
-    border-radius: 50%;
+    border-radius: 30px;
     position: relative;
     top: 100px;
     left: -90px;
     border: 2px solid #55769f;
+}
+
+.profile-pic img .animation{
+    animation-delay: 2.5s;
+
 }
 
 #menu-bar{
@@ -205,11 +217,25 @@ header>nav>ul>li>a:hover::after{
     display: none;
 }
 
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: move 1.5s linear  forwards;
+}
+
+@keyframes move {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @media all and (min-width: 501px) and (max-width: 1023px) {
     .home {
         flex-direction: column;
         align-items: center;
         padding: 20px;
+        height: 110vh;
     }
 
     .content {
@@ -268,6 +294,7 @@ header>nav>ul>li>a:hover::after{
         align-items: center;
         text-align: center;
         padding: 20px;
+        height: 135vh;
     }
 
     .content {
@@ -352,6 +379,7 @@ header>nav>ul>li>a:hover::after{
 }
 
 @media all and (min-width: 320px) and (max-width: 375px) {
+
     .content h1 {
         font-size: 28px;
     }
@@ -390,6 +418,7 @@ header>nav>ul>li>a:hover::after{
         align-items: center;
         text-align: center;
         padding: 20px;
+        height: 155vh;
     }
 
     .content {
