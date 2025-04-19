@@ -1,0 +1,178 @@
+.my-works h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    left: 230px;
+    top: 450px;
+}
+
+.my-works {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+}
+
+
+.my-works-card01{
+    width: 300px;
+    height: 300px;
+    background-color: #2B5175;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: -620px;
+    top: 640px;
+    text-align: left;
+    border: 2px solid#5daeff;
+    transition-duration: 800ms;
+}
+
+.my-works-card02{
+    width: 300px;
+    height: 300px;
+    background-color: #2B5175;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: -220px;
+    top: 640px;
+    text-align: left;
+    border: 2px solid#5daeff;
+    transition-duration: 800ms;
+}
+
+.my-works-card01:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #6AADF8;
+}
+
+.my-works-card02:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #6AADF8;
+
+}
+
+.my-works h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.my-works ul {
+    list-style-type: none;
+}
+
+.my-works {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.my-works a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 425px) {
+    .my-works {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+    .my-works {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .my-works {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 900px;
+        height: 60vh;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 378px) {
+    .my-works {
+        grid-template-columns: 1fr;
+        height: 150vh;
+    }
+
+    .my-works h1 {
+        font-size: 3rem;
+        left: 30px;
+    }
+
+    .my-works-card01{
+        width: 270px;
+        left: 30px;
+        top: 440px;
+    }
+
+    .my-works-card02{
+        width: 270px;
+        left: 30px;
+        top:840px;
+    }
+}
+
+@media all and (min-width: 372px) and (max-width: 400px) {
+    .my-works {
+        grid-template-columns: 1fr;
+    }
+
+    .my-works-card01{
+        left: 50px;
+    }
+
+    .my-works-card02{
+        left: 50px;
+    }
+}
+
+@media all and (min-width: 405px) and (max-width: 512px) {
+    .my-works {
+        grid-template-columns: 1fr;
+        height: 150vh;
+    }
+
+    .my-works h1 {
+        font-size: 3rem;
+        left: 30px;
+    }
+
+    .my-works-card01{
+        width: 270px;
+        left: 70px;
+        top: 440px;
+    }
+
+    .my-works-card02{
+        width: 270px;
+        left: 70px;
+        top:840px;
+    }
+}
+
+@media all and (min-width: 790px) and (max-width: 1200px) {
+    .my-works {
+        grid-template-columns: 1fr 1fr;
+        height: 70vh;
+    }
+
+    .my-works h1 {
+        left: 300px;
+    }
+    .my-works-card01{
+        right: -20px;
+    }
+    .my-works-card02{
+        left: -100px;
+    }
+}
