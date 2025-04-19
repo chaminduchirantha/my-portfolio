@@ -1,10 +1,18 @@
-/* General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
 
-/* Container */
+body{
+    background: #162837;
+    color: white;
+}
+
 .assignment-container {
     display: flex;
     flex-direction: column;
-    /*padding: 30px;*/
 }
 
 .header-assignment {
@@ -12,7 +20,7 @@
     font-weight: bold;
     text-align: center;
     position: relative;
-    top: 270px;
+    top: 70px;
     margin-bottom: 30px;
 }
 
@@ -39,12 +47,12 @@
 
 .assignments-card {
     width: 23vw;
-    height: 75vh;
+    height: 29vh;
     background-color: #244160;
     border-radius: 20px;
     padding: 20px;
     position: relative;
-    top: 320px;
+    top: 100px;
     transition-duration: 500ms;
 }
 
@@ -71,7 +79,7 @@
     font-size: 22px;
     line-height: 1.6;
     text-align: center;
-    margin-top: 90px;
+    /*margin-top: 90px;*/
 }
 
 .assignments-btn {
@@ -127,84 +135,4 @@
 .view-more img {
     width: 16px;
     height: 16px;
-}
-
-/* Responsive Design */
-@media screen and (max-width: 1024px) {
-    .assignments {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .assignments {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .btn {
-        padding: 6px;
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .assignments {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    .btn {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .assignments {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .btn {
-        font-size: 12px;
-        padding: 5px;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 512px) {
-    .assignments {
-        display: flex;
-        flex-direction:column;
-    }
-
-    .header-assignment{
-        font-size: 48px;
-        text-align: center;
-        left:40px;
-    }
-
-    .assignments-first-row{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .assignments-second-row {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .assignments-card {
-        width:300px;
-        height: 75vh;
-        position: relative;
-        left: 38px;
-    }
-
-    .assignments-buttons{
-        position: relative;
-        top: -50px;
-    }
-
-
 }

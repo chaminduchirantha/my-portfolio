@@ -20,9 +20,10 @@
     <link rel="stylesheet" href="css/heroSection.css">
     <link rel="stylesheet" href="css/aboutSection.css">
     <link rel="stylesheet" href="css/educationSection.css">
-    <link rel="stylesheet" href="css/projectSection.css">
+<!--    <link rel="stylesheet" href="css/projectSection.css">-->
     <link rel="stylesheet" href="css/skillSection.css">
     <link rel="stylesheet" href="css/serviceSection.css">
+    <link rel="stylesheet" href="css/myworks.css">
 <!--    <link rel="stylesheet" href="css/assignmentSection.css">-->
     <link rel="stylesheet" href="css/contactSection.css">
     <link rel="stylesheet" href="css/footerSection.css">
@@ -41,7 +42,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skill">Skills</a></li>
-            <li><a href="#project">Projects</a></li>
+            <li><a href="#my-works">My Works</a></li>
 <!--            <li><a href="#">Assignment</a></li>-->
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -78,7 +79,6 @@
         </div>
         <div class="about-content animation" >
             <h1 class="header-about animation">About Me</h1>
-            <hr>
             <h1 class="animation">Hello I'm Chamindu Chirantha</h1>
             <p class="animation">I’m currently taking a graduate diploma in software engineering at the Institute of Software Engineering.</p>
             <p class="animation">I am a driven and passionate learner, constantly seeking opportunities to expand my knowledge. I excel at crafting innovative and efficient solutions, fueled by enthusiasm and dedication to achieving excellence. I firmly believe that an open mind sparks creativity, encourages collaboration, and facilitates the integration of diverse ideas across multiple domains. Let me know if you’d like further tweaks!</p>
@@ -102,7 +102,6 @@
 
 <section class="education" >
     <h1 id="education">Education</h1>
-    <hr>
     <div class="education-box">
         <div class="education-item">
             <img src="Asset/images/Screenshot%202025-01-08%20212530.png" alt="School Logo" width="100">
@@ -136,7 +135,6 @@
 
 <section class="skill-container">
     <h1 class="header-skill"  id="skill">Skills And Tools</h1>
-    <hr>
     <div class="cards">
         <div class="card" id="card01">
             <h2>Languages</h2>
@@ -190,62 +188,90 @@
 </section>
 
 
-<section class="project-section" id="project">
-    <h1 id="projects">Projects</h1>
-<!--    <h4 id="h4">Project 01</h4>-->
-    <div class="first-project">
-        <div class="project01">
-            <p>This System Can use manage the Stock , manage the item , manage supplier.  main features are Add item , update Item , Delete Item ,
-                login page insert the user name and password log the System.and add supplier,
-                update supplier and delete supplier.
-                learning the string formatting.
-            </p>
-        </div>
-        <div class="cart01">
-            <h4 id="tittle-1">Stock Management System</h4>
-            <img src="Asset/images/Project01img.png" id="stock" title="Stock Management System" alt="Stock Management System" width="300">
-        </div>
-    </div>
+<section class="my-works">
+    <h1>My Works</h1>
+    <div class="my-works">
+        <a href="projects.html">
+            <div class="my-works-card01">
+                <h2>View Projects</h2>
+                <ul>
+                    <li>> Tic Tac toe game app</li>
+                    <li>> Stock Management System</li>
+                    <li>> Garment Factory Management System Java Fx</li>
+                    <li>> Garment Factory Management System layered</li>
+                </ul>
+            </div>
+        </a>
 
-<!--    <h4 id="h42">Project 02</h4>-->
-    <div class="second-project">
-        <div class="project02">
-            <p id="section1-para">
-                Tic Tac Toe is a classic two-player game that can be played on various platforms, including mobile apps.
-                The game is typically played on a 3x3 grid, but can also be played on larger grids like 5x5 or 7x7
-                for more challenging game play.
-            </p>
-            <p id="section2-para">
-                The objective is to be the first player to get three of your marks (X or O) in a row,
-                either horizontally, vertically, or diagonally.
-            </p>
-        </div>
-        <div class="cart02">
-            <img src="Asset/images/project02img.png" id="tic-tac-toe" title="Tic Tac Toe Game App" alt="Tic Tac Toe Game App" width="300">
-            <h4 id="tittle-2">Tic Tac Toe Game App</h4>
-        </div>
-    </div>
-
-<!--    <h4 id="h43">Project 03</h4>-->
-    <div class="thirdProject">
-        <div class="project-03">
-            <p>
-                Garment factory the main task is to manufacture high-quality apparel for the domestic and international markets. Considered aspects linked with innovation, the factory has advanced machinery and skillful operators.
-                It supplies garments to leading fashion brands and retailers and the production.
-            </p>
-        </div>
-        <div class="cart03">
-            <img src="Asset/images/Project03img.png" id="garment" title="Garment Factory System" alt="Garment Factory Management System" width="300">
-            <h4 id="tittle-3">Garment Factory System</h4>
-        </div>
-
-    </div>
-
-    <div>
-        <button id="github">View More >></button>
-        <a href="https://github.com/chaminduchirantha" id="git-hub" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="assignment.html">
+            <div class="my-works-card02">
+                <h2>View Assignments</h2>
+                <ul>
+                    <li>> Goal identify, UI/UX Design, Site Map design, and wireframe.</li>
+                    <li>> Implement and develop the webpage structure of HTML in Assignment 2.</li>
+                </ul>
+            </div>
+        </a>
     </div>
 </section>
+
+
+<!--<section class="project-section" id="project">-->
+<!--    <h1 id="projects">Projects</h1>-->
+<!--&lt;!&ndash;    <h4 id="h4">Project 01</h4>&ndash;&gt;-->
+<!--    <div class="first-project">-->
+<!--        <div class="project01">-->
+<!--            <p>This System Can use manage the Stock , manage the item , manage supplier.  main features are Add item , update Item , Delete Item ,-->
+<!--                login page insert the user name and password log the System.and add supplier,-->
+<!--                update supplier and delete supplier.-->
+<!--                learning the string formatting.-->
+<!--            </p>-->
+<!--        </div>-->
+<!--        <div class="cart01">-->
+<!--            <h4 id="tittle-1">Stock Management System</h4>-->
+<!--            <img src="Asset/images/Project01img.png" id="stock" title="Stock Management System" alt="Stock Management System" width="300">-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--&lt;!&ndash;    <h4 id="h42">Project 02</h4>&ndash;&gt;-->
+<!--    <div class="second-project">-->
+<!--        <div class="project02">-->
+<!--            <p id="section1-para">-->
+<!--                Tic Tac Toe is a classic two-player game that can be played on various platforms, including mobile apps.-->
+<!--                The game is typically played on a 3x3 grid, but can also be played on larger grids like 5x5 or 7x7-->
+<!--                for more challenging game play.-->
+<!--            </p>-->
+<!--            <p id="section2-para">-->
+<!--                The objective is to be the first player to get three of your marks (X or O) in a row,-->
+<!--                either horizontally, vertically, or diagonally.-->
+<!--            </p>-->
+<!--        </div>-->
+<!--        <div class="cart02">-->
+<!--            <img src="Asset/images/project02img.png" id="tic-tac-toe" title="Tic Tac Toe Game App" alt="Tic Tac Toe Game App" width="300">-->
+<!--            <h4 id="tittle-2">Tic Tac Toe Game App</h4>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--&lt;!&ndash;    <h4 id="h43">Project 03</h4>&ndash;&gt;-->
+<!--    <div class="thirdProject">-->
+<!--        <div class="project-03">-->
+<!--            <p>-->
+<!--                Garment factory the main task is to manufacture high-quality apparel for the domestic and international markets. Considered aspects linked with innovation, the factory has advanced machinery and skillful operators.-->
+<!--                It supplies garments to leading fashion brands and retailers and the production.-->
+<!--            </p>-->
+<!--        </div>-->
+<!--        <div class="cart03">-->
+<!--            <img src="Asset/images/Project03img.png" id="garment" title="Garment Factory System" alt="Garment Factory Management System" width="300">-->
+<!--            <h4 id="tittle-3">Garment Factory System</h4>-->
+<!--        </div>-->
+
+<!--    </div>-->
+
+<!--    <div>-->
+<!--        <a href="assignment.html"><button id="github">Assignments>></button></a>-->
+<!--        <a href="https://github.com/chaminduchirantha" id="git-hub" target="_blank"><i class="fa-brands fa-github"></i></a>-->
+<!--    </div>-->
+<!--</section>-->
 
 
 <!--<section class="assignment-container">-->

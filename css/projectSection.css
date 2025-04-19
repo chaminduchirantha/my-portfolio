@@ -1,11 +1,25 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+body{
+    background:#162837;
+    color: white;
+}
+
 .project-section {
     display: flex;
     flex-direction: row;
     max-width: 1800px;
     margin: 0 auto;
     padding: -20px;
-    position: relative;
-    bottom: -420px;
+
 }
 
 .project-section h1 {
@@ -15,12 +29,12 @@
     position: relative;
     text-align: center;
     left: 660px;
-    top: 140px;
+    top: 100px;
     padding-bottom: 0.5rem;
 }
 
 .first-project, .second-project, .thirdProject {
-    width: 480px;
+    width: 380px;
     display: flex;
     flex-direction: column;
     background-color: #1e425f;
@@ -30,7 +44,7 @@
     margin-bottom: 19rem;
     position: relative;
     margin-left: 20px;
-    top: 300px;
+    top: 200px;
     cursor:pointer;
     transition: transform 0.3s ease;
 }
@@ -53,6 +67,7 @@
 }
 
 .cart01, .cart02, .cart03 {
+    width: 100%;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -81,6 +96,7 @@
 
 #tittle-1 {
     position: relative;
+    top: -20px;
 }
 
 #tittle-2 {
@@ -99,8 +115,9 @@
 }
 
 .cart03 img{
+    width: 80%;
     position: relative;
-    bottom: -70px;
+    bottom: -40px;
 }
 
 #title-2, #title-3 {
@@ -111,7 +128,7 @@
 
 .project01 p, .project02 p, .project-03 p {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -129,7 +146,7 @@
     color: #6AADF8;
     border:2px solid #6AADF8;
     position: relative;
-    top: 950px;
+    top: 750px;
     right: 680px;
     margin: 1rem auto;
     padding: 0.75rem;
@@ -141,7 +158,6 @@
     transform: scale(1.1);
     color: #6AADF8;
     box-shadow: 0 0 10px #6AADF8;
-
 }
 
 #git-hub {
@@ -152,11 +168,15 @@
     border-radius:100%;
     padding: 10px;
     position: relative;
-    top: 882px;
+    top: 682px;
     right: 530px;
     color: #6AADF8;
     text-decoration: none;
     transition-duration: 800ms;
+}
+
+.button a{
+    text-decoration: none;
 }
 
 #git-hub:hover {
@@ -243,10 +263,6 @@
         position: absolute;
         left: 100px;
         top: 60px;
-    }
-    .github-container {
-        flex-direction: column;
-        align-items: center;
     }
 
 
