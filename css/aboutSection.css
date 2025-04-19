@@ -4,6 +4,24 @@
     font-family: "Open Sans", serif;
 }
 
+.animation-two{
+    animation: animate linear;
+    animation-range: entry 0% cover 40%
+
+}
+
+@keyframes animate {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale:1;
+    }
+
+}
+
 .about-container {
     display: flex;
     align-items: center;
@@ -21,17 +39,27 @@
 }
 
 .about-image img {
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 430px;
     border-radius: 10%;
     position: relative;
     right: 80px;
     bottom: -30px;
 }
 
-/* Content */
 .about-content {
     max-width: 50%;
+}
+
+.about-content hr{
+    width: 15vw;
+    height: 1px;
+    background-color: #5daeff;
+    border-radius: 30px;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+    border: 2px solid #5daeff;
 }
 
 .about-content h2 {
@@ -46,6 +74,7 @@
     position: relative;
     top: 20px;
     margin-left: 120px;
+    animation-delay: 0.5s;
 }
 
 .about-content p {
@@ -53,12 +82,14 @@
     font-size: 20px;
     line-height: 1.6;
     margin-left: 120px;
+    animation-delay: 1s;
 }
 
 .about-details p {
     font-size: 20px;
     margin-left: 120px;
     margin-top: 10px;
+    animation-delay: 1.5s;
 }
 
 .about-details a {
@@ -89,6 +120,7 @@
     cursor: pointer;
     margin-left: 50px;
     transition-duration: 800ms;
+    animation-delay: 1.5s;
 }
 
 .about-buttons button:hover {
@@ -101,13 +133,31 @@
 .about-buttons .download{
     position: absolute;
     bottom:27px;
-    right: 210px;
+    right: -140px;
+    animation-delay: 1.8s
 }
+
 
 .about-buttons .contact{
     position: absolute;
     bottom: 27px;
     right: 34px;
+    animation-delay: 1.8s;
+}
+
+
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: move 1.5s linear  forwards;
+}
+
+@keyframes move {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
 }
 
 @media screen and (min-width: 512px) and (max-width:850px) {
@@ -345,6 +395,7 @@
     }
 
     .about-content p {
+        text-align: left;
         font-size: 17px;
         line-height: 1.8;
         left: 20px;
@@ -352,6 +403,7 @@
     }
 
     .about-details p {
+        text-align: left;
         font-size: 16px;
         margin: 10px 48px;
     }
@@ -390,6 +442,8 @@
 }
 
 
+
+
 @media (min-width: 378px) and (max-width: 485px){
     .about-section {
         margin-top: -11px;
@@ -421,6 +475,7 @@
     }
 
     .about-content {
+        text-align: left;
         max-width: 100%;
         position: relative;
         left: -20px;
@@ -429,6 +484,7 @@
     }
 
     .about-content .header-about {
+        text-align: center;
         font-size: 48px;
         color: white;
         position: relative;

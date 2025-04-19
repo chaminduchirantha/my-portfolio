@@ -2,9 +2,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #162837;
+    background:linear-gradient(#162837, #072746,#162837);
     color:white;
     overflow-x: hidden;
+    animation: blink 8s linear infinite;
 }
 
 html{
@@ -118,7 +119,7 @@ header>nav>ul>li>a:hover::after{
 }
 
 .content h1 {
-    width: 100%;
+    width: 60%;
     font-size: 48px;
     font-weight: bold;
     position: relative;
@@ -127,7 +128,7 @@ header>nav>ul>li>a:hover::after{
 }
 
 .content h3 {
-    width: 100%;
+    width: 50%;
     font-size: 28px;
     color: #6AADF8 ;
     line-height: 1.6;
@@ -156,21 +157,24 @@ header>nav>ul>li>a:hover::after{
     text-decoration: none;
     position: relative;
     left: -6px;
-    animation-delay: 1.8s;
 }
 
 .nav-icons a:hover {
     background-color:#6AADF8 ;
     color:  #1f242d;
-    box-shadow: 0 0 10px #55769f;
+    box-shadow: 0 0 10px #5daeff;
     transform: scale(1.1);
 }
 
+.nav-icons a.animation{
+    animation-delay: 1.8s;
+}
+
 .follow-btn {
-    width: 120px;
+    width: 160px;
     height: 45px;
-    border-radius: 18px;
-    font-size: 15px;
+    border-radius:0 20px 0 20px;
+    font-size: 17px;
     color: #6AADF8; ;
     background-color: #162837;
     border: 2px solid #6AADF8;
@@ -180,12 +184,18 @@ header>nav>ul>li>a:hover::after{
     top: -46px;
     left: 251px;
     transition-duration:800ms;
+    /*animation-delay: 2.3s;*/
+}
+
+.follow-btn.animation{
     animation-delay: 2.3s;
 }
 
 .follow-btn:hover {
+    border: 2px solid #2B5175;
+    border-radius: 20px 20px 20px 20px;
     background-color:#6AADF8;
-    transform: scale(1.1);
+    transform: scale(0.9);
     color: black;
     box-shadow: 0 0 10px #6AADF8;
 }
@@ -195,16 +205,15 @@ header>nav>ul>li>a:hover::after{
     width: 270px;
     height: 400px;
     margin-right: 120px;
-    border-radius: 30px;
+    border-radius: 50%;
     position: relative;
     top: 100px;
     left: -90px;
     border: 2px solid #55769f;
 }
 
-.profile-pic img .animation{
+.profile-pic img.animation{
     animation-delay: 2.5s;
-
 }
 
 #menu-bar{
@@ -287,8 +296,16 @@ header>nav>ul>li>a:hover::after{
     }
 }
 
+@media all and (max-width: 413px) {
+    .profile-pic img{
+        position: relative;
+        top: 370px;
+        left: 120px;
+    }
 
-@media all and (min-width: 300px) and (max-width: 378px) {
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
     .home {
         flex-direction: column;
         align-items: center;

@@ -9,15 +9,15 @@
     text-align: center;
     position: relative;
     top: 80px;
-    right: -20px;
+    right: 10px;
 }
 
 .services-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 160px;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 80px;
-    margin-top: 30px;
 }
 
 .service-box h3{
@@ -31,37 +31,52 @@
     padding: 10px;
     border: 2px solid #6AADF8;
     border-radius: 20px;
-    width: 380px;
-    height: 600px;
+    gap: -40px;
+    width: 400px;
+    height: 350px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition-duration: 700ms;
+    transition-duration: 900ms;
     position: relative;
-    top: 140px;
+    top: 80px;
+}
+
+.service-box.service-box01{
+    position: relative;
+    left: 80px;
+}
+.service-box.service-box03{
+    position: relative;
+    left: -40px;
+}
+.service-box.service-box02{
+    position: relative;
+    left: 20px;
 }
 
 .service-box img {
-    width: 68px;
+    width: 60px;
     height: auto;
     margin-bottom: 10px;
     position: relative;
-    left: 160px;
-    top: 60px;
+    left: 170px;
+    top: 10px;
 }
 
+
 .service-box h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
     position: relative;
-    top: 40px;
+    top: -20px;
 }
 
 .text-01{
-    width: 100%;
+    width: 95%;
     font-size:18px;
     line-height: 1.6;
     position: relative;
-    left: 10px;
-    top: 40px;
+    left: 20px;
+    top: -20px;
 }
 
 .text-02{
@@ -69,7 +84,7 @@
     font-size:18px;
     line-height: 1.6;
     position: relative;
-    top: 80px;
+    top: -10px;
     left: 20px;
 }
 
@@ -78,7 +93,7 @@
     font-size:18px;
     line-height: 1.6;
     position: relative;
-    top: 80px;
+    top: -10px;
     left: 20px;
 }
 
@@ -92,18 +107,28 @@
 
 @media (min-width: 891px) and (max-width: 1290px) {
     .services-container {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 120px;
     }
     .service-box{
-        width: 60%;
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        width: 70%;
         height: auto;
+        text-align: center;
+        padding: 20px;
+        left: 115px;
+        /*top: -900px;*/
     }
 
     .service-box img {
-        width: 80px;
+        width: 60px;
         height: auto;
-        left: 270px;
+        left: 10px;
         top: 20px;
     }
 
@@ -142,6 +167,7 @@
         left: -15px;
         top: -900px;
     }
+
 
     .service-box img {
         width: 60px;
@@ -182,13 +208,12 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 512px) {
+@media (min-width: 280px) and (max-width: 450px) {
     .service-box {
         width: 300px;
-        height: 700px;
+        height: 400px;
         align-items: center;
         position: relative;
-        left: 10px;
         top: -500px;
     }
 
@@ -201,6 +226,22 @@
     .service-box  p {
         width: 100%;
         text-align: center;
+    }
+
+    .service-box.service-box01{
+        left: 10px;
+    }
+
+    .service-box.service-box02{
+        left: 10px;
+    }
+
+    .service-box.service-box03{
+        left: -60px;
+    }
+
+    .service-box.service-box03{
+        margin-left: 70px;
     }
 
     .text-01{
@@ -224,9 +265,9 @@
     }
 }
 
-@media (min-width: 375px) {
-    .service-box {
-        position: relative;
-        left: 23px;
+@media all and (min-width: 369px) and (max-width: 510px) {
+    .service-box.service-box01{
+        margin-right: 10px;
     }
 }
+
