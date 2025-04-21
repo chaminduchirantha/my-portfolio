@@ -27,7 +27,7 @@
     top: 640px;
     text-align: left;
     border: 2px solid#5daeff;
-    transition-duration: 800ms;
+    transition: transform 0.7s ease
 }
 
 .my-works-card02{
@@ -42,17 +42,20 @@
     top: 640px;
     text-align: left;
     border: 2px solid#5daeff;
-    transition-duration: 800ms;
+    transition: transform 0.7s ease
 }
 
 .my-works-card01:hover{
-    transform: scale(0.9);
+    transform: scale(0.97);
     box-shadow: 0 0 10px #6AADF8;
+    background: #173750;
 }
 
 .my-works-card02:hover{
-    transform: scale(0.9);
+    transform: scale(0.97);
     box-shadow: 0 0 10px #6AADF8;
+    background: #173750;
+
 
 }
 

@@ -128,6 +128,7 @@ header>nav>ul>li>a:hover::after{
 }
 
 .content h3 {
+    font-family: "Roboto Condensed", sans-serif;
     width: 50%;
     font-size: 28px;
     color: #6AADF8 ;
@@ -137,6 +138,7 @@ header>nav>ul>li>a:hover::after{
 }
 
 .content p {
+    font-family: "Roboto Condensed", sans-serif;
     width: 83%;
     font-size: 20px;
     line-height: 1.6;
@@ -214,6 +216,7 @@ header>nav>ul>li>a:hover::after{
 
 .profile-pic img.animation{
     animation-delay: 2.5s;
+
 }
 
 #menu-bar{

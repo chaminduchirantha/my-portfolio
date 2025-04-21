@@ -1,138 +1,101 @@
-*{
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-body{
+body {
     background: #162837;
     color: white;
 }
 
 .assignment-container {
-    display: flex;
-    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 20px;
+    display: grid;
+    gap: 50px;
 }
 
 .header-assignment {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
-    position: relative;
-    top: 70px;
     margin-bottom: 30px;
-}
-
-.assignments-first-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    /*max-width: 1200px;*/
-}
-
-.assignments-second-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 40px;
-    gap: 20px;
-    /*max-width: 1200px;*/
-    /*margin: auto;*/
+    grid-column: 1 / -1;
 }
 
 .assignments-card {
-    width: 23vw;
-    height: 29vh;
+    height: 32vh;
     background-color: #244160;
+    border: 2px solid #5daeff;
     border-radius: 20px;
     padding: 20px;
-    position: relative;
-    top: 100px;
-    transition-duration: 500ms;
+    transition: transform 0.3s ease;
 }
 
 .assignments-card:hover {
-    transform: scale(0.9);
+    transform: scale(0.97);
 }
 
 .assignments-card h2 {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-
-.assignments-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.assignments-card p{
     font-size: 22px;
-    line-height: 1.6;
+    font-weight: bold;
+    margin-bottom: 10px;
     text-align: center;
-    /*margin-top: 90px;*/
 }
 
-.assignments-btn {
-    width: 180px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    position: relative;
-    left: 75px;
-    top: 70px;
-    margin: 5px;
-    padding: 8px;
-    cursor: pointer;
-    transition: 0.3s;
+.assignments-card p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
 }
 
-.view-more {
-    width: 180px;
-    height: 44px;
-    border-radius: 18px;
-    font-size: 15px;
-    background-color: #1e425f;
-    color: #6AADF8;
-    border: 2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    position: relative;
-    left: 75px;
-    top: 70px;
-    padding: 8px;
-    cursor: pointer;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+@media (max-width: 374px) {
+    .assignment-container {
+        grid-template-columns: 1fr;
+    }
+
+    .header-assignment {
+        font-size: 28px;
+    }
 }
 
-.assignments-cases01{
-    width: 20vw;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: -140px;
+@media (min-width: 375px) and (max-width: 424px) {
+    .assignment-container {
+        grid-template-columns: 1fr;
+    }
+
+    .header-assignment {
+        font-size: 30px;
+    }
 }
 
-.view-more img {
-    width: 16px;
-    height: 16px;
+@media (min-width: 425px) and (max-width: 767px) {
+    .assignment-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-assignment {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .assignment-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-assignment {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .assignment-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

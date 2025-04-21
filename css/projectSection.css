@@ -1,5 +1,4 @@
 
-
 *{
     margin:0;
     padding:0;
@@ -50,7 +49,7 @@ body{
 }
 
 .first-project:hover, .second-project:hover, .thirdProject:hover {
-    transform: scale(0.95);
+    transform: scale(0.97);
     box-shadow: 0 0 10px #6AADF8;
     background-color: #173750;
 
@@ -199,15 +198,15 @@ body{
         width: 80%;
         /*margin: 0 auto;*/
         position: relative;
-        top: 500px;
+        top: 100px;
         margin-left: 170px;
         margin-bottom: 2rem;
     }
 
     .project-section h1 {
         font-size: 48px;
-        left: 40px;
-        top: 500px;
+        left: 10px;
+        top: 50px;
         position: relative;
         text-align: center;
     }
@@ -215,13 +214,13 @@ body{
     #github {
         margin: 2rem auto;
         position: relative;
-        top: 500px;
+        top: 100px;
         right: 0;
     }
 
     #git-hub {
         position: relative;
-        top: 415px;
+        top: 15px;
         left: 570px;
         justify-content: center;
     }
@@ -229,7 +228,6 @@ body{
     .cart01 img,
     .cart02 img,
     .cart03 img {
-        position: static;
     }
 
     #tittle-2,
@@ -255,7 +253,7 @@ body{
         max-width: 310px;
         display: flex;
         flex-direction: column;
-        margin-left: 90px;
+        margin-left: 80px;
     }
 
     .project-section h1 {
@@ -269,7 +267,7 @@ body{
     .first-project{
         position: relative;
         top: 225px;
-        left: -50px;
+        left: -58px;
     }
 
     .second-project{
@@ -289,18 +287,18 @@ body{
 @media all and (min-width: 375px) {
     .first-project{
         position: relative;
-        left: -30px;
+        left: -45px;
     }
 
     .second-project{
         position: relative;
-        left: -30px;
+        left: -45px;
     }
 
 
     .thirdProject{
         position: relative;
-        left: -30px;
+        left: -45px;
     }
 }
 
@@ -363,7 +361,7 @@ body{
     .project-section h1 {
         font-size: 48px;
         left:20px;
-        top: -800px;
+        top: 100px;
     }
 
     .first-project, .second-project, .thirdProject {
@@ -372,20 +370,20 @@ body{
         width: 80%;
         position: relative;
         left: 120px;
-        top: -810px;
+        top: 110px;
         margin: 10px 40px;
     }
 
     .first-project{
-        margin-left: 120px;
+        margin-left: -20px;
     }
 
     .second-project{
-        margin-left: 120px;
+        margin-left: -20px;
     }
 
     .thirdProject{
-        margin-left: 120px;
+        margin-left: -20px;
     }
 
     .cart01, .cart02, .cart03 {
@@ -419,23 +417,24 @@ body{
     }
 }
 
-@media all and (min-width: 425px){
+@media all and (min-width: 400px) and (max-width: 430px){
     .first-project, .second-project, .thirdProject{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        left: -30px;
+        position: relative;
+        left: -55px;
     }
 
-}
-
-@media all and (min-width: 375px){
-    .first-project, .second-project, .thirdProject{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /*left: -45px;*/
+    .project-section h1{
+        font-size: 48px;
+        left: 125px;
     }
+
+    #git-hub{
+        position: relative;
+        left: 50px;
+    }
+
 }
