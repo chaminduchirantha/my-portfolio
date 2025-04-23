@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background:linear-gradient(#162837, #072746,#162837);
+    background:linear-gradient(#162837, #052350,#162837);
     color:white;
     overflow-x: hidden;
     animation: blink 8s linear infinite;
