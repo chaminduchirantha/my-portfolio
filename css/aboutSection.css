@@ -1,592 +1,202 @@
-.about-section {
-    position: relative;
-    top: 83px;
-    font-family: "Open Sans", serif;
-}
-
-.animation-two{
-    animation: animate linear;
-    animation-range: entry 0% cover 40%
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 
 }
 
-@keyframes animate {
-    from {
-        opacity: 0;
-        scale: 0.5;
-    }
-    to{
-        opacity: 1;
-        scale:1;
-    }
-
-}
-
-.about-container {
+.about-section{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
-    position: relative;
-    top: 90px;
-}
-
-.about-content .header-about{
-    font-size: 48px;
+    padding: 250px 10% 0;
     color: white;
+    height: 105vh;
+    background-color: #282c32;
     position: relative;
-    top: -20px;
+
 }
 
-.about-image img {
-    width: 300px;
-    height: 430px;
-    border-radius: 10%;
-    position: relative;
-    right: 80px;
-    bottom: -30px;
-}
-
-.about-content {
-    max-width: 50%;
-}
-
-.about-content hr{
-    width: 15vw;
-    height: 1px;
-    background-color: #5daeff;
-    border-radius: 30px;
+.about-section h1{
+    font-size: 58px;
+    font-family: "Open Sans", sans-serif;
     position: absolute;
-    top: 60px;
-    left: 120px;
-    border: 2px solid #5daeff;
+    top:10%;
+    left: 42%;
 }
 
-.about-content h2 {
-    font-size: 32px;
-    font-weight: bold;
-}
-
-.about-content h1 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #5daeff;
+.about-content p{
+    width: 100%;
+    font-size: 25px;
+    line-height:1.6;
+    text-align: center;
     position: relative;
-    top: 20px;
-    margin-left: 120px;
-    animation-delay: 0.5s;
+    top: -50px;
+
 }
 
-.about-content p {
-    width: 98%;
-    font-size: 20px;
-    line-height: 1.6;
-    margin-left: 120px;
-    animation-delay: 1s;
+.about-content span{
+    color: gold;
+    font-weight: 700;
+    font-size: 45px;
 }
 
 .about-details p {
-    font-size: 20px;
+    font-size: 23px;
+    line-height: 1.9;
     margin-left: 120px;
     margin-top: 10px;
-    animation-delay: 1.5s;
 }
 
-.about-details a {
-    color: #5daeff;
-    text-decoration: none;
-}
-
-.about-details a:hover {
-    text-decoration: underline;
-}
-
-.about-buttons {
-    margin-top: 20px;
-}
-
-.about-buttons button {
-    width: 155px;
-    height: 45px;
-    border-radius: 18px;
-    font-size: 15px;
-    color: #6AADF8;
-    background-color: #162837;
-    border:2px solid #6AADF8;
-    box-shadow: 0 0 1px #6AADF8;
-    display: inline-block;
-    font-weight: bold;
-    text-decoration: none;
-    cursor: pointer;
-    margin-left: 50px;
-    transition-duration: 800ms;
-    animation-delay: 1.5s;
-}
-
-.about-buttons button:hover {
-    background-color: #6AADF8;
-    color: black;
-    transform:translateY(-5px);
-    box-shadow: 0 0 10px #6AADF8;
-}
-
-.about-buttons .download{
+.age{
     position: absolute;
-    bottom:27px;
-    right: -140px;
-    animation-delay: 1.8s
+    right: 40%;
+    top: 76%;
+    text-align: center;
 }
 
-
-.about-buttons .contact{
+.location{
     position: absolute;
-    bottom: 27px;
-    right: 34px;
-    animation-delay: 1.8s;
+    right: 38%;
+    top: 83%;
+}
+.email{
+    position: absolute;
+    right: 24%;
+    top: 91%;
 }
 
-
-.animation{
-    opacity: 0;
-    transform: translateY(30px);
-    animation: move 1.5s linear  forwards;
-}
-
-@keyframes move {
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-}
-
-@media screen and (min-width: 512px) and (max-width:850px) {
+@media (max-width: 1024px) {
     .about-section {
-        padding: 30px;
-        text-align: left;
+        padding: 200px 8% 0;
     }
 
-    @keyframes scroll {
-        from{
-            opacity: 0;
-            scale: 0.5;
-        }
-        to{
-            opacity: 1;
-            scale: 1;
-        }
-    }
-
-    .about-container {
-        flex-direction: column;
-        /*align-items: center;*/
-        /*position: relative;*/
-        /*left: 80px;*/
-        gap: 30px;
-        top: 50px;
-    }
-
-    .about-image img {
-        width: 280px;
-        height: 380px;
-        border-radius: 50%;
-        position: relative;
-        top: -20px;
-        right: 200px;
-        bottom: 0;
-    }
-
-    .about-content {
-        max-width: 90%;
-        position: relative;
-        top: -740px;
-        left: 60px;
-    }
-
-    .about-content .header-about {
-        font-size: 48px;
-        position: relative;
-        top: -20px;
-        left: 50px;
-        text-align: center;
+    .about-section h1 {
+        font-size: 50px;
+        left: 40%;
     }
 
     .about-content h1 {
-        width: 45%;
-        font-size: 25px;
-        position: relative;
-        left: 190px;
-        line-height: 1.4;
-        margin-right: 0;
-        top: 10px;
+        font-size: 40px;
+        left: 400px;
     }
 
-    .about-content p{
-        width: 48%;
-        font-size: 17px;
-        line-height: 1.7;
-        position: relative;
-        left: 190px;
+    .about-content p {
+        font-size: 22px;
     }
+
     .about-details p {
-        font-size: 16px;
-        margin-right: 0;
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 180px 6% 0;
+        height: auto;
     }
 
-    .about-buttons {
-        margin-top: 20px;
+    .about-section h1 {
+        font-size: 40px;
+        left: 35%;
+    }
+
+    .about-content h1 {
+        font-size: 30px;
+        /*left: 35%;*/
+        top: 100px;
+    }
+
+    .about-content p {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .about-details p {
+        font-size: 19px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    .age, .location, .email {
+        position: static;
+        margin: 10px 0;
+    }
+
+    .about-details {
         display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .about-buttons button {
-        margin-left: 0;
-        width: 150px;
-        height: 50px;
-    }
-
-
-    .about-buttons .contact {
-        position: relative;
-        top: 10px;
-        left:130px;
-    }
-
-    .about-buttons .download{
-        position: relative;
-        left: 130px;
-        top: 10px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
     }
 }
-@media all and (min-width: 480px) and (max-width: 500px){
+
+@media (max-width: 425px) {
     .about-section {
-        padding: 30px;
-        text-align: left;
+        padding: 150px 5% 0;
     }
 
-    .about-container {
-        flex-direction: column;
-        /*align-items: center;*/
-        /*position: relative;*/
-        /*left: 80px;*/
-        gap: 30px;
-        top: 50px;
-    }
-
-    .about-image img {
-        width: 280px;
-        height: 380px;
-        border-radius: 50%;
-        position: relative;
-        top: -20px;
-        right: 200px;
-        bottom: 0;
-    }
-
-    .about-content {
-        /*max-width: 60%;*/
-        position: relative;
-        top: -740px;
-        left: 60px;
-    }
-
-     .header-about {
-        font-size: 48px;
-        position: relative;
-        top: -20px;
-        left: 70px;
-        text-align: center;
+    .about-section h1 {
+        font-size: 35px;
+        left: 30%;
     }
 
     .about-content h1 {
-        width: 85%;
-        font-size: 25px;
-        position: relative;
-        left: 220px;
-        line-height: 1.4;
-        margin-right: 0;
-        top: 10px;
+        font-size: 28px;
+        left: 25%;
+        /*top: 90px;*/
     }
 
-    .about-content p{
-        width: 98%;
-        font-size: 17px;
-        line-height: 1.7;
-        position: relative;
-        left: 190px;
-    }
-    .about-details p {
+    .about-content p {
         font-size: 18px;
-        margin-right: 0;
     }
 
-    .about-buttons {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .about-buttons button {
-        margin-left: 10px;
-        width: 150px;
-        height: 50px;
-    }
-
-
-    .about-buttons .contact {
-        position: relative;
-        top: 10px;
-        left:130px;
-    }
-
-    .about-buttons .download{
-        position: relative;
-        left: 170px;
-        top: 10px;
-    }
-}
-
-
-@media (min-width: 300px) and (max-width: 376px)  {
-    .about-section {
-        margin-top: -11px;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 19px;
-        top: 30px;
-        position: relative;
-    }
-
-    .header-about{
-        font-size: 48px;
-    }
-
-    .about-image img {
-        width: 200px;
-        height: 250px;
-        border-radius: 50%;
-        position: relative;
-        right: -28px;
-        top: 30px;
-    }
-
-    .about-content {
-        max-width: 100%;
-        position: relative;
-        left: -20px;
-        top: 0;
-        /* padding: 10px; */
-    }
-
-    .about-content .header-about {
-        font-size: 48px;
-        color: white;
-        position: relative;
-        top: -380px;
-    }
-
-    .about-content h1 {
-        font-size: 24px;
-        top: 0;
-        left: 45px;
-        margin: 10px 0;
-    }
-
-    .about-content h2 {
-        font-size: 20px;
-    }
-
-    .about-content p {
-        text-align: left;
+    .about-details p {
         font-size: 17px;
-        line-height: 1.8;
-        left: 20px;
-        margin: 18px 51px;
-    }
-
-    .about-details p {
-        text-align: left;
-        font-size: 16px;
-        margin: 10px 48px;
-    }
-
-    .about-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .about-buttons button {
-        width: 129px;
-        position: absolute;
-        top: 13px;
-        margin: 0px;
-        left: -180px;
-        right: 84px;
-        height: 45px;
-        font-size: 11px;
-        gap: 20px;
-    }
-
-    .about-buttons .contact {
-        position: relative;
-        bottom: -5px;
-        right: -100px;
-    }
-
-    .about-buttons .download {
-        position: relative;
-        bottom: -15px;
-        left: 250px;
     }
 }
 
-
-
-
-@media (min-width: 378px) and (max-width: 485px){
-    .about-section {
-        margin-top: -11px;
-        padding: 20px;
-        text-align: center;
-    }
-
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 19px;
-        top: 30px;
-        position: relative;
-    }
-
-    .header-about{
-        font-size: 48px;
-    }
-
-    .about-image img {
-        width: 200px;
-        height: 250px;
-        border-radius: 50%;
-        position: relative;
-        right: -28px;
-        top: 30px;
-    }
-
-    .about-content {
-        text-align: left;
-        max-width: 100%;
-        position: relative;
-        left: -20px;
-        top: 0;
-        /* padding: 10px; */
-    }
-
-    .about-content .header-about {
-        text-align: center;
-        font-size: 48px;
-        color: white;
-        position: relative;
-        top: -380px;
+@media (max-width: 320px) {
+    .about-section h1 {
+        font-size: 32px;
+        left: 8%;
     }
 
     .about-content h1 {
-        font-size: 24px;
-        top: 0;
-        left: 45px;
-        margin: 10px 0;
-    }
-
-    .about-content h2 {
-        font-size: 20px;
+        font-size: 18px;
+        /*left: 2%;*/
     }
 
     .about-content p {
         font-size: 16px;
-        line-height: 1.4;
-        left: 20px;
-        margin: 18px 51px;
     }
 
     .about-details p {
         font-size: 16px;
-        margin: 10px 48px;
-    }
-
-    .about-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .about-buttons button {
-        width: 129px;
-        position: absolute;
-        top: 13px;
-        margin: 0px;
-        left: -180px;
-        right: 84px;
-        height: 45px;
-        font-size: 11px;
-        gap: 20px;
-    }
-
-    .about-buttons .contact {
         position: relative;
-        bottom: -5px;
-        right: -100px;
-    }
-
-    .about-buttons .download {
-        position: relative;
-        bottom: -15px;
-        left: 250px;
+        left: -20px;
     }
 }
 
-@media all and (min-width: 790px) and (max-width: 1250px) {
-    .about-buttons button{
-        width: 150px;
-        height: 45px;
-        position: relative;
+@media (max-width: 230px) {
+    .about-section h1 {
+        font-size: 25px;
+        left: 20%;
+    }
+
+    .about-content h1 {
+        font-size: 20px;
+        left: 20%;
         top: 80px;
-        left: -100px;
-        margin: 5px;
     }
 
-    .about-container p {
-        font-size: 18px;
-        line-height: 1.8;
+    .about-content p {
+        font-size: 14px;
     }
 
-    .about-content h1 {
-        font-size: 25px;
-        line-height: 1.8;
+    .about-details p {
+        font-size: 14px;
     }
-
-    .about-image img{
-        width: 300px;
-        height: 250px;
-        left: 0px;
-    }
-
-    .header-about{
-        font-size: 48px;
-        left: -100px;
-    }
-
 }
