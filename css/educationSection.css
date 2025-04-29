@@ -36,7 +36,7 @@
     cursor: pointer;
     transition-duration: 800ms;
     overflow: hidden;
-    z-index: 1000;
+    /*z-index: 1000;*/
     box-shadow: 0 0 10px gold;
 
 }
