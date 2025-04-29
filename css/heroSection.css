@@ -1,661 +1,256 @@
-body {
+*{
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background:linear-gradient(#162837, #052350,#162837);
-    color:white;
-    overflow-x: hidden;
-    animation: blink 8s linear infinite;
+    box-sizing: border-box;
+
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
-
-.navbar {
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    display: flex;
-    z-index: 100;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    font-size: 20px;
-    background-color: #162837;
-    border-bottom: 1px solid #55769f;
+    height: 100vh;
+    background-color: rgba(30, 39, 46, 0.71);
+    padding: 250px 10% 0;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
 }
 
-.logo {
+
+.hero-content{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
 }
 
-.logo img {
-    width: 40px;
-    margin-right: 30px;
-    border: 2px solid #55769f;
-    border-radius: 50%;
+.hero h1{
+    font-size: 65px;
+    text-shadow:  0 0 10px gold;
+
+
+}
+
+.hero h2{
+    font-size: 55px;
     position: relative;
-    left: 50px;
+    top: -30px;
+    line-height: 1.4;
+    color: gold;
+    overflow-x: hidden;
+    animation-name: animate;
+    animation-duration: 26s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.hero p{
+    font-size: 24px;
+    width: 60%;
+    margin-top: -20px;
+    line-height: 1.6;
+    align-items: center;
+}
+
+.social-icons a{
+    display: inline-flex;
+    font-size: 30px;
+    border:2px solid gold;
+    border-radius: 50%;
+    padding: 10px;
+    color: gold;
+    margin: 0 10px;
+    margin-top: 20px;
+    transition-duration: 800ms;
+
+}
+
+.social-icons a:hover{
+    transform: translateY(-10px);
+}
+
+.social-icons a:hover{
+    background-color: gold;
+    color: black;
+    box-shadow: 0 0 10px gold;
+
+}
+
+.btn-cv{
+    border:2px solid gold;
+    background-color: gold;
+    width: 10vw;
+    height: 7vh;
+    font-weight: 700;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 490px;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
     transition-duration: 800ms;
 }
 
-.logo img:hover {
-    transform: scale(1.1);
+.btn-cv:hover{
+    transform: translateY(15px);
 }
 
-.logo span {
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
-    position: relative;
-    left: 30px;
+.btn-cv:hover{
+    box-shadow: 0 0 10px gold;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links li {
-    display: inline;
-}
-
-.nav-links li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
-    right: 40px;
-}
-
-header>nav>ul>li>a:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 4px;
-    border-radius: 10px;
-    background-color: #6AADF8;
-    transition:.5s ;
-    bottom: 0;
-    top: 23px;
-}
-
-header>nav>ul>li>a:hover {
-    color: #6AADF8;
-}
-
-header>nav>ul>li>a:hover::after{
-    width: 50%;
-}
-
-
-
-.home {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    height: 95vh;
-    /*padding: 50px;*/
-}
-
-
-.content {
-    max-width: 50%;
-    position: relative;
-    top: 90px;
-    left: 149px;
-}
-
-.content h2 {
-    font-size: 25px;
-    position: relative;
-    top: 60px;
-}
-
-.content h1 {
-    width: 60%;
-    font-size: 48px;
-    font-weight: bold;
-    position: relative;
-    top: 30px;
-    animation-delay: 0.5s;
-}
-
-.content h3 {
-    font-family: "Roboto Condensed", sans-serif;
-    width: 50%;
-    font-size: 28px;
-    color: #6AADF8 ;
-    line-height: 1.6;
-    position: relative;
-    animation-delay: 1s;
-}
-
-.content p {
-    font-family: "Roboto Condensed", sans-serif;
-    width: 83%;
-    font-size: 20px;
-    line-height: 1.6;
-    margin-top: -15px;
-    animation-delay: 1.5s;
-
-}
-
-.nav-icons a {
-    display: inline-flex;
-    font-size: 25px;
-    border: 2px solid #6AADF8;
-    padding: 10px;
+.profile-image{
+    width: 250px;
+    height: 380px;
     border-radius: 50%;
-    color: #6AADF8;
-    margin: 0 5px;
-    transition-duration: 900ms;
-    text-decoration: none;
-    position: relative;
-    left: -6px;
-}
-
-.nav-icons a:hover {
-    background-color:#6AADF8 ;
-    color:  #1f242d;
-    box-shadow: 0 0 10px #5daeff;
-    transform: scale(1.1);
-}
-
-.nav-icons a.animation{
-    animation-delay: 1.8s;
-}
-
-.follow-btn {
-    width: 160px;
-    height: 45px;
-    border-radius:0 20px 0 20px;
-    font-size: 17px;
-    color: #6AADF8; ;
-    background-color: #162837;
-    border: 2px solid #6AADF8;
-    padding: 10px 20px;
-    cursor: pointer;
-    position: relative;
-    top: -46px;
-    left: 251px;
-    transition-duration:800ms;
-    /*animation-delay: 2.3s;*/
-}
-
-.follow-btn.animation{
-    animation-delay: 2.3s;
-}
-
-.follow-btn:hover {
-    border: 2px solid #2B5175;
-    border-radius: 20px 20px 20px 20px;
-    background-color:#6AADF8;
-    transform: scale(0.9);
-    color: black;
-    box-shadow: 0 0 10px #6AADF8;
-}
-
-
-.profile-pic img {
-    width: 270px;
-    height: 400px;
-    margin-right: 120px;
-    border-radius: 50%;
-    position: relative;
-    top: 100px;
-    left: -90px;
-    border: 2px solid #55769f;
-}
-
-.profile-pic img.animation{
-    animation-delay: 2.5s;
-
-}
-
-#menu-bar{
-    width: 35px;
     position: absolute;
-    right: 40px;
-    top: 0;
-    bottom: 0px;
-    margin: auto;
-    display: none;
+    top: 30%;
+    left: 70%;
 }
 
-.animation{
-    opacity: 0;
-    transform: translateY(30px);
-    animation: move 1.5s linear  forwards;
-}
-
-@keyframes move {
-    100%{
-        opacity: 1;
-        transform: translateY(0);
+@media (max-width: 1024px) {
+    .hero {
+        padding: 200px 5% 0;
     }
-}
-
-@media all and (min-width: 501px) and (max-width: 1023px) {
-    .home {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        height: 110vh;
+    .hero p {
+        width: 80%;
     }
-
-    .content {
-        margin-left: 0;
-        padding: 15px;
-        position: relative;
-        top: 40px;
-        left: -130px;
-    }
-
-    .content h1 {
-        font-size: 36px;
-    }
-
-    .content h2 {
-        font-size: 20px;
-        top: 45px;
-    }
-
-    .content h3 {
-        font-size: 22px;
-        width: 100%;
-    }
-
-    .content p {
-        font-size: 16px;
-        width: 100%;
-        line-height: 1.4;
-    }
-
-    .profile-pic img {
+    .profile-image {
+        top: 55%;
+        left: 65%;
         width: 200px;
-        height: auto;
-        position: relative;
-        top: -370px;
-        left: 220px;
-        border-radius: 50%;
-        margin: 15px auto;
-    }
-
-    .social-icons {
-        font-size: 10px;
-        justify-content: center;
-        margin-top: 15px;
-    }
-
-    .project-section{
-        display: none;
+        height: 300px;
     }
 }
 
-@media all and (max-width: 413px) {
-    .profile-pic img{
-        position: relative;
-        top: 370px;
-        left: 120px;
+@media (max-width: 768px) {
+    .hero {
+        padding: 150px 5% 0;
+        overflow-x: hidden;
     }
-
-}
-
-@media all and (min-width: 320px) and (max-width: 480px) {
-    .home {
+    .hero h1 {
+        font-size: 35px;
+    }
+    .hero h2 {
+        font-size: 28px;
+        top: -20px;
+    }
+    .hero p {
+        font-size: 18px;
+        width: 90%;
+    }
+    .btn-cv {
+        margin-left: 0;
+        top: 0;
+        margin-top: 20px;
+    }
+    .profile-image {
+        position: static;
+        margin-top: 30px;
+        width: 200px;
+        height: 300px;
+    }
+    .hero {
         flex-direction: column;
         align-items: center;
-        text-align: center;
-        padding: 20px;
-        height: 135vh;
-    }
-
-    .content {
-        max-width: 90%;
-        margin-left: 0;
-        padding: 15px;
-        position: relative;
-        left:30px;
-        top: 410px;
-    }
-
-    .content h1 {
-        font-size: 36px;
-        width: 100%;
-    }
-
-    .content h2 {
-        font-size: 22px;
-        top: 40px;
-    }
-
-    .content h3 {
-        font-size: 24px;
-        width: 100%;
-    }
-
-    .content p {
-        font-size: 18px;
-        width: 100%;
-        line-height: 1.5;
-    }
-
-    .profile-pic img {
-        width: 220px;
-        height: auto;
-        border-radius: 50%;
-        margin: 20px auto;
-        top: -450px;
-        left: 30px;
-    }
-
-    .social-icons {
-        justify-content: center;
-        margin-top: 15px;
-        margin-right: -10px;
-        margin-left: 25px;
-
-    }
-
-    .follow-btn {
-        display: block;
-        margin: 20px auto 0;
-        left: 0;
-        top: 0;
-    }
-
-    .nav-links {
-        gap: 10px;
-    }
-
-    .navbar{
-        width: 100%;
-    }
-
-    .nav-links li a {
-        display: none;
-    }
-
-    #menu-bar{
-        display: block;
-    }
-
-    .nav-links li a {
-        font-size: 14px;
-        right: 0;
-    }
-
-
-    .project-section{
-        display: none;
     }
 }
 
-@media all and (min-width: 320px) and (max-width: 375px) {
+@media (max-width: 425px) {
+    .hero {
+        overflow-x: hidden;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero h2 {
+        font-size: 24px;
+        top: -15px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .profile-image {
+        width: 180px;
+        height: 260px;
+    }
+    .btn-cv {
+        width: 40vw;
+        height: 6vh;
+    }
+}
 
-    .content h1 {
+@media (max-width: 375px) {
+    .hero h1 {
         font-size: 28px;
     }
+    .hero h2 {
+        font-size: 22px;
+    }
+    .hero p {
+        font-size: 15px;
+    }
+    .profile-image {
+        width: 170px;
+        height: 250px;
+    }
+}
 
-    .content h2 {
-        font-size: 18px;
+@media (max-width: 320px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        overflow-x: hidden;
     }
 
-    .content h3 {
+    .profile-image{
+        display: none;
+    }
+    .hero h1 {
+        font-size: 25px;
+    }
+    .hero h2 {
         font-size: 20px;
     }
-
-    .content{
-        top: 340px;
-    }
-
-    .content p {
+    .hero p {
         font-size: 14px;
+        left: 20px;
     }
-
-    .profile-pic img {
+    .profile-image {
         width: 160px;
-        margin-top: 118px;
+        height: 240px;
     }
-
-    .social-icons a {
-        font-size: 20px;
-        padding: 8px;
-    }
-}
-
-
-@media all and (min-width: 378px) and (max-width: 485px) {
-    .home {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-        height: 155vh;
-    }
-
-    .content {
-        max-width: 90%;
-        margin-left: -30px;
-        padding: 15px;
+    .btn-cv {
+        width: 50vw;
+        height: 6vh;
         position: relative;
-        left:50px;
-        top: 410px;
-    }
-
-    .content h1 {
-        font-size: 36px;
-        width: 100%;
-    }
-
-    .content h2 {
-        font-size: 22px;
-        top: 40px;
-    }
-
-    .content h3 {
-        font-size: 24px;
-        width: 100%;
-    }
-
-    .content p {
-        font-size: 18px;
-        width: 100%;
-        line-height: 1.5;
-    }
-
-    .profile-pic img {
-        width: 220px;
-        height: auto;
-        border-radius: 50%;
-        margin: 20px auto;
-        top: -450px;
-        left: 35px;
-    }
-
-    .social-icons {
-        justify-content: center;
-        margin-top: 15px;
-        margin-right: -10px;
-        margin-left: 25px;
-
-    }
-
-    .follow-btn {
-        display: block;
-        margin: 20px auto 0;
-        left: 0;
-        top: 0;
-    }
-
-    .nav-links {
-        gap: 10px;
-    }
-
-    .navbar{
-        width: 100%;
-    }
-
-    .nav-links li a {
-        display: none;
-    }
-
-    #menu-bar{
-        display: block;
-    }
-
-    .nav-links li a {
-        font-size: 14px;
-        right: 0;
-    }
-
-
-    .project-section{
-        display: none;
-    }
-}
-
-
-@media all and (min-width: 485px) and (max-width: 520px) {
-    .home {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .content {
-        max-width: 90%;
-        margin-left: -30px;
-        padding: 15px;
-        position: relative;
-        left:30px;
-        top: 410px;
-    }
-
-    .content h1 {
-        font-size: 36px;
-        width: 100%;
-    }
-
-    .content h2 {
-        font-size: 22px;
-        top: 40px;
-    }
-
-    .content h3 {
-        font-size: 24px;
-        width: 100%;
-    }
-
-    .content p {
-        font-size: 18px;
-        width: 100%;
-        line-height: 1.5;
-    }
-
-    .profile-pic img {
-        width: 220px;
-        height: auto;
-        border-radius: 50%;
-        margin: 20px auto;
-        top: -450px;
-        left: 10px;
-    }
-
-    .social-icons {
-        justify-content: center;
-        margin-top: 15px;
-        margin-right: -10px;
-        margin-left: 25px;
-
-    }
-
-    .follow-btn {
-        display: block;
-        margin: 20px auto 0;
-        left: 0;
-        top: 0;
-    }
-
-    .nav-links {
-        gap: 10px;
-    }
-
-    .navbar{
-        width: 100%;
-    }
-
-    .nav-links li a {
-        display: none;
-    }
-
-    #menu-bar{
-        display: block;
-    }
-
-    .nav-links li a {
-        font-size: 14px;
-        right: 0;
-    }
-
-
-    .project-section{
-        display: none;
-    }
-}
-
-@media all and (max-width: 768px) {
-    #menu-bar{
-        display: block;
-    }
-
-    .nav-links li a {
-        display: none;
-    }
-}
-
-@media all and (min-width: 790px) and (max-width: 1250px) {
-    .content h1 {
-        font-size: 36px;
-        line-height: 1.24;
-    }
-
-    .content h2 {
-        font-size: 20px;
-        top: 50px;
-    }
-
-    .content h3 {
-        font-size: 20px;
-        line-height: 1.7;
-    }
-
-    .content p {
-        font-size: 18px;
-        width: 100%;
-        line-height: 1.9;
-
-    }
-
-    .profile-pic img {
-        width: 220px;
-        height: auto;
-        border-radius: 50%;
-        margin: 20px auto;
-        position: relative;
-        left: -20px;
-
-    }
-
-    .navbar ul li a{
-        font-size: 17px;
+        bottom: 0;
+        top: 50%;
     }
 }
