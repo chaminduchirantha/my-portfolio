@@ -1,149 +1,141 @@
+.footer-section {
+    background-color: #1e272e;
+    padding: 40px 20px;
+    color:white;
+    height:0.2vh;
+    margin-top: 30px;
+    position: relative;
+    top: -300px;
+}
 
-.footer {
-    width: 100%;
-    height: 135vh;
-    color: white;
+.footer-section .container {
+    max-width: 1200px;
+    margin: 0px auto;
     text-align: center;
-    position: relative;
+
 }
 
-.container {
-    width: 100%;
-    margin: auto;
-    position: relative;
-    top: 893px;
+.footer-section hr {
+    border: none;
+    height: 1px;
+    background-color: gold;
+    margin-bottom: 30px;
 }
 
-.container hr{
-    width: 90%;
-    height: 2px;
-    border-radius: 20px;
-    border: 2px solid #5daeff;
-    background-color: #5daeff;
-    position: absolute;
-    top: -100px;
-    left: 40px;
-}
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
 
 .social-links a {
-    display: inline-flex;
-    font-size: 44px;
-    color: #6AADF8;
-    position: relative;
-    justify-content: center;
-    left: 595px;
-    top: -60px;
+    display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    /*background-color: white;*/
+    border-radius: 50%;
+    border: 2px solid gold;
+    color: gold;
+    font-size: 2.0rem;
     text-decoration: none;
-    margin: 0 20px;
-    transition-duration:900ms;
-}
-
-.social-links p{
-    text-align: center;
-}
-
-.detail p{
-    text-align: center;
-    line-height: 1.6;
-    font-size: 18px;
-    position: relative;
-    top: -50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px gold;
 }
 
 .social-links a:hover {
-    border-radius: 100%;
-    transform:translateY(-10px);
-    color: white;
-
+    transform: translateY(-5px);
+    background-color: gold;
+    color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
+
+.detail {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.detail p {
+    position: relative;
+    margin: 0;
+    padding: 0 15px;
+    font-size: 1.7rem;
+    color: gold;
+}
+
 
 .copyright {
-    margin-top: 15px;
-    font-size: 18px;
-    text-align: center;
-    color:#6AADF8;
-    position: relative;
-    top: -30px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: gold;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-    .footer {
-        height: auto;
-        padding: 30px 20px;
+@media (min-width: 651px) and (max-width: 1023px) {
+
+    .footer-section {
+        height:5vh;
+    }
+    .detail p {
+        font-size: 1.2rem;
     }
 
-    .container {
-        width: 100%;
-        text-align: center;
-        position: relative;
-        top: -50px;
+    .copyright {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 376px) and (max-width:650px) {
+    .footer-section {
+        height: 10vh;
     }
 
     .social-links {
-        flex-direction: row;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .social-links a {
-        font-size: 36px;
-        left: -5px;
+        gap: 12px;
     }
 
     .detail p {
-        font-size: 16px;
-    }
-}
-
-
-
-@media all and (min-width: 320px) and (max-width: 376px) {
-    .footer {
-        padding: 15px 5px;
+        font-size: 1.0rem;
     }
 
     .social-links a {
-        font-size: 27px;
-        left: 10px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
     }
 
-    .detail p {
-        font-size: 12px;
-        left: 20px;
-    }
-
-
-    .copyright{
-        font-size: 15px;
-        left: 20px;
-        line-height:1.6;
-
+    .copyright {
+        font-size: 0.8rem;
     }
 }
 
-@media all and (min-width: 376px) and (max-width: 768px) {
-    .footer {
-        padding: 15px 5px;
+@media (min-width: 200px) and (max-width:376px ) {
+    .footer-section {
+        height: 15vh;
+    }
+
+    .social-links {
+        gap: 12px;
+    }
+
+    .detail p {
+        font-size: 1.0rem;
     }
 
     .social-links a {
-        font-size: 27px;
-        left: 10px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
     }
 
-    .detail p {
-        font-size: 12px;
-        left: 20px;
-    }
-
-
-    .copyright{
-        font-size: 15px;
-        left: 20px;
-        line-height:1.6;
-
+    .copyright {
+        font-size: 0.8rem;
+        line-height: 1.6;
     }
 }
+
