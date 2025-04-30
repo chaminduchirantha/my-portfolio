@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #162837;
+    background-color: rgb(30, 39, 46);
     color: white;
 }
 
@@ -29,11 +29,14 @@ body {
 }
 
 .assignments-card {
-    height: 32vh;
-    background-color: #244160;
-    border: 2px solid #5daeff;
+    width: 25vw;
+    height: 39vh;
+    background-color: rgba(255, 215, 0, 0.48);
+    border: 2px solid gold;
     border-radius: 20px;
     padding: 20px;
+    margin: auto;
+    cursor: pointer;
     transition: transform 0.3s ease;
 }
 
