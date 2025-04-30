@@ -1,181 +1,181 @@
-.my-works h1 {
-    font-size: 3rem;
-    margin-bottom: 40px;
-    text-align: center;
-    position: relative;
-    left: 230px;
-    top: 450px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .my-works {
-    display: grid;
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 100px 5% 0;
+    color: white;
     position: relative;
 }
 
+.my-works h1 {
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    top: 120px;
+}
 
-.my-works-card01{
-    width: 300px;
-    height: 300px;
-    background-color: #2B5175;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.woks-card {
+    width: 28vw;
+    height: 51vh;
+    background-color: rgba(255, 215, 0, 0.48);
+    margin: 20px;
+    border: 3px solid gold;
+    border-radius: 20px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.woks-card:before{
+    content: "";
     position: absolute;
-    left: -620px;
-    top: 640px;
-    text-align: left;
-    border: 2px solid#5daeff;
-    transition: transform 0.7s ease
+    width: 100%;
+    background-image: linear-gradient(gold, rgba(159, 255, 0, 0.78));
+    box-shadow: 0 0 10px gold;
+    height: 135%;
+    top: -20px;
+    z-index: -200;
+    border-radius: 1px;
+    animation: box 12s linear infinite;
 }
 
-.my-works-card02{
-    width: 300px;
-    height: 300px;
-    background-color: #2B5175;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    left: -220px;
-    top: 640px;
-    text-align: left;
-    border: 2px solid#5daeff;
-    transition: transform 0.7s ease
+@keyframes box {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(100%);
+        box-shadow: 0 0 10px gold;
+    }
 }
 
-.my-works-card01:hover{
-    transform: scale(0.97);
-    box-shadow: 0 0 10px #6AADF8;
-    background: #173750;
-}
-
-.my-works-card02:hover{
-    transform: scale(0.97);
-    box-shadow: 0 0 10px #6AADF8;
-    background: #173750;
-
-
-}
-
-.my-works h2 {
-    font-size: 1.8rem;
+.woks-card h2 {
+    font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
+    color: black;
 }
 
-.my-works ul {
-    list-style-type: none;
-}
-
-.my-works {
-    margin-bottom: 10px;
-    font-size: 1rem;
+.woks-card p {
+    font-size: 18px;
     line-height: 1.8;
+    color: black;
+    font-weight: 500;
+    text-align: center;
 }
 
-.my-works a{
-    text-decoration: none;
-    color: white;
+.woks-card span {
+    line-height: 2.5;
+    text-align: center;
 }
 
-@media (max-width: 425px) {
-    .my-works {
-        grid-template-columns: 1fr;
-    }
-}
+@media (min-width: 1024px) and (max-width: 1250px){
 
-@media (min-width: 426px) and (max-width: 767px) {
-    .my-works {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (min-width: 768px) {
-    .my-works {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 900px;
-        height: 60vh;
-        margin: 0 auto;
-    }
-}
-
-@media (min-width: 300px) and (max-width: 378px) {
-    .my-works {
-        grid-template-columns: 1fr;
-        height: 150vh;
+    .woks-card {
+        width:50vw;
+        height: auto;
+        position: relative;
+        top:230px;
+        left: -10px;
     }
 
     .my-works h1 {
-        font-size: 3rem;
-        left: 30px;
+        font-size: 48px;
+        top: 250px;
+        left: -10px;
     }
 
-    .my-works-card01{
-        width: 270px;
-        left: 30px;
-        top: 440px;
+    .woks-card h2 {
+        font-size: 20px;
     }
 
-    .my-works-card02{
-        width: 270px;
-        left: 30px;
-        top:840px;
+    .woks-card p {
+        font-size: 14px;
     }
 }
 
-@media all and (min-width: 372px) and (max-width: 400px) {
-    .my-works {
-        grid-template-columns: 1fr;
-    }
-
-    .my-works-card01{
-        left: 50px;
-    }
-
-    .my-works-card02{
-        left: 50px;
-    }
-}
-
-@media all and (min-width: 405px) and (max-width: 512px) {
-    .my-works {
-        grid-template-columns: 1fr;
-        height: 150vh;
+@media (min-width: 651px) and (max-width: 1023px) {
+    .woks-card {
+        width:50vw;
+        height: auto;
+        position: relative;
+        top:130px;
+        left: -10px;
     }
 
     .my-works h1 {
-        font-size: 3rem;
-        left: 30px;
+        font-size: 40px;
+        top: 150px;
+        left: -10px;
     }
 
-    .my-works-card01{
-        width: 270px;
-        left: 70px;
-        top: 440px;
+    .woks-card h2 {
+        font-size: 20px;
     }
 
-    .my-works-card02{
-        width: 270px;
-        left: 70px;
-        top:840px;
+    .woks-card p {
+        font-size: 14px;
     }
 }
 
-@media all and (min-width: 790px) and (max-width: 1200px) {
-    .my-works {
-        grid-template-columns: 1fr 1fr;
-        height: 70vh;
+
+@media (min-width: 379px) and (max-width: 650px) {
+    .woks-card {
+        width:90vw;
+        height: auto;
+        position: relative;
+        top:690px;
+        left: 0px;
     }
 
     .my-works h1 {
-        left: 300px;
+        font-size: 28px;
+        top: 720px;
+        left: -10px;
     }
-    .my-works-card01{
-        right: -20px;
+
+    .woks-card h2 {
+        font-size: 20px;
     }
-    .my-works-card02{
-        left: -100px;
+
+    .woks-card p {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 220px) and (max-width: 378px) {
+    .woks-card {
+        width:90vw;
+        height: 48vh;
+        position: relative;
+        top:540px;
+        left: 5px;
+    }
+
+    .my-works h1 {
+        font-size: 28px;
+        top: 550px;
+        left: 5px;
+    }
+
+    .woks-card h2 {
+        font-size: 20px;
+    }
+
+    .woks-card p {
+        font-size: 14px;
     }
 }
