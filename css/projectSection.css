@@ -1,440 +1,208 @@
-
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
-    font-family: "Roboto Condensed", sans-serif;
-
+    box-sizing:border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 body{
-    background:#162837;
+    background-color: #1e272e;
     color: white;
 }
 
-.project-section {
-    display: flex;
-    flex-direction: row;
-    max-width: 1800px;
-    margin: 0 auto;
-    padding: -20px;
-
-}
-
-.project-section h1 {
-    font-size: 48px;
-    align-items: center;
+.project-section h1{
+    font-size: 55px;
     color: white;
-    position: relative;
+    grid-column: 1/-1;
     text-align: center;
-    left: 660px;
-    top: 100px;
-    padding-bottom: 0.5rem;
+    align-self: center;
 }
 
-.first-project, .second-project, .thirdProject {
-    width: 380px;
-    display: flex;
-    flex-direction: column;
-    background-color: #1e425f;
-    border: 2px solid #6AADF8;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    margin-bottom: 19rem;
+.project-section{
+    max-width: 1200px;
+    margin-left: -20px;
+    padding: 90px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    color: black;
+}
+
+.project-card{
+    width: 30vw;
+    height: 50vh;
+    background-color: rgba(255, 215, 0, 0.48);
     position: relative;
-    margin-left: 20px;
-    top: 200px;
-    cursor:pointer;
-    transition: transform 0.3s ease;
-}
-
-.first-project:hover, .second-project:hover, .thirdProject:hover {
-    transform: scale(0.97);
-    box-shadow: 0 0 10px #6AADF8;
-    background-color: #173750;
-
-}
-
-.project01, .project02, .project-03 {
-    font-size: 10px;
-    color: white;
-    padding: 1.5rem;
-    display: flex;
-    border-radius: 20px;
-    flex-direction: column-reverse;
-    justify-content: center;
-}
-
-.cart01, .cart02, .cart03 {
-    width: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(43, 81, 117, 0.58);
-    border-radius: 20px;
-    padding: 1.8rem;
-}
-
-.cart01 img, .cart02 img, .cart03 img {
-    max-width: 100%;
-    border-radius: 20px;
-    border: 2px solid #6AADF8;
+    top: 0%;
+    border: 2px solid gold;
+    border-radius: 30px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px gold;
     transition-duration: 800ms;
-}
-
-.cart01 img:hover, .cart02 img:hover, .cart03 img:hover {
-    transform: scale(1.05);
-}
-
-#tittle-1, #tittle-2, #tittle-3 {
-    color: white;
-    font-size: 19px;
-}
-
-#tittle-1 {
-    position: relative;
-    top: -20px;
-}
-
-#tittle-2 {
-    position: relative;
-    bottom: 195px;
-}
-
-#tittle-3 {
-    position: relative;
-    bottom: 195px;
-}
-
-.cart02 img{
-    position: relative;
-    bottom: -40px;
-}
-
-.cart03 img{
-    width: 80%;
-    position: relative;
-    bottom: -40px;
-}
-
-#title-2, #title-3 {
-    position: relative;
-    top: 100px;
-    bottom: 200px;
-}
-
-.project01 p, .project02 p, .project-03 p {
-    color: white;
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-
-#github {
-    width: 130px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 18px;
-    font-size: 15px;
-    background:#162837;
-    color: #6AADF8;
-    border:2px solid #6AADF8;
-    position: relative;
-    top: 750px;
-    right: 680px;
-    margin: 1rem auto;
-    padding: 0.75rem;
     cursor: pointer;
-    transition-duration: 800ms;
 }
 
-#github:hover {
-    transform: scale(1.1);
-    color: #6AADF8;
-    box-shadow: 0 0 10px #6AADF8;
-}
-
-#git-hub {
-    font-size: 30px;
-    display: inline-flex;
+.project-card p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.5;
     text-align: center;
-    border: 2px solid #6AADF8;
-    border-radius:100%;
-    padding: 10px;
-    position: relative;
-    top: 682px;
-    right: 530px;
-    color: #6AADF8;
-    text-decoration: none;
-    transition-duration: 800ms;
+    font-weight: 500;
+    position: absolute;
+    top: 32%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 
-.button a{
-    text-decoration: none;
+.project-card h2{
+    width: 80%;
+    line-height: 1.3;
+    font-size: 27px;
+    position: absolute;
+    left: 0%;
+    right: 0;
+    top: 5%;
+    /*bottom: 0;*/
+    margin: auto;
+    text-align: center;
 }
 
-#git-hub:hover {
-    color: #6AADF8;
-    box-shadow: 0 0 10px #6AADF8;
-    transform: scale(1.05);
+.project-card::before{
+    content: "";
+    position: absolute;
+    width: 200%;
+    background-image: linear-gradient(gold, rgba(159, 255, 0, 0.78));
+    box-shadow: 0 0 10px gold;
+    height: 130%;
+    z-index: -200;
+    border-radius: 1px;
+    animation: border 12s linear infinite;
 }
 
+@keyframes border {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(100%);
+        box-shadow: 0 0 10px gold;
 
-@media (min-width: 790px) and (max-width: 1290px) {
+
+    }
+
+}
+
+.project-button{
+    width: 200px;
+    height: 50px;
+    background-color: gold;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 980px;
+    margin: auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1250px){
     .project-section {
-        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-card {
+        width: 45vw;
+        height: 48vh;
+    }
+
+    .project-card h2{
+        font-size: 25px;
+    }
+    .project-card p{
+        font-size: 17px;
+    }
+
+    .project-button{
+        position: absolute;
+        top: 1200px;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 1023px) {
+    .project-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-card {
+        width: 45vw;
+        height: 58vh;
+    }
+
+    .project-card h2{
+        font-size: 25px;
+    }
+    .project-card p{
+        font-size: 17px;
+    }
+
+    .project-button{
+        position: absolute;
+        top: 1400px;
+    }
+}
+
+@media (min-width: 379px) and (max-width: 650px) {
+    .project-section {
         grid-template-columns: 1fr;
-        gap: 2rem;
-        padding: 1rem;
-        bottom: 0; /* Remove large offset */
     }
 
-    .first-project, .second-project, .thirdProject {
-        width: 80%;
-        /*margin: 0 auto;*/
-        position: relative;
-        top: 100px;
-        margin-left: 170px;
-        margin-bottom: 2rem;
+    .project-card {
+        width: 90vw;
+        height: 45vh;
     }
 
-    .project-section h1 {
-        font-size: 48px;
-        left: 10px;
-        top: 50px;
-        position: relative;
-        text-align: center;
+    .project-card h2{
+        font-size: 25px;
+    }
+    .project-card p{
+        font-size: 17px;
     }
 
-    #github {
-        margin: 2rem auto;
-        position: relative;
-        top: 100px;
-        right: 0;
-    }
-
-    #git-hub {
-        position: relative;
-        top: 15px;
-        left: 570px;
-        justify-content: center;
-    }
-
-    .cart01 img,
-    .cart02 img,
-    .cart03 img {
-    }
-
-    #tittle-2,
-    #tittle-3 {
-        bottom: 0;
-    }
-
-    #title-2,
-    #title-3 {
-        top: 0;
-        bottom: 0;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 380px) {
-
-    .project-section{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .first-project, .second-project, .thirdProject {
-        max-width: 310px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 80px;
-    }
-
-    .project-section h1 {
-        font-size: 48px;
+    .project-button{
         position: absolute;
-        left: 100px;
-        top: 60px;
-    }
-
-
-    .first-project{
-        position: relative;
-        top: 225px;
-        left: -58px;
-    }
-
-    .second-project{
-        position: relative;
-        top: 40px;
-        left: -50px;
-    }
-
-
-    .thirdProject{
-        position: relative;
-        top:-150px;
-        left: -50px;
+        top: 2100px;
     }
 }
 
-@media all and (min-width: 375px) {
-    .first-project{
-        position: relative;
-        left: -45px;
-    }
-
-    .second-project{
-        position: relative;
-        left: -45px;
-    }
-
-
-    .thirdProject{
-        position: relative;
-        left: -45px;
-    }
-}
-
-
-@media screen and (min-width: 381px) and (max-width: 480px){
-
-    .project-section{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .first-project, .second-project, .thirdProject {
-        max-width: 310px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 120px;
-    }
-
-    .project-section h1 {
-        font-size: 48px;
-        position: absolute;
-        left: 150px;
-        top: 50px;
-    }
-    .github-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .first-project{
-        position: relative;
-        top: 225px;
-        left: -50px;
-    }
-
-    .second-project{
-        position: relative;
-        top: 40px;
-        left: -50px;
-    }
-
-
-    .thirdProject{
-        position: relative;
-        top:-150px;
-        left: -50px;
-    }
-}
-
-
-@media screen and (min-width: 475px) and (max-width: 780px) {
+@media (min-width: 320px) and (max-width: 378px) {
     .project-section {
-        display: flex;
-         flex-direction: column;
-        gap: 20px;
-        justify-items: center;
+        grid-template-columns: 1fr;
+        padding: 60px 10px;
     }
 
-    .project-section h1 {
-        font-size: 48px;
-        left:20px;
-        top: 100px;
+    .project-card {
+        width: 90vw;
+        height: 45vh;
+        margin-left: 20px;
     }
 
-    .first-project, .second-project, .thirdProject {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        position: relative;
-        left: 120px;
-        top: 110px;
-        margin: 10px 40px;
+    .project-card h2{
+        font-size: 20px;
+    }
+    .project-card p{
+        font-size: 15px;
     }
 
-    .first-project{
-        margin-left: -20px;
-    }
-
-    .second-project{
-        margin-left: -20px;
-    }
-
-    .thirdProject{
-        margin-left: -20px;
-    }
-
-    .cart01, .cart02, .cart03 {
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .cart01 img, .cart02 img, .cart03 img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .project01, .project02, .project-03 {
-        text-align: center;
-        padding: 1rem;
-    }
-
-    #tittle-1, #tittle-2, #tittle-3 {
-        font-size: 18px;
-        text-align: center;
-    }
-
-    #h4, #h42, #h43 {
-        font-size: 23px;
-        top: 30px;
-        left: -5px;
-        text-align: center;
+    .project-button{
+        font-size: 16px;
+        width: 150px;
+        position: absolute;
+        top: 2100px;
     }
 }
 
-@media all and (min-width: 400px) and (max-width: 430px){
-    .first-project, .second-project, .thirdProject{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: -55px;
-    }
-
-    .project-section h1{
-        font-size: 48px;
-        left: 125px;
-    }
-
-    #git-hub{
-        position: relative;
-        left: 50px;
-    }
-
-}
