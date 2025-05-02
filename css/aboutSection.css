@@ -14,7 +14,6 @@
     padding: 250px 10% 0;
     color: white;
     height: 105vh;
-    background-color: #282c32;
     position: relative;
 
 }
@@ -31,7 +30,7 @@
     width: 100%;
     font-size: 25px;
     line-height:1.6;
-    text-align: center;
+    /*text-align: left;*/
     position: relative;
     top: -50px;
 
@@ -68,31 +67,37 @@
     top: 91%;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1290px){
     .about-section {
-        padding: 200px 8% 0;
+        padding: 220px 6% 0;
+        height: auto;
     }
 
     .about-section h1 {
         font-size: 50px;
-        left: 40%;
-    }
-
-    .about-content h1 {
-        font-size: 40px;
-        left: 400px;
+        left: 38%;
+        top: 70px;
+        text-align: center;
     }
 
     .about-content p {
-        font-size: 22px;
+        font-size: 20px;
+        margin-top: 30px;
+        line-height: 1.8;
     }
 
-    .about-details p {
-        font-size: 21px;
+    .about-content span{
+        font-size: 30px;
     }
+
+    .about-content .text{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
 }
 
-@media (max-width: 768px) {
+@media (min-width: 651px) and (max-width: 1023px) {
     .about-section {
         padding: 180px 6% 0;
         height: auto;
@@ -100,13 +105,9 @@
 
     .about-section h1 {
         font-size: 40px;
-        left: 35%;
-    }
-
-    .about-content h1 {
-        font-size: 30px;
-        /*left: 35%;*/
-        top: 100px;
+        left: 38%;
+        top: 70px;
+        text-align: center;
     }
 
     .about-content p {
@@ -114,89 +115,69 @@
         margin-top: 30px;
     }
 
-    .about-details p {
-        font-size: 19px;
-        margin-left: 40px;
-        text-align: center;
-    }
-
-    .age, .location, .email {
-        position: static;
-        margin: 10px 0;
-    }
-
-    .about-details {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
+    .about-content span{
+        font-size: 30px;
     }
 }
 
-@media (max-width: 425px) {
-    .about-section {
-        padding: 150px 5% 0;
-    }
-
-    .about-section h1 {
-        font-size: 35px;
-        left: 30%;
-    }
-
-    .about-content h1 {
-        font-size: 28px;
-        left: 25%;
-        /*top: 90px;*/
-    }
-
-    .about-content p {
-        font-size: 18px;
-    }
-
-    .about-details p {
-        font-size: 17px;
-    }
-}
-
-@media (max-width: 320px) {
+@media (min-width: 377px) and (max-width: 650px) {
     .about-section h1 {
         font-size: 32px;
         left: 8%;
     }
 
-    .about-content h1 {
-        font-size: 18px;
-        /*left: 2%;*/
-    }
-
-    .about-content p {
-        font-size: 16px;
-    }
-
-    .about-details p {
-        font-size: 16px;
-        position: relative;
-        left: -20px;
-    }
-}
-
-@media (max-width: 230px) {
     .about-section h1 {
-        font-size: 25px;
-        left: 20%;
-    }
-
-    .about-content h1 {
-        font-size: 20px;
-        left: 20%;
-        top: 80px;
+        font-size: 39px;
+        text-align: center;
+        top: 40px;
+        left: 115px;
     }
 
     .about-content p {
-        font-size: 14px;
+        font-size: 16px;
+        text-align: left;
+        line-height: 1.7;
     }
 
     .about-details p {
-        font-size: 14px;
+        font-size: 17px;
+        position: relative;
+        margin-left: -30px;
+    }
+
+    .about-content span{
+        font-size: 19px;
     }
 }
+
+@media (min-width: 300px) and (max-width: 376px) {
+    .about-section h1 {
+        font-size: 32px;
+        left: 8%;
+    }
+
+    .about-section h1 {
+        font-size: 33px;
+        text-align: center;
+        top: -20px;
+        left: 85px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        text-align: left;
+        line-height: 1.7;
+    }
+
+    .about-details p {
+        width: 100%;
+        font-size: 17px;
+        position: relative;
+        margin-left: -30px;
+    }
+
+    .about-content span{
+        font-size: 19px;
+    }
+}
+

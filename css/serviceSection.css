@@ -90,57 +90,95 @@
 
 }
 
-
-@media (max-width: 1024px) {
-    .services-section {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .service-card {
-        width: 40vw;
-        height: 45vh;
-    }
-}
-
-@media (min-width: 651px) and (max-width: 780px) {
+@media (min-width: 1020px) and (max-width: 1250px){
     .services-section {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .service-card {
         width: 45vw;
-        height: 65vh;
+        height: 48vh;
     }
 
-    .service-card h2 {
-        font-size: 28px;
-        left: 15%;
+    .service-card h2{
+        font-size: 25px;
     }
-
-    .service-card p {
-        font-size: 20px;
-        font-weight: 500;
-        top: 35%;
+    .service-card p{
+        font-size: 17px;
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 650px) {
+
+@media (min-width: 651px) and (max-width: 1023px) {
     .services-section {
-        grid-template-columns: 1fr;
-        margin-left: 0;
-        padding: 30px 10px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .services-section h1 {
-        font-size: 32px;
-        margin-bottom: 20px;
+    .service-card {
+        width: 45vw;
+        height: 58vh;
+    }
+
+    .services-section h1{
+        font-size: 40px;
+    }
+
+    .service-card h2{
+        font-size: 25px;
+    }
+    .service-card p{
+        font-size: 17px;
+        position: absolute;
+        top: 25%;
+    }
+}
+
+@media (min-width: 379px) and (max-width: 650px) {
+    .services-section {
+        grid-template-columns: 1fr;
     }
 
     .service-card {
         width: 90vw;
-        height: 45vh;
+        height: 49vh;
+        left: -2px;
+    }
+
+    .services-section h1{
+        font-size: 40px;
+    }
+
+    .services-section h2{
+        font-size: 25px;
+    }
+    .service-card p{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 376px) {
+    .services-section {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+        /*padding: 30px 10px;*/
+    }
+
+    .services-section h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+        position: relative;
+        top: 60px;
+        left: -10px;
+    }
+
+    .service-card {
+        width: 90vw;
+        height: 40vh;
         min-height: 200px;
-        margin: 10px auto;
+        margin: 10px;
+        left: -8px;
+        top: 40px;
     }
 
     .service-card h2 {

@@ -26,6 +26,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
     color: black;
+    overflow-x: hidden;
 }
 
 .project-card{
@@ -110,9 +111,11 @@ body{
     margin: auto;
 }
 
+
 @media (min-width: 1024px) and (max-width: 1250px){
     .project-section {
         grid-template-columns: repeat(2, 1fr);
+        overflow-x: hidden;
     }
 
     .project-card {
@@ -136,6 +139,7 @@ body{
 @media (min-width: 651px) and (max-width: 1023px) {
     .project-section {
         grid-template-columns: repeat(2, 1fr);
+        overflow-x: hidden;
     }
 
     .project-card {
@@ -159,6 +163,7 @@ body{
 @media (min-width: 379px) and (max-width: 650px) {
     .project-section {
         grid-template-columns: 1fr;
+        overflow-x: hidden;
     }
 
     .project-card {
@@ -183,6 +188,7 @@ body{
     .project-section {
         grid-template-columns: 1fr;
         padding: 60px 10px;
+        overflow-x: hidden;
     }
 
     .project-card {
