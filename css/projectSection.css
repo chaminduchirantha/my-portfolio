@@ -142,7 +142,7 @@ body{
 
     .project-card {
         width: 45vw;
-        height: 48vh;
+        height: 40vh;
     }
 
     .project-card h2{
@@ -155,12 +155,12 @@ body{
     .project-card i{
         font-size: 40px;
         position: absolute;
-        top: 250px;
+        top: 280px;
     }
 
     .project-button{
         position: absolute;
-        top: 1250px;
+        top: 1330px;
     }
 }
 
@@ -172,7 +172,7 @@ body{
 
     .project-card {
         width: 45vw;
-        height: 65vh;
+        height: 52vh;
     }
 
     .project-card h2{
@@ -202,7 +202,7 @@ body{
 
     .project-card {
         width: 90vw;
-        height: 55vh;
+        height: 61vh;
     }
 
     .project-card h2{
@@ -214,7 +214,7 @@ body{
 
     .project-button{
         position: absolute;
-        top: 2600px;
+        top: 2690px;
     }
     .project-card i{
         font-size: 40px;
@@ -232,8 +232,8 @@ body{
 
     .project-card {
         width: 90vw;
-        height: 45vh;
-        margin-left: 20px;
+        height: 60vh;
+        margin-left: 25px;
     }
 
     .project-card h2{
@@ -247,7 +247,13 @@ body{
         font-size: 16px;
         width: 150px;
         position: absolute;
-        top: 2100px;
+        top: 2650px;
+    }
+
+    .project-card i{
+        font-size: 35px;
+        position: absolute;
+        top: 320px;
     }
 }
 
