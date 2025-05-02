@@ -8,6 +8,7 @@
 body{
     background-color: #1e272e;
     color: white;
+    overflow-x: hidden;
 }
 
 .project-section h1{
@@ -26,12 +27,11 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
     color: black;
-    overflow-x: hidden;
 }
 
 .project-card{
     width: 30vw;
-    height: 50vh;
+    height: 57vh;
     background-color: rgba(255, 215, 0, 0.48);
     position: relative;
     top: 0%;
@@ -40,8 +40,30 @@ body{
     margin: 20px;
     overflow: hidden;
     box-shadow: 0 0 10px gold;
-    transition-duration: 800ms;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
     cursor: pointer;
+}
+
+.project-card:hover{
+    transform: scale(0.97);
+}
+
+.project-card i{
+    font-size: 40px;
+    position: absolute;
+    left: 60px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    top: 340px;
+    color: black;
+    text-decoration: none;
+    transition-duration: 800ms;
+}
+
+.project-card i:hover{
+    transform: scale(0.97);
 }
 
 .project-card p{
@@ -107,7 +129,7 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    top: 980px;
+    top: 1080px;
     margin: auto;
 }
 
@@ -130,9 +152,15 @@ body{
         font-size: 17px;
     }
 
+    .project-card i{
+        font-size: 40px;
+        position: absolute;
+        top: 250px;
+    }
+
     .project-button{
         position: absolute;
-        top: 1200px;
+        top: 1250px;
     }
 }
 
@@ -144,7 +172,7 @@ body{
 
     .project-card {
         width: 45vw;
-        height: 58vh;
+        height: 65vh;
     }
 
     .project-card h2{
@@ -154,9 +182,15 @@ body{
         font-size: 17px;
     }
 
+    .project-card i{
+        font-size: 40px;
+        position: absolute;
+        top: 350px;
+    }
+
     .project-button{
         position: absolute;
-        top: 1400px;
+        top: 1600px;
     }
 }
 
@@ -168,7 +202,7 @@ body{
 
     .project-card {
         width: 90vw;
-        height: 45vh;
+        height: 55vh;
     }
 
     .project-card h2{
@@ -180,7 +214,12 @@ body{
 
     .project-button{
         position: absolute;
-        top: 2100px;
+        top: 2600px;
+    }
+    .project-card i{
+        font-size: 40px;
+        position: absolute;
+        top: 300px;
     }
 }
 
