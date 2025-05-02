@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -14,10 +12,12 @@ body {
 
 .assignment-container {
     max-width: 1200px;
-    margin: auto;
-    padding: 60px 20px;
+    margin-left: -20px;
+    padding: 90px 20px;
     display: grid;
-    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    color: white;
 }
 
 .header-assignment {
@@ -29,15 +29,20 @@ body {
 }
 
 .assignments-card {
-    width: 25vw;
-    height: 39vh;
-    background-color: rgba(255, 215, 0, 0.48);
+    width: 30vw;
+    height: 45vh;
+    color: black;
+    background: rgba(255, 215, 0, 0.48);
+    position: relative;
+    top: 0%;
     border: 2px solid gold;
-    border-radius: 20px;
-    padding: 20px;
-    margin: auto;
+    border-radius: 30px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px gold;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
     cursor: pointer;
-    transition: transform 0.3s ease;
 }
 
 .assignments-card:hover {
@@ -45,16 +50,43 @@ body {
 }
 
 .assignments-card h2 {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    width: 100%;
+    line-height: 1.3;
+    font-size: 24px;
+    position: absolute;
+    left: 0%;
+    right: 0;
+    top: 5%;
+    /*bottom: 0;*/
+    margin: auto;
     text-align: center;
 }
 
 .assignments-card p {
+    width: 80%;
     font-size: 18px;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
+    font-weight: 500;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.assignments-card a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: 700;
+    font-size: 19px;
+    text-align: left;
+    position: relative;
+    left: 50px;
+    line-height: 1.8;
+    top: 150px;
 }
 
 @media (max-width: 374px) {
