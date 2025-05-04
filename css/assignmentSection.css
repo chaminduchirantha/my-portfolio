@@ -30,7 +30,7 @@ body {
 
 .assignments-card {
     width: 30vw;
-    height: 45vh;
+    height: 30vh;
     color: black;
     background: rgba(255, 215, 0, 0.48);
     position: relative;
@@ -69,68 +69,144 @@ body {
     text-align: left;
     font-weight: 500;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
 }
 
+.assignments-card i{
+    font-size: 38px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    /*top: 20px;*/
+}
+
 .assignments-card a{
     text-decoration: none;
-    display: block;
     color: black;
-    font-weight: 700;
-    font-size: 19px;
-    text-align: left;
-    position: relative;
-    left: 50px;
-    line-height: 1.8;
-    top: 150px;
 }
 
-@media (max-width: 374px) {
-    .assignment-container {
-        grid-template-columns: 1fr;
+@media (min-width: 1024px) and (max-width: 1250px){
+    .project-section {
+        grid-template-columns: repeat(2, 1fr);
+        overflow-x: hidden;
     }
 
-    .header-assignment {
-        font-size: 28px;
+    .project-card {
+        width: 45vw;
+        height: 50vh;
+    }
+
+    .project-section h1{
+        font-size: 39px;
+    }
+
+    .project-card h2{
+        font-size: 25px;
+    }
+    .project-card p{
+        font-size: 17px;
+    }
+
+    .project-card i{
+        font-size: 40px;
+        position: absolute;
+        top: 220px;
+    }
+
+    .project-button{
+        position: absolute;
+        top: 1260px;
     }
 }
 
-@media (min-width: 375px) and (max-width: 424px) {
-    .assignment-container {
-        grid-template-columns: 1fr;
+@media (min-width: 651px) and (max-width: 1023px) {
+    .assignments-container {
+        grid-template-columns: repeat(1, 1fr);
+        /*overflow-x: hidden;*/
     }
 
-    .header-assignment {
+    .assignments-card {
+        width: 35vw;
+        height: 50vh;
+    }
+
+    .project-card h2{
+        font-size: 22px;
+    }
+    .project-card p{
+        width: 90%;
+        font-size: 17px;
+        top: 80px;
+    }
+
+    .project-card i{
+        font-size: 40px;
+        position: absolute;
+        top: 240px;
+        left: 20px;
+    }
+
+    .project-button{
+        position: absolute;
+        top: 1280px;
+    }
+}
+
+@media (min-width: 379px) and (max-width: 650px) {
+    .assignment-container {
+        grid-template-columns: 1fr;
+        overflow-x: hidden;
+    }
+
+    .assignments-card {
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .assignments-card .header-assignment{
+        font-size: 35px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 378px) {
+    .assignment-container {
+        grid-template-columns: 1fr;
+        padding: 60px 10px;
+        overflow-x: hidden;
+    }
+    .assignment-container .header-assignment{
         font-size: 30px;
     }
-}
 
-@media (min-width: 425px) and (max-width: 767px) {
-    .assignment-container {
-        grid-template-columns: repeat(2, 1fr);
+    .assignments-card {
+        width: 90vw;
+        height: 45vh;
+        margin-left: 25px;
     }
 
-    .header-assignment {
-        font-size: 34px;
+    .assignments-card h2{
+        font-size: 22px;
     }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .assignment-container {
-        grid-template-columns: repeat(2, 1fr);
+    .project-card p{
+        font-size: 15px;
     }
 
-    .header-assignment {
-        font-size: 40px;
+    .project-button{
+        font-size: 16px;
+        width: 150px;
+        position: absolute;
+        top: 2050px;
     }
-}
 
-@media (min-width: 1024px) {
-    .assignment-container {
-        grid-template-columns: repeat(3, 1fr);
+    .project-card i{
+        font-size: 35px;
+        position: absolute;
+        top: 220px;
+        left: 220px;
     }
 }
