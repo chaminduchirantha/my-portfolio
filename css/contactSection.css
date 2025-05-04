@@ -138,7 +138,7 @@ input textarea::placeholder {
     .contact-section {
         position: relative;
         top: -150px;
-        height: 150vh;
+        height: 200vh;
     }
 
     .contact-section h2{
