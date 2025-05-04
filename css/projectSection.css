@@ -112,10 +112,7 @@ body{
     to{
         transform: translateX(100%);
         box-shadow: 0 0 10px gold;
-
-
     }
-
 }
 
 .project-button{
@@ -129,10 +126,51 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    top: 950px;
+    top: 900px;
     margin: auto;
+    border: 2px solid gold;
+    box-shadow: 0px 0 10px gold;
+    transition-duration: 2.5s;
 }
 
+
+.project-button:hover{
+    transform: scale(0.90);
+}
+
+@media (min-width: 1251px) and (max-width: 1497px){
+    .project-section {
+        grid-template-columns: repeat(2, 1fr);
+        /*overflow-x: hidden;*/
+    }
+
+    .project-card {
+        width: 45vw;
+        height: 42vh;
+    }
+
+    .project-section h1{
+        font-size: 49px;
+    }
+
+    .project-card h2{
+        font-size: 25px;
+    }
+    .project-card p{
+        font-size: 17px;
+    }
+
+    .project-card i{
+        font-size: 45px;
+        position: absolute;
+        top: 170px;
+    }
+
+    .project-button{
+        position: absolute;
+        top: 1260px;
+    }
+}
 
 @media (min-width: 1024px) and (max-width: 1250px){
     .project-section {
@@ -142,7 +180,7 @@ body{
 
     .project-card {
         width: 45vw;
-        height: 32vh;
+        height: 50vh;
     }
 
     .project-section h1{
@@ -159,12 +197,12 @@ body{
     .project-card i{
         font-size: 40px;
         position: absolute;
-        top: 200px;
+        top: 220px;
     }
 
     .project-button{
         position: absolute;
-        top: 1130px;
+        top: 1260px;
     }
 }
 
@@ -176,7 +214,7 @@ body{
 
     .project-card {
         width: 45vw;
-        height: 36vh;
+        height: 50vh;
     }
 
     .project-card h2{
@@ -197,7 +235,7 @@ body{
 
     .project-button{
         position: absolute;
-        top: 1200px;
+        top: 1280px;
     }
 }
 
