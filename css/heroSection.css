@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
+
 }
 
 .hero {
@@ -36,22 +37,27 @@
 }
 
 .hero h1{
-    font-size: 65px;
+    font-size: 69px;
     text-shadow:  0 0 10px gold;
+    animation-name: animate02;
+    animation-duration: 5s;
+    animation-timing-function: linear;
 
 
 }
 
 .hero h2{
-    font-size: 55px;
+    font-size: 61px;
     position: relative;
     top: -30px;
     line-height: 1.4;
     color: gold;
     overflow-x: hidden;
-    /*animation-name: animate;*/
+    text-shadow:  0 0 5px gold;
+
+    animation-name: animate;
     animation-duration: 26s;
-    animation-iteration-count: infinite;
+    /*animation-iteration-count: infinite;*/
     animation-timing-function: linear;
 }
 
@@ -70,7 +76,22 @@
     margin-top: -20px;
     line-height: 1.6;
     align-items: center;
+    animation-name: animate02;
+    animation-duration: 5s;
+    animation-timing-function: linear;
 }
+
+@keyframes animate02 {
+    0%{
+        transform: translatey(-15px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}
+
 
 .social-icons a{
     display: inline-flex;
@@ -88,6 +109,9 @@
     text-decoration: none;
     transition: all 0.3s ease;
     box-shadow: 0 0 5px gold;
+    animation-name: animate02;
+    animation-duration: 5s;
+    animation-timing-function: linear;
 
 }
 
@@ -117,6 +141,9 @@
     margin: auto;
     cursor: pointer;
     transition-duration: 800ms;
+    animation-name: animate02;
+    animation-duration: 5s;
+    animation-timing-function: linear;
 }
 
 .btn-cv:hover{
