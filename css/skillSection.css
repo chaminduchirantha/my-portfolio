@@ -38,7 +38,7 @@
     border: 2px solid gold;
     transition-duration: 800ms;
     box-shadow: 0 0 10px gold;
-    animation-name: gold;
+    /*animation-name: gold;*/
     animation-duration:26s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
