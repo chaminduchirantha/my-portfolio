@@ -39,7 +39,7 @@
 .hero h1{
     font-size: 69px;
     text-shadow:  0 0 10px gold;
-    animation-name: animate02;
+    /*animation-name: animate02;*/
     animation-duration: 5s;
     animation-timing-function: linear;
 
@@ -55,7 +55,7 @@
     overflow-x: hidden;
     text-shadow:  0 0 5px gold;
 
-    animation-name: animate;
+    /*animation-name: animate;*/
     animation-duration: 26s;
     /*animation-iteration-count: infinite;*/
     animation-timing-function: linear;
@@ -76,7 +76,7 @@
     margin-top: -20px;
     line-height: 1.6;
     align-items: center;
-    animation-name: animate02;
+    /*animation-name: animate02;*/
     animation-duration: 5s;
     animation-timing-function: linear;
 }
@@ -109,7 +109,7 @@
     text-decoration: none;
     transition: all 0.3s ease;
     box-shadow: 0 0 5px gold;
-    animation-name: animate02;
+    /*animation-name: animate02;*/
     animation-duration: 5s;
     animation-timing-function: linear;
 
@@ -141,7 +141,7 @@
     margin: auto;
     cursor: pointer;
     transition-duration: 800ms;
-    animation-name: animate02;
+    /*animation-name: animate02;*/
     animation-duration: 5s;
     animation-timing-function: linear;
 }

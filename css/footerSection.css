@@ -2,7 +2,7 @@
     background-color: #1e272e;
     padding: 40px 20px;
     color:white;
-    height:0.2vh;
+    height:auto;
     margin-top: 30px;
     position: relative;
     top: -300px;
@@ -79,7 +79,7 @@
 @media (min-width: 651px) and (max-width: 1023px) {
 
     .footer-section {
-        height:1vh;
+        height:auto;
     }
     .detail p {
         font-size: 1.2rem;
@@ -92,7 +92,7 @@
 
 @media (min-width: 376px) and (max-width:650px) {
     .footer-section {
-        height: 10vh;
+        height: auto
     }
 
     .social-links {
@@ -116,7 +116,7 @@
 
 @media (min-width: 200px) and (max-width:376px ) {
     .footer-section {
-        height: 15vh;
+        height: auto;
     }
 
     .social-links {
