@@ -84,82 +84,197 @@ body {
     /*top: 20px;*/
 }
 
+.footer-section {
+    padding: 40px 20px;
+    color:white;
+    height:50vh;
+    margin-top: 30px;
+    position: relative;
+    top: 50px;
+}
+
+.footer-section .container {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.footer-section hr {
+    border: none;
+    height: 1px;
+    background-color: gold;
+    margin-bottom: 30px;
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    /*background-color: white;*/
+    border-radius: 50%;
+    border: 2px solid gold;
+    color: gold;
+    font-size: 2.0rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px gold;
+}
+
+.social-links a:hover {
+    transform: translateY(-5px);
+    background-color: gold;
+    color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.detail p {
+    position: relative;
+    margin: 0;
+    padding: 0 15px;
+    font-size: 1.7rem;
+    color: gold;
+}
+
+
+.copyright {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: gold;
+}
+
+@media (min-width: 651px) and (max-width: 1023px) {
+
+    .footer-section {
+        height:70vh;
+        position: relative;
+        top:700px
+    }
+    .detail p {
+        font-size: 1.2rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 376px) and (max-width:650px) {
+    .footer-section {
+        height: 10vh;
+    }
+
+    .social-links {
+        gap: 12px;
+    }
+
+    .detail p {
+        font-size: 1.0rem;
+    }
+
+    .social-links a {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 200px) and (max-width:376px ) {
+    .footer-section {
+        height: 15vh;
+    }
+
+    .social-links {
+        gap: 12px;
+    }
+
+    .detail p {
+        font-size: 1.0rem;
+    }
+
+    .social-links a {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+}
+
+
 .assignments-card a{
     text-decoration: none;
     color: black;
 }
 
+@media (min-width: 1251px) and (max-width: 1500px){
+    .assignment-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .assignments-card {
+        width: 30vw;
+        height: 38vh;
+    }
+
+}
+
+
 @media (min-width: 1024px) and (max-width: 1250px){
-    .project-section {
+    .assignment-container {
         grid-template-columns: repeat(2, 1fr);
-        overflow-x: hidden;
     }
 
-    .project-card {
+    .assignments-card {
         width: 45vw;
-        height: 50vh;
+        height: 34vh;
     }
 
-    .project-section h1{
-        font-size: 39px;
-    }
-
-    .project-card h2{
-        font-size: 25px;
-    }
-    .project-card p{
-        font-size: 17px;
-    }
-
-    .project-card i{
-        font-size: 40px;
-        position: absolute;
-        top: 220px;
-    }
-
-    .project-button{
-        position: absolute;
-        top: 1260px;
-    }
 }
 
 @media (min-width: 651px) and (max-width: 1023px) {
-    .assignments-container {
-        grid-template-columns: repeat(1, 1fr);
+    .assignment-container {
+        height: 190vh;
+        grid-template-columns: repeat(2, 1fr);
         /*overflow-x: hidden;*/
     }
 
     .assignments-card {
-        width: 35vw;
-        height: 50vh;
-    }
-
-    .project-card h2{
-        font-size: 22px;
-    }
-    .project-card p{
-        width: 90%;
-        font-size: 17px;
-        top: 80px;
-    }
-
-    .project-card i{
-        font-size: 40px;
-        position: absolute;
-        top: 240px;
-        left: 20px;
-    }
-
-    .project-button{
-        position: absolute;
-        top: 1280px;
+        width: 45vw;
+        height: 40vh;
     }
 }
 
+
 @media (min-width: 379px) and (max-width: 650px) {
     .assignment-container {
-        grid-template-columns: 1fr;
-        overflow-x: hidden;
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
     .assignments-card {
